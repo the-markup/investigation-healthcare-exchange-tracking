@@ -1,0 +1,1599 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://www.wahealthplanfinder.org/",
+  "uri_dest": "https://www.wahealthplanfinder.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.wahealthplanfinder.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:24:06.034Z",
+  "end_time": "2025-04-28T15:24:10.855Z",
+  "browsing_history": [
+    "https://www.wahealthplanfinder.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.wahealthplanfinder.org"
+      ],
+      "third_party": [
+        "ajax.cloudflare.com",
+        "www.googletagmanager.com",
+        "static.cloudflareinsights.com",
+        "fonts.gstatic.com",
+        "www.google.com",
+        "connect.facebook.net",
+        "js.adsrvr.org",
+        "analytics.tiktok.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google-analytics.com",
+        "www.facebook.com",
+        "8936300.fls.doubleclick.net",
+        "td.doubleclick.net",
+        "ad.doubleclick.net",
+        "adservice.google.com",
+        "bm.adentifi.com",
+        "ad.ipredictive.com",
+        "insight.adsrvr.org",
+        "match.adsrvr.org",
+        "cm.g.doubleclick.net",
+        "pixel.rubiconproject.com",
+        "ib.adnxs.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://analytics.tiktok.com/i18n/pixel/static/main.MWYwYWI1NGQ2MA.js": [
+          "scroll",
+          "click"
+        ],
+        "https://connect.facebook.net/signals/config/2137673382996449?v=2.9.199&r=stable&domain=www.wahealthplanfinder.org&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MPPRHBL": [
+          "click"
+        ],
+        "https://www.wahealthplanfinder.org/etc.clientlibs/wahpf/clientlibs/clientlib-dependencies.min.js": [
+          "mousemove",
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://www.wahealthplanfinder.org/etc.clientlibs/wahpf/clientlibs/clientlib-dependencies.min.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.wahealthplanfinder.org/etc.clientlibs/wahpf/clientlibs/clientlib-dependencies.min.js": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "keydown"
+        ],
+        "https://www.wahealthplanfinder.org/etc.clientlibs/wahpf/clientlibs/clientlib-dependencies.min.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "V5NpJMLKvKykwzouIn25s_7uwMIAR1_58r5S1J6K2Ys-1745853846-1.0.1.1-0h8W10FKbbEnx.C9Hl7mTp0RqswqeBu9gr0XNm23SvRx8cDo2lNCTklN2fLdhvwbPkDWpVLE8.rwc3g66cLUHchFJw6WIP2X_dwZ68h_XXE",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2025-04-28T15:54:06.561Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1094234854.1745853847",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2025-07-27T15:24:07.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1429527398.1745853847",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-06-02T15:24:07.152Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ttp",
+        "value": "2wMaMOhXa05HSM4ShGbKvYfs1aA",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2026-05-23T15:24:07.087Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853847165.831818054249097034",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2025-07-27T15:24:07.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-05-23T15:24:07.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ttp",
+        "value": "01JSYFZ5QQHYEBQVEREYSR3YCP_.tt.1",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-05-23T15:24:07.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ttcsid",
+        "value": "1745853847290::Dl0xnfsuOtVnVCCZVym_.1.1745853847291",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-05-23T15:24:07.000Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ar_debug",
+        "value": "1",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-05-28T15:24:07.335Z",
+        "size": 9,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:39:07.405Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ttcsid_CSLSEERC77UAJKLLP0PG",
+        "value": "1745853847290::BN4Eh3uMdhcPl2gaDf0V.1.1745853847506",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-05-23T15:24:07.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ci_rtc",
+        "value": "_uts=1745853847",
+        "domain": "ipredictive.com",
+        "path": "/",
+        "expires": "2025-06-27T15:24:07.561Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cu",
+        "value": "70a6554d-364c-48e7-a09f-93adf6f2580d|1745853847637",
+        "domain": "ipredictive.com",
+        "path": "/",
+        "expires": "2026-04-28T15:24:07.578Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "9e47ac10-1146-4835-981e-c2d5446719cc",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:24:08.387Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit_p",
+        "value": "1|TBSNieJHX8/kapenDd4KaI8pGhnvon7s+kueyLVAm0xBW6I1QWQ5XVZcE9Xu6u1B4kVJIXp07QSM1KxoLazIt9i2Wk5FrGos0XY24Ec+XLt6m4hGdpVJooqYTxboEuqGpa7/N8uvEpnTZXi++tf49Q/oTUdGWV5p2AKTx5PcvAFbOz6AjJtUa8ZnH3r7x5VAdeodiyl5GGjkt77VmXBK7kiCfUmSYXqD+ohH/uuQN8oOr/S07bYDcYQkZmofZQkSVSwKu1RXSJT0/fhu8/pkBO4VeIulq+4M1TRwmTZWV3Xc6UO785F0Pw==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:24:08.292Z",
+        "size": 321,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://wahealthplanfinder.org",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos",
+        "value": "MA18AYW6-1N-FJ84",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:24:08.292Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos_p",
+        "value": "MA18AYW6-1N-FJ84",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:24:08.292Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://wahealthplanfinder.org",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "1|TBSNieJHX8/kapenDd4KaI8pGhnvon7s+kueyLVAm0xBW6I1QWQ5XVZcE9Xu6u1B4kVJIXp07QSM1KxoLazIt9i2Wk5FrGos0XY24Ec+XLt6m4hGdpVJooqYTxboEuqGpa7/N8uvEpnTZXi++tf49Q/oTUdGWV5p2AKTx5PcvAFbOz6AjJtUa8ZnH3r7x5VAdeodiyl5GGjkt77VmXBK7kiCfUmSYXqD+ohH/uuQN8oOr/S07bYDcYQkZmofZQkSVSwKu1RXSJT0/fhu8/pkBO4VeIulq+4M1TRwmTZWV3Xc6UO785F0Pw==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:24:08.292Z",
+        "size": 319,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "2009862925232009868",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2025-07-27T15:24:08.344Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFQoGZ29vZ2xlEgsIwvPvh9icgz4QBRIWCgdydWJpY29uEgsIkJjwh9icgz4QBRIXCghhcHBuZXh1cxILCJaHzYrYnIM-EAUYBSACKAMyCwjyzPK07pyDPhAFQg8iDQgBEgkKBXRpZXIzEAFaB2k3d3hiM3dgAQ..",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:24:08.387Z",
+        "size": 169,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_96G7T7Q8F6",
+        "value": "GS1.1.1745853847.1.0.1745853850.57.0.0",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-06-02T15:24:10.056Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_SCYPPZRY2B",
+        "value": "GS1.1.1745853847.1.0.1745853850.0.0.0",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-06-02T15:24:10.062Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_TVQ0BX2HK7",
+        "value": "GS1.1.1745853847.1.0.1745853850.0.0.0",
+        "domain": "wahealthplanfinder.org",
+        "path": "/",
+        "expires": "2026-06-02T15:24:10.067Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.wahealthplanfinder.org",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=2137673382996449&ev=PageView&dl=https%3A%2F%2Fwww.wahealthplanfinder.org&rl=&if=false&ts=1745853847168&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=12316&fbp=fb.1.1745853847165.831818054249097034&cs_est=true&pm=1&hrl=511c7b&ler=empty&it=1745853847011&coo=false&cs_cc=1&ccs=496143424844542&cas=8601674686565035%2C4826084644161133%2C3423522400993660&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.wahealthplanfinder.org",
+        "raw": "https://www.facebook.com/tr/?id=2137673382996449&ev=PageView&dl=https%3A%2F%2Fwww.wahealthplanfinder.org&rl=&if=false&ts=1745853847168&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=12316&fbp=fb.1.1745853847165.831818054249097034&cs_est=true&pm=1&hrl=511c7b&ler=empty&it=1745853847011&coo=false&cs_cc=1&ccs=496143424844542&cas=8601674686565035%2C4826084644161133%2C3423522400993660&cdl=&exp=k0&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 364,
+            "_eu": "AEAAAAI",
+            "_p": 1745853846573,
+            "_s": 2,
+            "are": 1,
+            "cid": 1429527398.1745853,
+            "dl": "https://www.wahealthplanfinder.org/",
+            "dma": 0,
+            "dt": "Home | Washington Healthplanfinder",
+            "en": "scroll",
+            "epn.percent_scrolled": 90,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v894006377za200zb812863729",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853847,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001",
+            "tfd": 4438,
+            "tid": "G-TVQ0BX2HK7",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TVQ0BX2HK7&gtm=45je54o0h2v894006377za200zb812863729&_p=1745853846573&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001&ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=1429527398.1745853847&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_eu=AEAAAAI&_s=2&sid=1745853847&sct=1&seg=0&dl=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&dt=Home%20%7C%20Washington%20Healthplanfinder&en=scroll&epn.percent_scrolled=90&_et=364&tfd=4438"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 358,
+            "_eu": "AEAAAAI",
+            "_p": 1745853846573,
+            "_s": 2,
+            "are": 1,
+            "cid": 1429527398.1745853,
+            "dl": "https://www.wahealthplanfinder.org/",
+            "dma": 0,
+            "dt": "Home | Washington Healthplanfinder",
+            "en": "scroll",
+            "epn.percent_scrolled": 90,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v894006364za200zb812863729",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853847,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103130495~103130497~103200004",
+            "tfd": 4438,
+            "tid": "G-SCYPPZRY2B",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SCYPPZRY2B&gtm=45je54o0h2v894006364za200zb812863729&_p=1745853846573&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103130495~103130497~103200004&ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=1429527398.1745853847&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_eu=AEAAAAI&_s=2&sid=1745853847&sct=1&seg=0&dl=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&dt=Home%20%7C%20Washington%20Healthplanfinder&en=scroll&epn.percent_scrolled=90&_et=358&tfd=4438"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 347,
+            "_eu": "AEAAAAI",
+            "_p": 1745853846573,
+            "_s": 2,
+            "are": 1,
+            "cid": 1429527398.1745853,
+            "dl": "https://www.wahealthplanfinder.org/",
+            "dma": 0,
+            "dt": "Home | Washington Healthplanfinder",
+            "en": "scroll",
+            "epn.percent_scrolled": 90,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v894006873za200zb812863729",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853847,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 4437,
+            "tid": "G-96G7T7Q8F6",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-96G7T7Q8F6&gtm=45je54o0h2v894006873za200zb812863729&_p=1745853846573&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=1429527398.1745853847&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=AEAAAAI&_s=2&sid=1745853847&sct=1&seg=0&dl=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&dt=Home%20%7C%20Washington%20Healthplanfinder&en=scroll&epn.percent_scrolled=90&_et=347&tfd=4437"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=9e47ac10-1146-4835-981e-c2d5446719cc": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253a%252f%252fmatch.adsrvr.org%252ftrack%252fcmf%252fappnexus%253fttd%253d1%2526anid%253d%2524UID%26ttd_tdid%3D9e47ac10-1146-4835-981e-c2d5446719cc"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=$UID": "",
+            "ttd_tdid": "9e47ac10-1146-4835-981e-c2d5446719cc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=9e47ac10-1146-4835-981e-c2d5446719cc"
+      },
+      {
+        "data": {
+          "filter": "||rubiconproject.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "expires": 30,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "next": "https://match.adsrvr.org/track/cmf/rubicon",
+            "nid": 2307,
+            "put": "9e47ac10-1146-4835-981e-c2d5446719cc",
+            "v": 8981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.rubiconproject.com/tap.php?v=8981&nid=2307&put=9e47ac10-1146-4835-981e-c2d5446719cc&gdpr=0&gdpr_consent=&expires=30&next=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Frubicon"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "google_cm": "",
+            "google_hm": "OWU0N2FjMTAtMTE0Ni00ODM1LTk4MWUtYzJkNTQ0NjcxOWNj",
+            "google_nid": "TheTradeDesk",
+            "google_sc": "",
+            "ttd_tdid": "9e47ac10-1146-4835-981e-c2d5446719cc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=TheTradeDesk&google_cm&google_sc&google_hm=OWU0N2FjMTAtMTE0Ni00ODM1LTk4MWUtYzJkNTQ0NjcxOWNj&gdpr=0&gdpr_consent=&ttd_tdid=9e47ac10-1146-4835-981e-c2d5446719cc"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "i7wxb3w",
+            "paapi": 1,
+            "ref": "https://www.wahealthplanfinder.org/",
+            "upid": "18e1wcn",
+            "upv": "1.1.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/upb/?adv=i7wxb3w&ref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&upid=18e1wcn&upv=1.1.0&paapi=1"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "i7wxb3w",
+            "paapi": 1,
+            "ref": "https://www.wahealthplanfinder.org/",
+            "upid": "18e1wcn",
+            "upv": "1.1.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/up?adv=i7wxb3w&ref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&upid=18e1wcn&upv=1.1.0&paapi=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel/act"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://8936300.fls.doubleclick.net/activityi;src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=*;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F"
+      },
+      {
+        "data": {
+          "filter": "||ipredictive.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "acct_id": 25117,
+            "cache_buster": "[timestamp]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://8936300.fls.doubleclick.net/activityi;src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.ipredictive.com/d/track/cvt/pixel?acct_id=25117&cache_buster=[timestamp]"
+      },
+      {
+        "data": {
+          "filter": "||ipredictive.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "rr": "CACHE_BUSTER",
+            "rtsite_id": 44067,
+            "uuid": "07d27ec8-325c-4f7f-ae47-f37bde5bb4e8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://8936300.fls.doubleclick.net/activityi;src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.ipredictive.com/d/rt/pixel?rtsite_id=44067&uuid=07d27ec8-325c-4f7f-ae47-f37bde5bb4e8&rr=CACHE_BUSTER"
+      },
+      {
+        "data": {
+          "filter": "/pixel/conv/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://8936300.fls.doubleclick.net/activityi;src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bm.adentifi.com/pixel/conv/ppt=8311;g=whbe_landing_page_kpi;gid=27868;ord=[uniqueid]"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": ":",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=8936300;type=traff0;cat=wahbe0;ord=2050954788963;npa=0;auiddc=*;ps=1;pcor=1677634987;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel"
+      },
+      {
+        "data": {
+          "filter": "||analytics.tiktok.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/identify_935b0d03.js"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/activity;register_conversion=1;src=8936300;type=traff0;cat=wahbe0;ord=2050954788963;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=1677634987;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=10;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/activity;register_conversion=1;src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=10;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/fls/rul/activityi;fledge=1;src=8936300;type=traff0;cat=wahbe0;ord=2050954788963;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=1677634987;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=9;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://8936300.fls.doubleclick.net/activityi;src=8936300;type=traff0;cat=wahbe0;ord=2050954788963;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=1677634987;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/fls/rul/activityi;fledge=1;src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=9;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://8936300.fls.doubleclick.net/activityi;src=8936300;type=homep0;cat=washi00;ord=9600092187867;u=1;tran=1;npa=0;auiddc=1094234854.1745853847;ps=1;pcor=788790261;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54o0h2v9188995052z8812863729za201zb894006377;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;epver=2;~oref=https%3A%2F%2Fwww.wahealthplanfinder.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||analytics.tiktok.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWYwYWI1NGQ2MA.js"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmgoogletagmanager",
+            "cas": "8601674686565035,4826084644161133,3423522400993660",
+            "ccs": 496143424844542,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://www.wahealthplanfinder.org",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853847165.831818054249097034",
+            "hrl": "511c7b",
+            "id": 2137673382996449,
+            "if": false,
+            "it": 1745853847011,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853847168,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=2137673382996449&ev=PageView&dl=https%3A%2F%2Fwww.wahealthplanfinder.org&rl=&if=false&ts=1745853847168&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=12316&fbp=fb.1.1745853847165.831818054249097034&cs_est=true&pm=1&hrl=511c7b&ler=empty&it=1745853847011&coo=false&cs_cc=1&ccs=496143424844542&cas=8601674686565035%2C4826084644161133%2C3423522400993660&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmgoogletagmanager",
+            "cas": "8601674686565035,4826084644161133,3423522400993660",
+            "ccs": 496143424844542,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://www.wahealthplanfinder.org",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853847165.831818054249097034",
+            "hrl": "511c7b",
+            "id": 2137673382996449,
+            "if": false,
+            "it": 1745853847011,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853847168,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2137673382996449&ev=PageView&dl=https%3A%2F%2Fwww.wahealthplanfinder.org&rl=&if=false&ts=1745853847168&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=12316&fbp=fb.1.1745853847165.831818054249097034&cs_est=true&pm=1&hrl=511c7b&ler=empty&it=1745853847011&coo=false&cs_cc=1&ccs=496143424844542&cas=8601674686565035%2C4826084644161133%2C3423522400993660&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1745853846573,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1429527398.1745853,
+            "dl": "https://www.wahealthplanfinder.org/",
+            "dma": 0,
+            "dt": "Home | Washington Healthplanfinder",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v894006377z8812863729za200zb812863729",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853847,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001",
+            "tfd": 777,
+            "tid": "G-TVQ0BX2HK7",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TVQ0BX2HK7&gtm=45je54o0h2v894006377z8812863729za200zb812863729&_p=1745853846573&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001&ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=1429527398.1745853847&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853847&sct=1&seg=0&dl=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&dt=Home%20%7C%20Washington%20Healthplanfinder&en=page_view&_fv=1&_ss=1&tfd=777"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54o0h2v894006377za200zb812863729",
+            "id": "DC-8936300",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-8936300&l=dataLayer&cx=c&gtm=45je54o0h2v894006377za200zb812863729&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1745853846573,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1429527398.1745853,
+            "dl": "https://www.wahealthplanfinder.org/",
+            "dma": 0,
+            "dt": "Home | Washington Healthplanfinder",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v894006364z8812863729za200zb812863729",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853847,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103130495~103130497~103200004",
+            "tfd": 739,
+            "tid": "G-SCYPPZRY2B",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SCYPPZRY2B&gtm=45je54o0h2v894006364z8812863729za200zb812863729&_p=1745853846573&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103130495~103130497~103200004&ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=1429527398.1745853847&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853847&sct=1&seg=0&dl=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&dt=Home%20%7C%20Washington%20Healthplanfinder&en=page_view&_fv=1&_ss=1&tfd=739"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1429527398.1745853,
+            "dma": 0,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v894006873z8812863729za200zb812863729",
+            "npa": 0,
+            "ptag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tid": "G-96G7T7Q8F6",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-96G7T7Q8F6&cid=1429527398.1745853847&gtm=45je54o0h2v894006873z8812863729za200zb812863729&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1745853846573,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1429527398.1745853,
+            "dl": "https://www.wahealthplanfinder.org/",
+            "dma": 0,
+            "dt": "Home | Washington Healthplanfinder",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v894006873z8812863729za200zb812863729",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853847,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 693,
+            "tid": "G-96G7T7Q8F6",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-96G7T7Q8F6&gtm=45je54o0h2v894006873z8812863729za200zb812863729&_p=1745853846573&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=1429527398.1745853847&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_s=1&sid=1745853847&sct=1&seg=0&dl=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&dt=Home%20%7C%20Washington%20Healthplanfinder&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=693"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.wahealthplanfinder.org",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/2137673382996449?v=2.9.199&r=stable&domain=www.wahealthplanfinder.org&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://www.wahealthplanfinder.org"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fwww.wahealthplanfinder.org"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "lib": "ttq",
+            "sdkid": "CSLSEERC77UAJKLLP0PG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CSLSEERC77UAJKLLP0PG&lib=ttq"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.adsrvr.org/up_loader.1.1.0.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54o0h2v812863729za200",
+            "id": "G-TVQ0BX2HK7",
+            "l": "dataLayer",
+            "tag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-TVQ0BX2HK7&l=dataLayer&cx=c&gtm=45He54o0h2v812863729za200&tag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54o0h2v812863729za200",
+            "id": "G-SCYPPZRY2B",
+            "l": "dataLayer",
+            "tag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-SCYPPZRY2B&l=dataLayer&cx=c&gtm=45He54o0h2v812863729za200&tag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54o0h2v812863729za200",
+            "id": "G-96G7T7Q8F6",
+            "l": "dataLayer",
+            "tag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-96G7T7Q8F6&l=dataLayer&cx=c&gtm=45He54o0h2v812863729za200&tag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "apvf": "sb",
+            "auid": 1094234854.1745853,
+            "dl": "https://www.wahealthplanfinder.org/",
+            "dma": 0,
+            "dt": "Home | Washington Healthplanfinder",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54o0h2v812863729za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 1807597206.1745853,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 490,
+            "tft": 1745853846866
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.wahealthplanfinder.org%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1807597206.1745853847&dt=Home%20%7C%20Washington%20Healthplanfinder&auid=1094234854.1745853847&navt=n&npa=0&gtm=45He54o0h2v812863729za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&tft=1745853846866&tfd=490&apve=1&apvf=sb"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MPPRHBL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wahealthplanfinder.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MPPRHBL"
+      }
+    ]
+  }
+}

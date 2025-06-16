@@ -1,0 +1,978 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://www.mnsure.org/",
+  "uri_dest": "https://www.mnsure.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.mnsure.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:23:18.075Z",
+  "end_time": "2025-04-28T15:23:21.719Z",
+  "browsing_history": [
+    "https://www.mnsure.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.mnsure.org",
+        "mnsure.org"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "siteimproveanalytics.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "www.google.com",
+        "www.google-analytics.com",
+        "1535995.global.siteimproveanalytics.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://mnsure.org/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js": [
+          "touchmove"
+        ],
+        "https://www.mnsure.org/ruxitagentjs_ICA7NVfhqrux_10311250313143955.js": [
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://mnsure.org/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js": [
+          "mousemove",
+          "click"
+        ],
+        "https://www.mnsure.org/js/frameworks/jquery/frameworks.jquery.js": [
+          "click",
+          "scroll",
+          "mouseup"
+        ],
+        "https://siteimproveanalytics.com/js/siteanalyze_1535995.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WHXQW3J": [
+          "click"
+        ],
+        "https://www.mnsure.org/ruxitagentjs_ICA7NVfhqrux_10311250313143955.js": [
+          "scroll",
+          "dblclick",
+          "mouseup",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.mnsure.org/js/frameworks/jquery/frameworks.jquery.js": [
+          "keyup"
+        ],
+        "https://www.mnsure.org/ruxitagentjs_ICA7NVfhqrux_10311250313143955.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__uzma",
+        "value": "c4b6b235-136e-4103-8933-1b441df024a3",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": "2025-10-27T15:23:19.015Z",
+        "size": 42,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__uzmb",
+        "value": "1745853798",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": "2025-10-27T15:23:19.016Z",
+        "size": 16,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__uzme",
+        "value": "9815",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": "2025-10-27T15:23:19.016Z",
+        "size": 10,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__uzmc",
+        "value": "577371043390",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": "2025-10-27T15:23:19.016Z",
+        "size": 18,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__uzmd",
+        "value": "1745853798",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": "2025-10-27T15:23:19.016Z",
+        "size": 16,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__uzmf",
+        "value": "7f60000859154e-6500-44ae-a0c7-9fa321e8db5817458537988680-a3c05678ab206ef210",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": "2025-10-27T15:23:19.016Z",
+        "size": 81,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uzmx",
+        "value": "7f90007df64394-ff56-4f7a-a727-88444b485f161-17458537988680-ae9c05583ef2a74b10",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-27T15:23:19.016Z",
+        "size": 81,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dtCookie",
+        "value": "v_4_srv_5_sn_A871563006136FFE043EC7D3C402A39A_perc_100000_ol_0_mul_1_app-3Ab2e7d97959ef8345_1",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": -1,
+        "size": 101,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "rxVisitor",
+        "value": "17458537993946JUK5NI6K3EKMJARV9629T8SI6UIQL1J",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": -1,
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "dtSa",
+        "value": "-",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1075881740.1745853800",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-07-27T15:23:19.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__ssds",
+        "value": "2",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:19.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "A121712EE2ECF6185A30A4346CE98E1F",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TAFSessionId",
+        "value": "tridion_0283509c-1863-4001-b938-fc53d58cf5a1",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": -1,
+        "size": 56,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TAFTrackingId",
+        "value": "tridion_d5b22203-3511-460e-8c47-c10928c2082b",
+        "domain": "www.mnsure.org",
+        "path": "/",
+        "expires": "2026-06-02T15:23:19.734Z",
+        "size": 57,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nmstat",
+        "value": "c08a4cf0-f0e2-5f54-2d31-5c2f27890179",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2026-06-02T15:23:19.750Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1077069389.1745853800",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-04-29T15:23:19.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-38051436-2",
+        "value": "1",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-04-28T15:24:19.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_FWPC05Y3FV",
+        "value": "GS1.1.1745853799.1.0.1745853799.0.0.0",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2026-06-02T15:23:19.797Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1601774184.1745853800",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2026-06-02T15:23:19.797Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_G53WBK429D",
+        "value": "GS1.2.1745853799.1.0.1745853799.0.0.0",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2026-06-02T15:23:19.940Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "rxvt",
+        "value": "1745855599947|1745853799397",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": -1,
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__ssuzjsr2",
+        "value": "a9be0cd8e",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__uzmaj2",
+        "value": "7c5f2f24-0676-42e2-8b0c-d0d65c310024",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__uzmbj2",
+        "value": "1745853800",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__uzmcj2",
+        "value": "960191060746",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__uzmdj2",
+        "value": "1745853800",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__uzmlj2",
+        "value": "kzJGkr0SJgM9FUnQUev7hDpDosc8sV8f/rCe16wSKvg=",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__uzmfj2",
+        "value": "7f60000859154e-6500-44ae-a0c7-9fa321e8db5817458538000650-977515b851b7f4fb10",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 83,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "uzmxj",
+        "value": "7f90007df64394-ff56-4f7a-a727-88444b485f161-17458538000650-031b2c9b2719ef6010",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": "2025-10-25T15:23:20.000Z",
+        "size": 82,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "dtPC",
+        "value": "5$453799391_252h-vDHAUKAAGIMRLSJPMRCKSDVPKMBNCEWGH-0e0",
+        "domain": "mnsure.org",
+        "path": "/",
+        "expires": -1,
+        "size": 58,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "ABAI",
+            "_fv": 1,
+            "_p": 1745853799423,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 1601774184.1745853,
+            "dl": "https://www.mnsure.org/",
+            "dma": 0,
+            "dt": "MNsure - Minnesota's health insurance marketplace / MNsure",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l2l1",
+            "gtm": "45je54n0v9135661809za200",
+            "npa": 0,
+            "pscdl": "",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853799,
+            "sr": "375x812",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 1486,
+            "tid": "G-G53WBK429D",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G53WBK429D&gtm=45je54n0v9135661809za200&_p=1745853799423&gcd=13l3l3l3l2l1&npa=0&dma=0&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ul=en-us&sr=375x812&cid=1601774184.1745853800&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_eu=ABAI&_s=1&dl=https%3A%2F%2Fwww.mnsure.org%2F&dt=MNsure%20-%20Minnesota%27s%20health%20insurance%20marketplace%20%2F%20MNsure&sid=1745853799&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1486"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-G53WBK429D"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-G53WBK429D&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1745853799423,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1601774184.1745853,
+            "dl": "https://www.mnsure.org/",
+            "dma": 0,
+            "dt": "MNsure - Minnesota's health insurance marketplace / MNsure",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v889960211z8849144038za200zb849144038",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853799,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 1343,
+            "tid": "G-FWPC05Y3FV",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FWPC05Y3FV&gtm=45je54n0v889960211z8849144038za200zb849144038&_p=1745853799423&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=1601774184.1745853800&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853799&sct=1&seg=0&dl=https%3A%2F%2Fwww.mnsure.org%2F&dt=MNsure%20-%20Minnesota%27s%20health%20insurance%20marketplace%20%2F%20MNsure&en=page_view&_fv=1&_ss=1&tfd=1343"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1077069389.1745853,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YEBAAAABAAAAAC~",
+            "_v": "j101",
+            "a": 2042085069,
+            "cid": 1601774184.1745853,
+            "de": "UTF-8",
+            "dl": "https://www.mnsure.org/",
+            "dma": 0,
+            "dt": "MNsure - Minnesota's health insurance marketplace / MNsure",
+            "gcd": "13l3l3l3l1l1",
+            "gjid": 2078836246,
+            "gtm": "45He54n0n81WHXQW3Jv849144038za200",
+            "je": 0,
+            "jid": 155120754,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tid": "UA-38051436-2",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 140880145
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=2042085069&t=pageview&_s=1&dl=https%3A%2F%2Fwww.mnsure.org%2F&ul=en-us&de=UTF-8&dt=MNsure%20-%20Minnesota%27s%20health%20insurance%20marketplace%20%2F%20MNsure&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YEBAAAABAAAAAC~&jid=155120754&gjid=2078836246&cid=1601774184.1745853800&tid=UA-38051436-2&_gid=1077069389.1745853800&_r=1&_slc=1&gtm=45He54n0n81WHXQW3Jv849144038za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&z=140880145"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountid": 1535995,
+            "kvp_path": "tcm:34-259966-64",
+            "luid": "253f4b06-c09f-6f7e-7b02-ee2906b9acf8",
+            "path": "tcm:34-259966-64",
+            "prev": "c08a4cf0-f0e2-5f54-2d31-5c2f27890179",
+            "res": "375x812",
+            "rnd": 96873,
+            "rt": 1296,
+            "title": "MNsure - Minnesota's health insurance marketplace / MNsure",
+            "url": "https://www.mnsure.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://1535995.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.mnsure.org%2F&title=MNsure%20-%20Minnesota%27s%20health%20insurance%20marketplace%20%2F%20MNsure&res=375x812&accountid=1535995&path=tcm%3A34-259966-64&rt=1296&luid=253f4b06-c09f-6f7e-7b02-ee2906b9acf8&kvp_path=tcm%3A34-259966-64&prev=c08a4cf0-f0e2-5f54-2d31-5c2f27890179&rnd=96873"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://www.mnsure.org"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fwww.mnsure.org"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v849144038za200",
+            "id": "G-FWPC05Y3FV",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FWPC05Y3FV&l=dataLayer&cx=c&gtm=45He54n0v849144038za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 1075881740.1745853,
+            "dl": "https://www.mnsure.org/",
+            "dma": 0,
+            "dt": "MNsure - Minnesota's health insurance marketplace / MNsure",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54n0v849144038za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 661413407.1745853,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 1172,
+            "tft": 1745853799627
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.mnsure.org%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=661413407.1745853800&dt=MNsure%20-%20Minnesota%27s%20health%20insurance%20marketplace%20%2F%20MNsure&auid=1075881740.1745853800&navt=n&npa=0&gtm=45He54n0v849144038za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&tft=1745853799627&tfd=1172&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WHXQW3J"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WHXQW3J"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mnsure.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_1535995.js"
+      }
+    ]
+  }
+}

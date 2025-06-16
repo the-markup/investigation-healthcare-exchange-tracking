@@ -1,0 +1,2856 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://bewellnm.com/",
+  "uri_dest": "https://bewellnm.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "bewellnm.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:23:37.934Z",
+  "end_time": "2025-04-28T15:23:43.458Z",
+  "browsing_history": [
+    "https://bewellnm.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "bewellnm.com",
+        "appt.bewellnm.com"
+      ],
+      "third_party": [
+        "insight.adsrvr.org",
+        "cdn.trustindex.io",
+        "nfpnewmexico.my.salesforce.com",
+        "www.googletagmanager.com",
+        "us-js.zonka.co",
+        "www.clarity.ms",
+        "dpm.demdex.net",
+        "www.google.com",
+        "connect.facebook.net",
+        "cdn01.basis.net",
+        "service.force.com",
+        "match.adsrvr.org",
+        "www.youtube.com",
+        "l.clarity.ms",
+        "cm.g.doubleclick.net",
+        "www.google-analytics.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.facebook.com",
+        "ib.adnxs.com",
+        "i.ytimg.com",
+        "www.googleadservices.com",
+        "td.doubleclick.net",
+        "ad.doubleclick.net",
+        "15029971.fls.doubleclick.net",
+        "googleads.g.doubleclick.net",
+        "fonts.gstatic.com",
+        "adservice.google.com",
+        "pixel-sync.sitescout.com",
+        "pixel.sitescout.com",
+        "pixel.rubiconproject.com",
+        "static.doubleclick.net",
+        "pixel.tapad.com",
+        "jnn-pa.googleapis.com",
+        "yt3.ggpht.com",
+        "noembed.com",
+        "cdn.plyr.io",
+        "play.google.com",
+        "secure.adnxs.com",
+        "c.clarity.ms",
+        "c.bing.com",
+        "attribution.sitescout.com",
+        "d.la4-c2-ph2.salesforceliveagent.com",
+        "d.la13-core1.sfdc-yfeipo.salesforceliveagent.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "input"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://www.clarity.ms/s/0.8.1/clarity.js": [
+          "input"
+        ],
+        "https://bewellnm.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1745437492": [
+          "keypress"
+        ],
+        "https://cdn.trustindex.io/loader.js": [
+          "keydown",
+          "keyup"
+        ]
+      },
+      "TOUCH": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://www.clarity.ms/s/0.8.1/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://bewellnm.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://cdn.trustindex.io/loader.js": [
+          "touchmove",
+          "touchstart"
+        ],
+        "https://bewellnm.com/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=6.6.4.4": [
+          "touchmove"
+        ]
+      },
+      "MOUSE": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.clarity.ms/s/0.8.1/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://connect.facebook.net/signals/config/537819828658701?v=2.9.199&r=stable&domain=bewellnm.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119": [
+          "click"
+        ],
+        "https://bewellnm.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "mousemove",
+          "scroll",
+          "click",
+          "mouseup"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-KMX2N41WNX&l=dataLayer&cx=c&gtm=45He54n0v9121339943za200&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001": [
+          "click"
+        ],
+        "https://bewellnm.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1745437492": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MN6D3WL": [
+          "click"
+        ],
+        "https://cdn.trustindex.io/loader.js": [
+          "scroll",
+          "mousemove",
+          "click"
+        ],
+        "https://bewellnm.com/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=6.6.4.4": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "orientationchange"
+        ],
+        "https://bewellnm.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "orientationchange"
+        ],
+        "https://bewellnm.com/wp-content/uploads/essential-addons-elementor/eael-9.js?ver=1743520655": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "TDID",
+        "value": "5214adc3-de4e-449f-9aaa-4ad5ac30d212",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:23:40.124Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1213461204.1745853819",
+        "domain": "bewellnm.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:39.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "CLID",
+        "value": "bbe64a52a66049b997baacdd7d26aa73.20250428.20260428",
+        "domain": "www.clarity.ms",
+        "path": "/",
+        "expires": "2026-04-28T15:23:38.993Z",
+        "size": 54,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "BrowserId",
+        "value": "wqrhICREEfCDsqF4awrVyg",
+        "domain": "salesforce.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:39.045Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_clck",
+        "value": "s1bgpy%7C2%7Cfvg%7C0%7C1944",
+        "domain": "bewellnm.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:39.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "48425571247900122744051930165255338906",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2025-10-25T15:23:39.141Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "48425571247900122744051930165255338906",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2025-10-25T15:23:39.141Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_KMX2N41WNX",
+        "value": "GS1.1.1745853819.1.0.1745853819.0.0.0",
+        "domain": "bewellnm.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:39.242Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.2093282171.1745853819",
+        "domain": "bewellnm.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:39.357Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "YSC",
+        "value": "erHs57vfLAg",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "bLAr8Ed7UQo",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:23:39.540Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJVUxIEGgAgLw%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:23:39.540Z",
+        "size": 44,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:38:39.301Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "BrowserId",
+        "value": "wte9KCREEfCgWncBuLKwWQ",
+        "domain": "force.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:39.340Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853819383.795540222320068981",
+        "domain": "bewellnm.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:39.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "uuid2",
+        "value": "4634514679480330581",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:40.043Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__Secure-ROLLOUT_TOKEN",
+        "value": "CIyQ1N_orJLw2wEQ3NDspYT7jAMY87r6pYT7jAM%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:23:39.540Z",
+        "size": 64,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://bewellnm.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_clsk",
+        "value": "tt5fwf%7C1745853819627%7C1%7C1%7Cl.clarity.ms%2Fcollect",
+        "domain": "bewellnm.com",
+        "path": "/",
+        "expires": "2025-04-29T15:23:39.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "audit_p",
+        "value": "1|L898vbmEGEzv11wjetrxZd100STu5pksTs8RC59JtBNBW6I1QWQ5XVZcE9Xu6u1BM+4dvOOxF/iM1KxoLazIt9i2Wk5FrGos0XY24Ec+XLsTJ1c+AVV45kNiqR/nmXcJef9CXgRbzo5cBWMfBGIAGu/4Xzyu5thUvqAH+LZKodtbOz6AjJtUa8ZnH3r7x5VAdeodiyl5GGjkt77VmXBK7kiCfUmSYXqD+ohH/uuQN8oOr/S07bYDcYQkZmofZQkSVSwKu1RXSJT0/fhu8/pkBO4VeIulq+4M1TRwmTZWV3Xc6UO785F0Pw==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:39.823Z",
+        "size": 321,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://bewellnm.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos",
+        "value": "MA18ACXD-25-7ECM",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:39.823Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos_p",
+        "value": "MA18ACXD-25-7ECM",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:39.823Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://bewellnm.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "1|L898vbmEGEzv11wjetrxZd100STu5pksTs8RC59JtBNBW6I1QWQ5XVZcE9Xu6u1BM+4dvOOxF/iM1KxoLazIt9i2Wk5FrGos0XY24Ec+XLsTJ1c+AVV45kNiqR/nmXcJef9CXgRbzo5cBWMfBGIAGu/4Xzyu5thUvqAH+LZKodtbOz6AjJtUa8ZnH3r7x5VAdeodiyl5GGjkt77VmXBK7kiCfUmSYXqD+ohH/uuQN8oOr/S07bYDcYQkZmofZQkSVSwKu1RXSJT0/fhu8/pkBO4VeIulq+4M1TRwmTZWV3Xc6UO785F0Pw==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:39.823Z",
+        "size": 319,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1745853820000",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:40.092Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "6488ba7f-6a0c-43c4-8918-66ee6b3c1509",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:40.092Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "2!2847",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:40.092Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESEgoDYWFtEgsIzr2xkZzq9z0QBRIVCgZnb29nbGUSCwjm07iO9u6APhAFEhcKCGFwcG5leHVzEgsIsIDz-NWcgz4QBRIWCgdydWJpY29uEgsI1qLz-NWcgz4QBRIUCgV0YXBhZBILCKSuxPrVnIM-EAUYBTgBQgQiAggB",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:23:40.124Z",
+        "size": 173,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_8XXT2JQCSY",
+        "value": "GS1.1.1745853819.1.0.1745853820.59.0.0",
+        "domain": "bewellnm.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:40.137Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "3D3DF83DA3516BB41FB3EDE1A2D26A5C",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:40.413Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2025-05-05T15:23:40.413Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SRM_B",
+        "value": "3D3DF83DA3516BB41FB3EDE1A2D26A5C",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:40.413Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SM",
+        "value": "C",
+        "domain": "c.clarity.ms",
+        "path": "/",
+        "expires": -1,
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MUID",
+        "value": "3D3DF83DA3516BB41FB3EDE1A2D26A5C",
+        "domain": "clarity.ms",
+        "path": "/",
+        "expires": "2026-05-23T15:23:40.449Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "c.clarity.ms",
+        "path": "/",
+        "expires": "2025-05-05T15:23:40.449Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ANONCHK",
+        "value": "0",
+        "domain": "c.clarity.ms",
+        "path": "/",
+        "expires": "2025-04-28T15:33:40.449Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "NID",
+        "value": "523=NEBHJk78uiXInFLJIEE80tWCWUdUdbDFu2g-KAsPHDQ0KzBWItGl8xD4bFNunReeLKEj5vcDiKa6YeUzWVgoFJqF8bYBqjPiN9jq0kdQWdv73WRrBLBw0AxA7wjduSRZ27szuF0KSc3bdNnUczWd2siOgGOQhoxTcEs4S1IT4r35VnmuCDXntSTRLNlvHqOvauIPx7k",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2025-10-28T15:23:40.097Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://bewellnm.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=537819828658701&ev=PageView&dl=https%3A%2F%2Fbewellnm.com&rl=&if=false&ts=1745853819386&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853819383.795540222320068981&cs_est=true&pm=1&hrl=0d5d03&ler=empty&it=1745853819297&coo=false&tm=1&cs_cc=1&cas=8297879100249978&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://bewellnm.com",
+        "raw": "https://www.facebook.com/tr/?id=537819828658701&ev=PageView&dl=https%3A%2F%2Fbewellnm.com&rl=&if=false&ts=1745853819386&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853819383.795540222320068981&cs_est=true&pm=1&hrl=0d5d03&ler=empty&it=1745853819297&coo=false&tm=1&cs_cc=1&cas=8297879100249978&cdl=&exp=k0&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAI",
+            "_p": 1745853818742,
+            "_s": 2,
+            "are": 1,
+            "cid": 2093282171.1745853,
+            "dl": "https://bewellnm.com/",
+            "dma": 0,
+            "dt": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "en": "page_load_time",
+            "epn.loading_time_sec": 1.84,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9112771497z89121339943za200zb9121339943",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853819,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 5092,
+            "tid": "G-8XXT2JQCSY",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8XXT2JQCSY&gtm=45je54n0v9112771497z89121339943za200zb9121339943&_p=1745853818742&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=2093282171.1745853819&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=AAAAAAI&_s=2&sid=1745853819&sct=1&seg=0&dl=https%3A%2F%2Fbewellnm.com%2F&dt=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&en=page_load_time&epn.loading_time_sec=1.84&tfd=5092"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://l.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "/v1/log_event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "alt": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://l.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "oids": "MmYwMDEzMTNhZmZlODFkMw",
+            "px": "",
+            "upid": "4a154ecd2123beea"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://15029971.fls.doubleclick.net/activityi;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://attribution.sitescout.com/privacySandbox/attributionReporting/trigger?oids=MmYwMDEzMTNhZmZlODFkMw&upid=4a154ecd2123beea&px"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cat": "bewel0",
+            "cntr_revenue": "",
+            "cntr_transactionId": 6578630916220,
+            "cntr_url": "https://bewellnm.com/",
+            "cookieQ": 1,
+            "src": 15029971,
+            "type": "home_0",
+            "u1": "",
+            "u2": "",
+            "u3": "",
+            "u4": "",
+            "u5": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://15029971.fls.doubleclick.net/activityi;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.sitescout.com/up/4a154ecd2123beea?cookieQ=1&cntr_revenue=&cntr_transactionId=6578630916220&u1=&u2=&u3=&u4=&u5=&src=15029971&cat=bewel0&type=home_0&cntr_url=https%3A%2F%2Fbewellnm.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "CtsSyncId": "75F8A6E55B074184AD14F8955622D379",
+            "MUID": "3D3DF83DA3516BB41FB3EDE1A2D26A5C",
+            "ctsa": "mr"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=75F8A6E55B074184AD14F8955622D379&MUID=3D3DF83DA3516BB41FB3EDE1A2D26A5C"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cookieQ": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync?cookieQ=1"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cat": "bewel0",
+            "cntr_revenue": "",
+            "cntr_transactionId": 6578630916220,
+            "cntr_url": "https://bewellnm.com/",
+            "src": 15029971,
+            "type": "home_0",
+            "u1": "",
+            "u2": "",
+            "u3": "",
+            "u4": "",
+            "u5": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://15029971.fls.doubleclick.net/activityi;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.sitescout.com/up/4a154ecd2123beea?cntr_revenue=&cntr_transactionId=6578630916220&u1=&u2=&u3=&u4=&u5=&src=15029971&cat=bewel0&type=home_0&cntr_url=https%3A%2F%2Fbewellnm.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync"
+      },
+      {
+        "data": {
+          "filter": "/c.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "CtsSyncId": "75F8A6E55B074184AD14F8955622D379",
+            "MXFR": "0E3222FF89126E5101C437238D126092",
+            "RedC": "c.clarity.ms",
+            "ctsa": "mr"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=75F8A6E55B074184AD14F8955622D379&RedC=c.clarity.ms&MXFR=0E3222FF89126E5101C437238D126092"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.clarity.ms/c.gif"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ttd_pid": "tapad"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": 4634514679480330000,
+            "partner_id": "APPNEXUS",
+            "pt": "6488ba7f-6a0c-43c4-8918-66ee6b3c1509,https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Dtapad,"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=APPNEXUS&partner_device_id=4634514679480330581&pt=6488ba7f-6a0c-43c4-8918-66ee6b3c1509%2Chttps%253A%252F%252Fmatch.adsrvr.org%252Ftrack%252Fcmf%252Fgeneric%253Fttd_pid%253Dtapad%2C"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "https://pixel.tapad.com/idsync/ex/receive?partner_id=APPNEXUS&partner_device_id=$UID&pt=6488ba7f-6a0c-43c4-8918-66ee6b3c1509%2Chttps%253A%252F%252Fmatch.adsrvr.org%252Ftrack%252Fcmf%252Fgeneric%253Fttd_pid%253Dtapad%2C": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.adnxs.com/getuid?https%3A%2F%2Fpixel.tapad.com%2Fidsync%2Fex%2Freceive%3Fpartner_id%3DAPPNEXUS%26partner_device_id%3D%24UID%26pt%3D6488ba7f-6a0c-43c4-8918-66ee6b3c1509%252Chttps%25253A%25252F%25252Fmatch.adsrvr.org%25252Ftrack%25252Fcmf%25252Fgeneric%25253Fttd_pid%25253Dtapad%252C"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "8GnRjQ": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/generate_204?8GnRjQ"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "5214adc3-de4e-449f-9aaa-4ad5ac30d212",
+            "partner_id": 1830,
+            "partner_url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=1830&partner_device_id=5214adc3-de4e-449f-9aaa-4ad5ac30d212&partner_url=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Dtapad"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "slf_rd": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "5214adc3-de4e-449f-9aaa-4ad5ac30d212",
+            "partner_id": 1830,
+            "partner_url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=1830&partner_device_id=5214adc3-de4e-449f-9aaa-4ad5ac30d212&partner_url=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Dtapad"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gdpr": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/rubicon?gdpr=0"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Jpo8y2DMPCo?autoplay?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fbewellnm.com%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fbewellnm.com&widgetid=1&forigin=https%3A%2F%2Fbewellnm.com%2F&aoriginsup=1&vf=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cntr_url": "https://bewellnm.com/",
+            "cookieQ": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.sitescout.com/up/4a154ecd2123beea?cookieQ=1&cntr_url=https%3A%2F%2Fbewellnm.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cookieQ": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync?cookieQ=1"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://15029971.fls.doubleclick.net/activityi;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=*;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||basis.net/assets/up.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "um": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://15029971.fls.doubleclick.net/activityi;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn01.basis.net/assets/up.js?um=1"
+      },
+      {
+        "data": {
+          "filter": "||rubiconproject.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "expires": 30,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "next": "https://match.adsrvr.org/track/cmf/rubicon",
+            "nid": 2307,
+            "put": "5214adc3-de4e-449f-9aaa-4ad5ac30d212",
+            "v": 8981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.rubiconproject.com/tap.php?v=8981&nid=2307&put=5214adc3-de4e-449f-9aaa-4ad5ac30d212&gdpr=0&gdpr_consent=&expires=30&next=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Frubicon"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://l.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "capi": 2,
+            "cid": "CAQSGwDZpuyzpmFdugO8oPzw8NDjNB8zgzOx_AWVlA",
+            "crd": "CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBQAFKFXRyaWdnZXIsIGV2ZW50LXNvdXJjZVoDCgEBYgQKAgID",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Un9Tb1L53ciDuLe8JFl6_wkhYW_8Qpti64",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853819546,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 2,
+            "gtm": "45be54n0v9210997456z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "is_vtc": 1,
+            "label": "oB4eCIiXp-MZEOi_uLY-",
+            "npa": 0,
+            "pscrd": "CJ7h6In6rbDUogEiEwjawf-lhPuMAxWuqY4IHdyqLKoyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThldVQ3c3JhbHpVYWRtcDVyTWJxY2JydnA3dzNPUVBHRmtDYUpnRlhwNHRKdzdEMUcxQVA2Yw",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 853504433,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/16757170152/?random=311898718&cv=11&fst=1745853819546&bg=ffffff&guid=ON&async=1&gcl_ctr=2&gtm=45be54n0v9210997456z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=oB4eCIiXp-MZEOi_uLY-&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBQAFKFXRyaWdnZXIsIGV2ZW50LXNvdXJjZVoDCgEBYgQKAgID&pscrd=CJ7h6In6rbDUogEiEwjawf-lhPuMAxWuqY4IHdyqLKoyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThldVQ3c3JhbHpVYWRtcDVyTWJxY2JydnA3dzNPUVBHRmtDYUpnRlhwNHRKdzdEMUcxQVA2Yw&is_vtc=1&cid=CAQSGwDZpuyzpmFdugO8oPzw8NDjNB8zgzOx_AWVlA&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Un9Tb1L53ciDuLe8JFl6_wkhYW_8Qpti64&random=853504433"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "capi": 2,
+            "cid": "CAQSGwDZpuyzRVWz4Jr6nihv9--GwCPLfIl799bieA",
+            "crd": "CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQII1c-xAiIBAUABSixldmVudC1zb3VyY2UsIHRyaWdnZXIsIG5vdC1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Uk9BUk539T3MSeQJAfnKjcU2o7Qrq61nOo",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853819450,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0v9216018033z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "is_vtc": 1,
+            "label": "5TDMCPjU7PIYEKaKhJ4o",
+            "npa": 0,
+            "pscrd": "CI7OoZXj5_uklwEiEwiXlv2lhPuMAxXCv44IHQKICXkyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThlS3FnSThBOG81cHF6eHBsUHdZQUV3NFM0MElMQ3VsZW1UNnRrNy1ral9XT1RGaUlqdU0yMA",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 3656817132,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/10800399654/?random=1316660037&cv=11&fst=1745853819450&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0v9216018033z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=5TDMCPjU7PIYEKaKhJ4o&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQII1c-xAiIBAUABSixldmVudC1zb3VyY2UsIHRyaWdnZXIsIG5vdC1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID&pscrd=CI7OoZXj5_uklwEiEwiXlv2lhPuMAxXCv44IHQKICXkyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThlS3FnSThBOG81cHF6eHBsUHdZQUV3NFM0MElMQ3VsZW1UNnRrNy1ral9XT1RGaUlqdU0yMA&is_vtc=1&cid=CAQSGwDZpuyzRVWz4Jr6nihv9--GwCPLfIl799bieA&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Uk9BUk539T3MSeQJAfnKjcU2o7Qrq61nOo&random=3656817132"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "anid": 4634514679480330000,
+            "ttd": 1,
+            "ttd_tdid": "5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=4634514679480330581&ttd_tdid=5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "cid": "CAQSGwDZpuyzHq2UxM45mr4wxR_qXWc0yvYGcJI64A",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745852400000,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9210997456z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ipr": "y",
+            "is_vtc": 1,
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 3510552476,
+            "rfmt": 3,
+            "rmt_tld": 0,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/16757170152/?random=1745853819540&cv=11&fst=1745852400000&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9210997456z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzHq2UxM45mr4wxR_qXWc0yvYGcJI64A&random=3510552476&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "capi": 2,
+            "crd": "CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBQAFKFXRyaWdnZXIsIGV2ZW50LXNvdXJjZVoDCgEBYgQKAgID",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UldxmQ5_EshnKnjnzEMgtDRqJNp_eJlI54",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853819546,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 2,
+            "gtm": "45be54n0v9210997456z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "oB4eCIiXp-MZEOi_uLY-",
+            "npa": 0,
+            "pscrd": "CJ7h6In6rbDUogEiEwjawf-lhPuMAxWuqY4IHdyqLKoyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThldVQ3c3JhbHpVYWRtcDVyTWJxY2JydnA3dzNPUVBHRmtDYUpnRlhwNHRKdzdEMUcxQVA2Yw",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 311898718,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16757170152/?random=311898718&cv=11&fst=1745853819546&bg=ffffff&guid=ON&async=1&gcl_ctr=2&gtm=45be54n0v9210997456z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=oB4eCIiXp-MZEOi_uLY-&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBQAFKFXRyaWdnZXIsIGV2ZW50LXNvdXJjZVoDCgEBYgQKAgID&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UldxmQ5_EshnKnjnzEMgtDRqJNp_eJlI54&pscrd=CJ7h6In6rbDUogEiEwjawf-lhPuMAxWuqY4IHdyqLKoyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThldVQ3c3JhbHpVYWRtcDVyTWJxY2JydnA3dzNPUVBHRmtDYUpnRlhwNHRKdzdEMUcxQVA2Yw"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cntr_url": "https://bewellnm.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.sitescout.com/up/4a154ecd2123beea?cntr_url=https%3A%2F%2Fbewellnm.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=*;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;~oref=https%3A%2F%2Fbewellnm.com%2F"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "capi": 2,
+            "crd": "CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQII1c-xAiIBAUABSixldmVudC1zb3VyY2UsIHRyaWdnZXIsIG5vdC1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UlzsmhojGaWIVxbOHarIaB3ap9v_PIkemo",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853819450,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0v9216018033z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "5TDMCPjU7PIYEKaKhJ4o",
+            "npa": 0,
+            "pscrd": "CI7OoZXj5_uklwEiEwiXlv2lhPuMAxXCv44IHQKICXkyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThlS3FnSThBOG81cHF6eHBsUHdZQUV3NFM0MElMQ3VsZW1UNnRrNy1ral9XT1RGaUlqdU0yMA",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1316660037,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10800399654/?random=1316660037&cv=11&fst=1745853819450&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0v9216018033z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=5TDMCPjU7PIYEKaKhJ4o&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQII1c-xAiIBAUABSixldmVudC1zb3VyY2UsIHRyaWdnZXIsIG5vdC1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UlzsmhojGaWIVxbOHarIaB3ap9v_PIkemo&pscrd=CI7OoZXj5_uklwEiEwiXlv2lhPuMAxXCv44IHQKICXkyDAgDYggIABAAGAAgADIMCARiCAgAEAAYACAAMgwIB2IICAAQABgAIAAyDAgIYggIABAAGAAgADIMCAliCAgAEAAYACAAMgwICmIICAAQABgAIAAyDAgCYggIABAAGAAgADIMCAtiCAgAEAAYACAAMgwIFWIICAAQABgAIAAyDAgfYggIABAAGAAgADIMCBNiCAgAEAAYACAAMgwIEmIICAAQABgAIABCV0NoRUk4TTY4d0FZUXBQNi01WWF4azltVkFSSXNBTUhwMThlS3FnSThBOG81cHF6eHBsUHdZQUV3NFM0MElMQ3VsZW1UNnRrNy1ral9XT1RGaUlqdU0yMA"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "ct_cookie_present": 0,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853819546,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 2,
+            "gtm": "45be54n0v9210997456z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "oB4eCIiXp-MZEOi_uLY-",
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853819546,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/16757170152?random=1745853819546&cv=11&fst=1745853819546&fmt=3&bg=ffffff&guid=ON&async=1&gcl_ctr=2&gtm=45be54n0v9210997456z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=oB4eCIiXp-MZEOi_uLY-&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&bttype=purchase&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&ct_cookie_present=0"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853819546,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 2,
+            "gtm": "45be54n0v9210997456z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "oB4eCIiXp-MZEOi_uLY-",
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853819546,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/16757170152/?random=1745853819546&cv=11&fst=1745853819546&bg=ffffff&guid=ON&async=1&gcl_ctr=2&gtm=45be54n0v9210997456z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=oB4eCIiXp-MZEOi_uLY-&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&bttype=purchase&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853819540,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9210997456z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853819540,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/16757170152?random=1745853819540&cv=11&fst=1745853819540&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9210997456z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853819540,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9210997456z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853819540,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16757170152/?random=1745853819540&cv=11&fst=1745853819540&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9210997456z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=5214adc3-de4e-449f-9aaa-4ad5ac30d212": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253a%252f%252fmatch.adsrvr.org%252ftrack%252fcmf%252fappnexus%253fttd%253d1%2526anid%253d%2524UID%26ttd_tdid%3D5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/fls/rul/activityi;fledge=1;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=9;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://15029971.fls.doubleclick.net/activityi;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;_dc_test=1;~oref=https%3A%2F%2Fbewellnm.com%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/activity;src=15029971;type=home_0;cat=bewel0;ord=6578630916220;npa=0;auiddc=1213461204.1745853819;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9198546673z89121339943za201zb9112771497;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853819484;~oref=https%3A%2F%2Fbewellnm.com%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "ct_cookie_present": 0,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853819450,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0v9216018033z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "5TDMCPjU7PIYEKaKhJ4o",
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853819450,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/10800399654?random=1745853819450&cv=11&fst=1745853819450&fmt=3&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0v9216018033z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=5TDMCPjU7PIYEKaKhJ4o&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&bttype=purchase&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&ct_cookie_present=0"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1213461204.1745853,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853819450,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0v9216018033z89121339943za201zb9112771497",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "5TDMCPjU7PIYEKaKhJ4o",
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853819450,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://bewellnm.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/10800399654/?random=1745853819450&cv=11&fst=1745853819450&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0v9216018033z89121339943za201zb9112771497&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fbewellnm.com%2F&label=5TDMCPjU7PIYEKaKhJ4o&hn=www.googleadservices.com&frm=0&tiba=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&value=0&bttype=purchase&npa=0&auid=1213461204.1745853819&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=$UID": "",
+            "ttd_tdid": "5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmSimo-GTM-WebTemplate",
+            "cas": 8297879100249978,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://bewellnm.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853819383.795540222320068981",
+            "hrl": "0d5d03",
+            "id": 537819828658701,
+            "if": false,
+            "it": 1745853819297,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "tm": 1,
+            "ts": 1745853819386,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=537819828658701&ev=PageView&dl=https%3A%2F%2Fbewellnm.com&rl=&if=false&ts=1745853819386&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853819383.795540222320068981&cs_est=true&pm=1&hrl=0d5d03&ler=empty&it=1745853819297&coo=false&tm=1&cs_cc=1&cas=8297879100249978&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmSimo-GTM-WebTemplate",
+            "cas": 8297879100249978,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://bewellnm.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853819383.795540222320068981",
+            "hrl": "0d5d03",
+            "id": 537819828658701,
+            "if": false,
+            "it": 1745853819297,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "tm": 1,
+            "ts": 1745853819386,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=537819828658701&ev=PageView&dl=https%3A%2F%2Fbewellnm.com&rl=&if=false&ts=1745853819386&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853819383.795540222320068981&cs_est=true&pm=1&hrl=0d5d03&ler=empty&it=1745853819297&coo=false&tm=1&cs_cc=1&cas=8297879100249978&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "g_uuid": "",
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "google_error": 3,
+            "ttd_tdid": "5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/google?g_uuid=&gdpr=0&gdpr_consent=&ttd_tdid=5214adc3-de4e-449f-9aaa-4ad5ac30d212&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 2093282171.1745853,
+            "dma": 0,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9112771497z89121339943za200zb9121339943",
+            "npa": 0,
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tid": "G-8XXT2JQCSY",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-8XXT2JQCSY&cid=2093282171.1745853819&gtm=45je54n0v9112771497z89121339943za200zb9121339943&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_p": 1745853818742,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 2093282171.1745853,
+            "dl": "https://bewellnm.com/",
+            "dma": 0,
+            "dt": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9112771497z89121339943za200zb9121339943",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853819,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 1062,
+            "tid": "G-8XXT2JQCSY",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8XXT2JQCSY&gtm=45je54n0v9112771497z89121339943za200zb9121339943&_p=1745853818742&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=2093282171.1745853819&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_s=1&sid=1745853819&sct=1&seg=0&dl=https%3A%2F%2Fbewellnm.com%2F&dt=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&en=page_view&_fv=1&_ss=1&tfd=1062"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54n0v9112771497za200zb9121339943",
+            "id": "DC-15029971",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-15029971&l=dataLayer&cx=c&gtm=45je54n0v9112771497za200zb9121339943&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54n0v9112771497za200zb9121339943",
+            "id": "AW-16757170152",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-16757170152&l=dataLayer&cx=c&gtm=45je54n0v9112771497za200zb9121339943&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54n0v9112771497za200zb9121339943",
+            "id": "AW-10800399654",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-10800399654&l=dataLayer&cx=c&gtm=45je54n0v9112771497za200zb9121339943&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "google_cm": "",
+            "google_hm": "NTIxNGFkYzMtZGU0ZS00NDlmLTlhYWEtNGFkNWFjMzBkMjEy",
+            "google_nid": "TheTradeDesk",
+            "google_sc": "",
+            "google_tc": "",
+            "ttd_tdid": "5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=TheTradeDesk&google_cm=&google_sc=&google_hm=NTIxNGFkYzMtZGU0ZS00NDlmLTlhYWEtNGFkNWFjMzBkMjEy&gdpr=0&gdpr_consent=&ttd_tdid=5214adc3-de4e-449f-9aaa-4ad5ac30d212&google_tc="
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "bewellnm.com",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/537819828658701?v=2.9.199&r=stable&domain=bewellnm.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1745853818742,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 2093282171.1745853,
+            "dl": "https://bewellnm.com/",
+            "dma": 0,
+            "dt": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9202709358z89121339943za200zb9121339943",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853819,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 948,
+            "tid": "G-KMX2N41WNX",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KMX2N41WNX&gtm=45je54n0v9202709358z89121339943za200zb9121339943&_p=1745853818742&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=2093282171.1745853819&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853819&sct=1&seg=0&dl=https%3A%2F%2Fbewellnm.com%2F&dt=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=948"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "google_cm": "",
+            "google_hm": "NTIxNGFkYzMtZGU0ZS00NDlmLTlhYWEtNGFkNWFjMzBkMjEy",
+            "google_nid": "TheTradeDesk",
+            "google_sc": "",
+            "ttd_tdid": "5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=TheTradeDesk&google_cm&google_sc&google_hm=NTIxNGFkYzMtZGU0ZS00NDlmLTlhYWEtNGFkNWFjMzBkMjEy&gdpr=0&gdpr_consent=&ttd_tdid=5214adc3-de4e-449f-9aaa-4ad5ac30d212"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://l.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ttd_pid": "aam"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=aam"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dpuuid": "5214adc3-de4e-449f-9aaa-4ad5ac30d212",
+            "et:ibs|data:dpid": 903,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "redir": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=aam"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=903&dpuuid=5214adc3-de4e-449f-9aaa-4ad5ac30d212&gdpr=0&gdpr_consent=&redir=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Daam"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/s/0.8.1/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://bewellnm.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fbewellnm.com"
+      },
+      {
+        "data": {
+          "filter": "||basis.net/assets/up.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "um": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn01.basis.net/assets/up.js?um=1"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v9121339943za200",
+            "id": "G-8XXT2JQCSY",
+            "l": "dataLayer",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8XXT2JQCSY&l=dataLayer&cx=c&gtm=45He54n0v9121339943za200&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 1213461204.1745853,
+            "dl": "https://bewellnm.com/",
+            "dma": 0,
+            "dt": "We Connect New Mexicans to Health Insurance - BeWell, New Mexico's Health Insurance Marketplace",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54n0v9121339943za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 378376764.1745854,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 669,
+            "tft": 1745853818965
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fbewellnm.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=378376764.1745853819&dt=We%20Connect%20New%20Mexicans%20to%20Health%20Insurance%20-%20BeWell%2C%20New%20Mexico%27s%20Health%20Insurance%20Marketplace&auid=1213461204.1745853819&navt=n&npa=0&gtm=45He54n0v9121339943za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&tft=1745853818965&tfd=669&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v9121339943za200",
+            "id": "G-KMX2N41WNX",
+            "l": "dataLayer",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KMX2N41WNX&l=dataLayer&cx=c&gtm=45He54n0v9121339943za200&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=903&dpuuid=5214adc3-de4e-449f-9aaa-4ad5ac30d212&gdpr=0&gdpr_consent=&redir=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Daam"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/oyljg3v3uy"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MN6D3WL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MN6D3WL"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "uit3yvv",
+            "ct": "0:wfl3wda",
+            "fmt": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bewellnm.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/pxl/?adv=uit3yvv&ct=0:wfl3wda&fmt=3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2069 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://www.coverme.gov/",
+  "uri_dest": "https://www.coverme.gov/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.coverme.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:23:00.900Z",
+  "end_time": "2025-04-28T15:23:05.532Z",
+  "browsing_history": [
+    "https://www.coverme.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.coverme.gov"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "www.google-analytics.com",
+        "www.google.com",
+        "sc-static.net",
+        "bat.bing.com",
+        "connect.facebook.net",
+        "analytics.tiktok.com",
+        "app.leadsrx.com",
+        "collector-15645.us.tvsquared.com",
+        "bcp.crwdcntrl.net",
+        "googleads.g.doubleclick.net",
+        "td.doubleclick.net",
+        "tr.snapchat.com",
+        "ad.doubleclick.net",
+        "10439824.fls.doubleclick.net",
+        "tr6.snapchat.com",
+        "www.googleadservices.com",
+        "adservice.google.com",
+        "www.facebook.com",
+        "pixel.tapad.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://connect.facebook.net/signals/config/409035140258940?v=2.9.199&r=stable&domain=www.coverme.gov&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119": [
+          "click"
+        ],
+        "https://sc-static.net/scevent.min.js": [
+          "click"
+        ],
+        "https://analytics.tiktok.com/i18n/pixel/static/main.MWYwYWI1NGQ2MA.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-K3WKZ36": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-Q6HZMZKJ12": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.coverme.gov/sites/default/files/js/js_ALW1x8su1HPk1gk1FqBARGDxvwMBHjuO4oh_a3DPIHk.js?scope=header&delta=0&language=en&theme=coverme&include=eJx1zTEOgzAMBdALUbL0PpEJxoSaOLIdVG5fWBgQXazv_4YPhCXtjmtlcNzegVgG4Jf5zrlQl2RDXfFekwgxRgcKdJz738MC3y59cMwuGiEl0TFLCVfqJ5XiWMbOWkWdss3hSnE-V_Pp_ui2ArMlRSzP3moVy34M_XNUa4M96Q-PPW4N": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "X-AB",
+        "value": "963a4689b51b418e9cb119a5e2b2c29d",
+        "domain": "sc-static.net",
+        "path": "/scevent.min.js",
+        "expires": "2025-04-29T15:23:03.196Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_Q6HZMZKJ12",
+        "value": "GS1.1.1745853782.1.0.1745853782.0.0.0",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-06-02T15:23:02.909Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.552738246.1745853783",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-06-02T15:23:02.909Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1312004635.1745853783",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2025-07-27T15:23:03.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid",
+        "value": "JnvV56c9boA3MeiC-FytVhaAkWUgaU2t",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-29T07:41:21.000Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid_r",
+        "value": "JnvV56c9boA3MeiC-FytVhaAkWUgaU2t",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-29T07:41:21.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:38:03.233Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ttp",
+        "value": "2wMaEKbRzFilqM7vL5e2FajTw78",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.252Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_uetsid",
+        "value": "ad60e0c0244411f08f0b418463cd3921",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2025-04-29T15:23:03.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetvid",
+        "value": "ad6125f0244411f083a8550d6627173b",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ttp",
+        "value": "01JSYFX7B6N2D4WSG50YE05QMV_.tt.1",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ttcsid",
+        "value": "1745853783401::7KoF--Tqeyp-FSjaoU6U.1.1745853783401",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.000Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "1802735D242162511D28668125A263D6",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.408Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "bat.bing.com",
+        "path": "/",
+        "expires": "2025-05-05T15:23:03.408Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ScCbts",
+        "value": "%5B%5D",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2025-05-05T15:23:03.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cc_dc",
+        "value": "3",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2026-01-23T15:01:00.457Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cc_id",
+        "value": "b329ea8c04581df4d7b4c97f8908c49c",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2026-01-23T15:01:00.457Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cc_cc",
+        "value": "\"ACZ4nGNQSDI2skxNtEg2MDG1MExJM0kxTzJJtjRPs7A0sEg2sUxmAIIM%2FrnhDHDAv%2BXNRg3GxewM%2FxkZGe5%2BsIQx13RrwZiXF89hgbEfTe1hhLHPHT3EDGOvWIJQM%2FXGB7jeg8umwsUPTj%2FABGM3%2FNeEG3PqERuMvelPIYz5Z8YmHRj76Nqn3DA2AHQMQ4A%3D\"",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2026-01-23T15:23:03.457Z",
+        "size": 216,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cc_aud",
+        "value": "\"ABR4nGNgYGDI4J8bzgADjAwMiv5AGgAdewHd\"",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2026-01-23T15:23:03.457Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_tq_id.TV-8145365445-1.43c5",
+        "value": "cbbeb580f0bf8bfd.1745853784.0.1745853784..",
+        "domain": "www.coverme.gov",
+        "path": "/",
+        "expires": "2026-06-02T15:23:03.519Z",
+        "size": 69,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853783536.391926273781762163",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2025-07-27T15:23:03.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sc_at",
+        "value": "v2|H4sIAAAAAAAAAE3GwQ3AIAwDwIkiJSXYptukCKZg+H65122pxBzG6WWZk/aVLwMQLNQTCyfS32B29Ua1c9V/Js4Z3EAAAAA=",
+        "domain": "snapchat.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.775Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ttcsid_CL157I3C77UBVPRAJM8G",
+        "value": "1745853783401::Pkpo-_07wFHq69yJtj-U.1.1745853783617",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-23T15:23:03.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1745853783722",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:03.710Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "66cb0dde-7254-4fb8-9cdd-e5cbd98f9252",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:03.710Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:03.710Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_sctr",
+        "value": "1%7C1745823600000",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-05-29T07:41:21.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_lab",
+        "value": "3377701927588828",
+        "domain": "leadsrx.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:03.198Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_lab_lastTouch",
+        "value": "direct",
+        "domain": "leadsrx.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:03.199Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_lab",
+        "value": "3377701927588828",
+        "domain": "coverme.gov",
+        "path": "/",
+        "expires": "2026-04-28T15:23:04.203Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.coverme.gov",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1031321331405664&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783722&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&pm=1&hrl=b7e81e&ler=empty&it=1745853783215&coo=false&cs_cc=1&ccs=1462176107985284&cas=25824321023826012&cdl=&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.coverme.gov",
+        "raw": "https://www.facebook.com/tr/?id=1031321331405664&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783722&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&pm=1&hrl=b7e81e&ler=empty&it=1745853783215&coo=false&cs_cc=1&ccs=1462176107985284&cas=25824321023826012&cdl=&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.coverme.gov",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=409035140258940&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783538&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&cs_est=true&pm=1&hrl=cafc50&ler=empty&it=1745853783215&coo=false&cs_cc=1&cas=4525328687504978&cdl=&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.coverme.gov",
+        "raw": "https://www.facebook.com/tr/?id=409035140258940&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783538&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&cs_est=true&pm=1&hrl=cafc50&ler=empty&it=1745853783215&coo=false&cs_cc=1&cas=4525328687504978&cdl=&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1312004635.1745853,
+            "bg": "ffffff",
+            "cid": "CAQSGwDZpuyzenItV2qlLRe8SHKFTsHxsjdS9AGChw",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745852400000,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9169058717z8834124174za200zb834124174",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ipr": "y",
+            "is_vtc": 1,
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 3135088427,
+            "rfmt": 3,
+            "rmt_tld": 0,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home | CoverME.gov",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.coverme.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/687475555/?random=1745853783093&cv=11&fst=1745852400000&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9169058717z8834124174za200zb834124174&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.coverme.gov%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20%7C%20CoverME.gov&npa=0&auid=1312004635.1745853783&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzenItV2qlLRe8SHKFTsHxsjdS9AGChw&random=3135088427&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr6.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 25824321023826012,
+            "ccs": 1462176107985284,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.coverme.gov",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853783536.391926273781762163",
+            "hrl": "b7e81e",
+            "id": 1031321331405664,
+            "if": false,
+            "it": 1745853783215,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853783722,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1031321331405664&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783722&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&pm=1&hrl=b7e81e&ler=empty&it=1745853783215&coo=false&cs_cc=1&ccs=1462176107985284&cas=25824321023826012&cdl=&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 25824321023826012,
+            "ccs": 1462176107985284,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.coverme.gov",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853783536.391926273781762163",
+            "hrl": "b7e81e",
+            "id": 1031321331405664,
+            "if": false,
+            "it": 1745853783215,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853783722,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=1031321331405664&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783722&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&pm=1&hrl=b7e81e&ler=empty&it=1745853783215&coo=false&cs_cc=1&ccs=1462176107985284&cas=25824321023826012&cdl=&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pcid": "66cb0dde-7254-4fb8-9cdd-e5cbd98f9252",
+            "pnid": 140,
+            "rand": 1745636454555
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/p?rand=1745636454555&pnid=140&pcid=66cb0dde-7254-4fb8-9cdd-e5cbd98f9252"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": 2884,
+            "partner_url": "https://tr.snapchat.com/cm/p?rand=1745636454555&pnid=140&pcid=${TA_DEVICE_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1745636454555%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1312004635.1745853,
+            "bg": "ffffff",
+            "capi": 2,
+            "cid": "CAQSGwDZpuyzOxcIoxIJ0idbsePrw5QVWFs20u-wjQ",
+            "crd": "CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII1s-xAiIBATgBQAFKJ3RyaWdnZXIsIGV2ZW50LXNvdXJjZT1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UleW3CtJ_fhBCiTLFJ1eUEq5yP9J07BkvE",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853783458,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0z8834124174za201zb9169058717",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "is_vtc": 1,
+            "label": "br04CL-n_4MYEKOonekB",
+            "npa": 0,
+            "pscrd": "CK7SgOaumMebQiITCJfN6JSE-4wDFbq_jggdXlUoyzIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADoYaHR0cHM6Ly93d3cuY292ZXJtZS5nb3YvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZDNLUjRSRmZrendWazBIUE5PZE9JYi1oSDRUSHd5R0lBbjFTX1NpZ2l4SUZvMlR4Wm9FQms",
+            "ptag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 3384818983,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home | CoverME.gov",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.coverme.gov/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/489116707/?random=1136452963&cv=11&fst=1745853783458&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0z8834124174za201zb9169058717&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.coverme.gov%2F&label=br04CL-n_4MYEKOonekB&hn=www.googleadservices.com&frm=0&tiba=Home%20%7C%20CoverME.gov&value=0&npa=0&auid=1312004635.1745853783&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII1s-xAiIBATgBQAFKJ3RyaWdnZXIsIGV2ZW50LXNvdXJjZT1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID&pscrd=CK7SgOaumMebQiITCJfN6JSE-4wDFbq_jggdXlUoyzIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADoYaHR0cHM6Ly93d3cuY292ZXJtZS5nb3YvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZDNLUjRSRmZrendWazBIUE5PZE9JYi1oSDRUSHd5R0lBbjFTX1NpZ2l4SUZvMlR4Wm9FQms&is_vtc=1&cid=CAQSGwDZpuyzOxcIoxIJ0idbsePrw5QVWFs20u-wjQ&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UleW3CtJ_fhBCiTLFJ1eUEq5yP9J07BkvE&random=3384818983"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel/act"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1312004635.1745853,
+            "bg": "ffffff",
+            "capi": 2,
+            "crd": "CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII1s-xAiIBATgBQAFKJ3RyaWdnZXIsIGV2ZW50LXNvdXJjZT1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Uk8HjCQsBf8yYVY_3SsOK6kFjpCnobluF4",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853783458,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0z8834124174za201zb9169058717",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "br04CL-n_4MYEKOonekB",
+            "npa": 0,
+            "pscrd": "CK7SgOaumMebQiITCJfN6JSE-4wDFbq_jggdXlUoyzIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADoYaHR0cHM6Ly93d3cuY292ZXJtZS5nb3YvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZDNLUjRSRmZrendWazBIUE5PZE9JYi1oSDRUSHd5R0lBbjFTX1NpZ2l4SUZvMlR4Wm9FQms",
+            "ptag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1136452963,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home | CoverME.gov",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.coverme.gov/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/489116707/?random=1136452963&cv=11&fst=1745853783458&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0z8834124174za201zb9169058717&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.coverme.gov%2F&label=br04CL-n_4MYEKOonekB&hn=www.googleadservices.com&frm=0&tiba=Home%20%7C%20CoverME.gov&value=0&npa=0&auid=1312004635.1745853783&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII1s-xAiIBATgBQAFKJ3RyaWdnZXIsIGV2ZW50LXNvdXJjZT1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgQKAgID&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Uk8HjCQsBf8yYVY_3SsOK6kFjpCnobluF4&pscrd=CK7SgOaumMebQiITCJfN6JSE-4wDFbq_jggdXlUoyzIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADoYaHR0cHM6Ly93d3cuY292ZXJtZS5nb3YvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZDNLUjRSRmZrendWazBIUE5PZE9JYi1oSDRUSHd5R0lBbjFTX1NpZ2l4SUZvMlR4Wm9FQms"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://10439824.fls.doubleclick.net/activityi;src=10439824;type=01;cat=pagev0;ord=3231526032787;npa=0;auiddc=1312004635.1745853783;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189582659z8834124174za201zb9169058717;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853783427;_dc_test=1;~oref=https%3A%2F%2Fwww.coverme.gov%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=10439824;type=01;cat=pagev0;ord=3231526032787;npa=0;auiddc=*;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189582659z8834124174za201zb9169058717;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853783427;_dc_test=1;~oref=https%3A%2F%2Fwww.coverme.gov%2F"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": 2884,
+            "partner_url": "https://tr.snapchat.com/cm/p?rand=1745636454555&pnid=140&pcid=${TA_DEVICE_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1745636454555%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 4525328687504978,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://www.coverme.gov",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853783536.391926273781762163",
+            "hrl": "cafc50",
+            "id": 409035140258940,
+            "if": false,
+            "it": 1745853783215,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853783538,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=409035140258940&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783538&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&cs_est=true&pm=1&hrl=cafc50&ler=empty&it=1745853783215&coo=false&cs_cc=1&cas=4525328687504978&cdl=&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 4525328687504978,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://www.coverme.gov",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853783536.391926273781762163",
+            "hrl": "cafc50",
+            "id": 409035140258940,
+            "if": false,
+            "it": 1745853783215,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853783538,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=409035140258940&ev=PageView&dl=https%3A%2F%2Fwww.coverme.gov&rl=&if=false&ts=1745853783538&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853783536.391926273781762163&cs_est=true&pm=1&hrl=cafc50&ler=empty&it=1745853783215&coo=false&cs_cc=1&cas=4525328687504978&cdl=&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.coverme.gov",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119,142,173,200,202,250,176,234,129,167,154,137,247,123,201,134,155,183,169,125,144,130,197,120,159,136",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1031321331405664?v=2.9.199&r=stable&domain=www.coverme.gov&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119%2C142%2C173%2C200%2C202%2C250%2C176%2C234%2C129%2C167%2C154%2C137%2C247%2C123%2C201%2C134%2C155%2C183%2C169%2C125%2C144%2C130%2C197%2C120%2C159%2C136"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=10439824;type=01;cat=pagev0;ord=3231526032787;npa=0;auiddc=*;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189582659z8834124174za201zb9169058717;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853783427;~oref=https%3A%2F%2Fwww.coverme.gov%2F"
+      },
+      {
+        "data": {
+          "filter": "||tvsquared.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_id": "cbbeb580f0bf8bfd",
+            "_idn": 1,
+            "_idts": 1745853784,
+            "_idvc": 0,
+            "_viewts": "",
+            "action_name": "Home | CoverME.gov",
+            "cookie": 1,
+            "gt_ms": 454,
+            "h": 8,
+            "idsite": "TV-8145365445-1",
+            "m": 23,
+            "r": 984342,
+            "rec": 1,
+            "res": "1125x2436",
+            "s": 3,
+            "url": "https://www.coverme.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://collector-15645.us.tvsquared.com/tv2track.php?action_name=Home%20%7C%20CoverME.gov&idsite=TV-8145365445-1&rec=1&r=984342&h=8&m=23&s=3&url=https%3A%2F%2Fwww.coverme.gov%2F&_id=cbbeb580f0bf8bfd&_idts=1745853784&_idvc=0&_idn=1&_viewts=&cookie=1&res=1125x2436&gt_ms=454"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bt": "1d53c387",
+            "cb": 1745853783487,
+            "pnid": 140,
+            "u_sclid": "e31fd8cd-7647-4a13-b0f3-1c55e51be646",
+            "u_scsid": "57349377-8c3c-4d1f-8972-6a2f4699b665"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1745853783487&u_scsid=57349377-8c3c-4d1f-8972-6a2f4699b665&u_sclid=e31fd8cd-7647-4a13-b0f3-1c55e51be646"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1312004635.1745853,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "ct_cookie_present": 0,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853783458,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0z8834124174za201zb9169058717",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "br04CL-n_4MYEKOonekB",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853783458,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home | CoverME.gov",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.coverme.gov/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/489116707?random=1745853783458&cv=11&fst=1745853783458&fmt=3&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0z8834124174za201zb9169058717&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.coverme.gov%2F&label=br04CL-n_4MYEKOonekB&hn=www.googleadservices.com&frm=0&tiba=Home%20%7C%20CoverME.gov&value=0&bttype=purchase&npa=0&auid=1312004635.1745853783&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&ct_cookie_present=0"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1312004635.1745853,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853783458,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54n0z8834124174za201zb9169058717",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "br04CL-n_4MYEKOonekB",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853783458,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home | CoverME.gov",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.coverme.gov/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/489116707/?random=1745853783458&cv=11&fst=1745853783458&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54n0z8834124174za201zb9169058717&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.coverme.gov%2F&label=br04CL-n_4MYEKOonekB&hn=www.googleadservices.com&frm=0&tiba=Home%20%7C%20CoverME.gov&value=0&bttype=purchase&npa=0&auid=1312004635.1745853783&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr6.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/fls/rul/activityi;fledge=1;src=10439824;type=01;cat=pagev0;ord=3231526032787;npa=0;auiddc=1312004635.1745853783;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189582659z8834124174za201zb9169058717;gcd=13l3l3l3l1l1;dma=0;dc_fmt=9;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853783427;_dc_test=1;~oref=https%3A%2F%2Fwww.coverme.gov%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://10439824.fls.doubleclick.net/activityi;src=10439824;type=01;cat=pagev0;ord=3231526032787;npa=0;auiddc=1312004635.1745853783;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189582659z8834124174za201zb9169058717;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853783427;_dc_test=1;~oref=https%3A%2F%2Fwww.coverme.gov%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/activity;src=10439824;type=01;cat=pagev0;ord=3231526032787;npa=0;auiddc=1312004635.1745853783;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189582659z8834124174za201zb9169058717;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004;ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;dc_random=1745853783427;~oref=https%3A%2F%2Fwww.coverme.gov%2F?"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel"
+      },
+      {
+        "data": {
+          "filter": "||analytics.tiktok.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/identify_935b0d03.js"
+      },
+      {
+        "data": {
+          "filter": "||leadsrx.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acctTag": "hnwymd84014",
+            "anon": 0,
+            "lc": null,
+            "ref": "",
+            "t": "Home | CoverME.gov",
+            "tz": 420,
+            "u": "https://www.coverme.gov/",
+            "vin": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.leadsrx.com/visitor.php?acctTag=hnwymd84014&tz=420&ref=&u=https%3A%2F%2Fwww.coverme.gov%2F&t=Home%20%7C%20CoverME.gov&lc=null&anon=0&vin=null"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "pageLoad",
+            "gtm_tag_source": 1,
+            "lg": "en-US",
+            "lt": 1712,
+            "mid": "99f381da-97ca-4f96-b2d1-64cfd8e5a319",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://www.coverme.gov/",
+            "pi": 0,
+            "r": "",
+            "rn": 878095,
+            "sc": 24,
+            "sh": 812,
+            "sid": "ad60e0c0244411f08f0b418463cd3921",
+            "sv": 1,
+            "sw": 375,
+            "ti": 97080534,
+            "tl": "Home | CoverME.gov",
+            "tm": "gtm002",
+            "vid": "ad6125f0244411f083a8550d6627173b",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=97080534&tm=gtm002&Ver=2&mid=99f381da-97ca-4f96-b2d1-64cfd8e5a319&bo=1&sid=ad60e0c0244411f08f0b418463cd3921&vid=ad6125f0244411f083a8550d6627173b&vids=1&msclkid=N&gtm_tag_source=1&pi=0&lg=en-US&sw=375&sh=812&sc=24&nwd=1&tl=Home%20%7C%20CoverME.gov&p=https%3A%2F%2Fwww.coverme.gov%2F&r=&lt=1712&evt=pageLoad&sv=1&cdb=AQAQ&rn=878095"
+      },
+      {
+        "data": {
+          "filter": "||sc-static.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://tr.snapchat.com/cm/i?pid=fb3f6f54-b0f5-424b-b408-dce156401ea5&u_scsid=bab5399c-06bc-4422-8b58-c87a155fd832&u_sclid=71ed6b39-f63d-4cda-afb4-ca33d59cd188",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sc-static.net/scevent.min.js"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bcp.crwdcntrl.net/5/ct=y/c=931/b=84702772"
+      },
+      {
+        "data": {
+          "filter": "||analytics.tiktok.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWYwYWI1NGQ2MA.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/97080534.js"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bg": false,
+            "bt": "1d53c387",
+            "cdid": "@-72af1bb9-5c9c-453f-9236-2f352deb63f8",
+            "d_bvs": "",
+            "ev": "PAGE_VIEW",
+            "gac": "69c5225e",
+            "gat": "AW-687475555,GTM-K3WKZ36,G-Q6HZMZKJ12",
+            "huah": true,
+            "intg": "gtm",
+            "m_dcl": 1711,
+            "m_fcps": 1490,
+            "m_pi": 1703,
+            "m_pl": 0,
+            "m_pv": 2,
+            "m_rd": 1985,
+            "m_sh": 812,
+            "m_sl": 1969,
+            "m_sw": 375,
+            "pid": "fb3f6f54-b0f5-424b-b408-dce156401ea5",
+            "pids": "fb3f6f54-b0f5-424b-b408-dce156401ea5",
+            "pl": "https://www.coverme.gov/",
+            "trackId": "86fbd80e-5cfa-410c-afa1-e34e890be502",
+            "ts": 1745853783236,
+            "u_c1": "d5e7a73d-6e80-4b31-ab82-f85cad561680",
+            "u_sclid": "71ed6b39-f63d-4cda-afb4-ca33d59cd188",
+            "u_scsid": "bab5399c-06bc-4422-8b58-c87a155fd832",
+            "v": "3.44.6-2504241707"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p?pid=fb3f6f54-b0f5-424b-b408-dce156401ea5&ev=PAGE_VIEW&intg=gtm&pids=fb3f6f54-b0f5-424b-b408-dce156401ea5&u_c1=d5e7a73d-6e80-4b31-ab82-f85cad561680&cdid=%40-72af1bb9-5c9c-453f-9236-2f352deb63f8&u_sclid=71ed6b39-f63d-4cda-afb4-ca33d59cd188&u_scsid=bab5399c-06bc-4422-8b58-c87a155fd832&gat=AW-687475555%2CGTM-K3WKZ36%2CG-Q6HZMZKJ12&gac=69c5225e&bg=false&bt=1d53c387&d_bvs=&huah=true&m_dcl=1711&m_fcps=1490&m_pi=1703&m_pl=0&m_pv=2&m_rd=1985&m_sh=812&m_sl=1969&m_sw=375&pl=https%3A%2F%2Fwww.coverme.gov%2F&trackId=86fbd80e-5cfa-410c-afa1-e34e890be502&ts=1745853783236&v=3.44.6-2504241707"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": "fb3f6f54-b0f5-424b-b408-dce156401ea5",
+            "u_sclid": "71ed6b39-f63d-4cda-afb4-ca33d59cd188",
+            "u_scsid": "bab5399c-06bc-4422-8b58-c87a155fd832"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/i?pid=fb3f6f54-b0f5-424b-b408-dce156401ea5&u_scsid=bab5399c-06bc-4422-8b58-c87a155fd832&u_sclid=71ed6b39-f63d-4cda-afb4-ca33d59cd188"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "3.44.6-2504241707"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/config/gov/fb3f6f54-b0f5-424b-b408-dce156401ea5.json?v=3.44.6-2504241707"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.coverme.gov",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/409035140258940?v=2.9.199&r=stable&domain=www.coverme.gov&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1312004635.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853783093,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9169058717z8834124174za200zb834124174",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853783093,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home | CoverME.gov",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.coverme.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/687475555?random=1745853783093&cv=11&fst=1745853783093&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9169058717z8834124174za200zb834124174&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.coverme.gov%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20%7C%20CoverME.gov&npa=0&auid=1312004635.1745853783&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1312004635.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853783093,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9169058717z8834124174za200zb834124174",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853783093,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home | CoverME.gov",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.coverme.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/687475555/?random=1745853783093&cv=11&fst=1745853783093&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9169058717z8834124174za200zb834124174&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.coverme.gov%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20%7C%20CoverME.gov&npa=0&auid=1312004635.1745853783&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45be54n0v9169058717za200zb834124174",
+            "id": "AW-489116707",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-489116707&l=dataLayer&cx=c&gtm=45be54n0v9169058717za200zb834124174&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45be54n0v9169058717za200zb834124174",
+            "id": "DC-10439824",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-10439824&l=dataLayer&cx=c&gtm=45be54n0v9169058717za200zb834124174&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://www.coverme.gov"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fwww.coverme.gov"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bcp.crwdcntrl.net/5/c=931/b=84702772"
+      },
+      {
+        "data": {
+          "filter": "||tvsquared.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://collector-15645.us.tvsquared.com/tv2track.js"
+      },
+      {
+        "data": {
+          "filter": "||leadsrx.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.leadsrx.com/visitor.js"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "lib": "ttq",
+            "sdkid": "CL157I3C77UBVPRAJM8G"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CL157I3C77UBVPRAJM8G&lib=ttq"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||sc-static.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sc-static.net/scevent.min.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 1312004635.1745853,
+            "dl": "https://www.coverme.gov/",
+            "dma": 0,
+            "dt": "Home | CoverME.gov",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54n0v834124174za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 781048761.1745853,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 1693,
+            "tft": 1745853782944
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.coverme.gov%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=781048761.1745853783&dt=Home%20%7C%20CoverME.gov&auid=1312004635.1745853783&navt=n&npa=0&gtm=45He54n0v834124174za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001&tft=1745853782944&tfd=1693&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v834124174za200",
+            "id": "AW-687475555",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-687475555&l=dataLayer&cx=c&gtm=45He54n0v834124174za200&tag_exp=102887800~103051953~103071290~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1745853782648,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 552738246.1745853,
+            "dl": "https://www.coverme.gov/",
+            "dma": 0,
+            "dt": "Home | CoverME.gov",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je54n0v899452473za200",
+            "npa": 0,
+            "pscdl": "",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853782,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001",
+            "tfd": 1659,
+            "tid": "G-Q6HZMZKJ12",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Q6HZMZKJ12&gtm=45je54n0v899452473za200&_p=1745853782648&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001&gdid=dMDhkMT&cid=552738246.1745853783&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853782&sct=1&seg=0&dl=https%3A%2F%2Fwww.coverme.gov%2F&dt=Home%20%7C%20CoverME.gov&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1659"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-K3WKZ36"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K3WKZ36"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-Q6HZMZKJ12"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.coverme.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-Q6HZMZKJ12"
+      }
+    ]
+  }
+}

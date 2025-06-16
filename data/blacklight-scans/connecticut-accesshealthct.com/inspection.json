@@ -1,0 +1,1714 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://www.accesshealthct.com/",
+  "uri_dest": "https://www.accesshealthct.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.accesshealthct.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:22:34.143Z",
+  "end_time": "2025-04-28T15:22:44.453Z",
+  "browsing_history": [
+    "https://www.accesshealthct.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.accesshealthct.com"
+      ],
+      "third_party": [
+        "ajax.googleapis.com",
+        "www.googletagmanager.com",
+        "use.typekit.net",
+        "code.jquery.com",
+        "dev1.ahcthix.com",
+        "maxcdn.bootstrapcdn.com",
+        "p.typekit.net",
+        "www.google.com",
+        "connect.facebook.net",
+        "sc-static.net",
+        "chimpstatic.com",
+        "arttrk.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "tr.snapchat.com",
+        "www.googleadservices.com",
+        "td.doubleclick.net",
+        "www.facebook.com",
+        "googleads.g.doubleclick.net",
+        "pixel.tapad.com",
+        "tr6.snapchat.com",
+        "js-agent.newrelic.com",
+        "gov-bam.nr-data.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.accesshealthct.com/": [
+          "click",
+          "mousedown",
+          "mouseup",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.accesshealthct.com/": [
+          "keydown",
+          "keyup"
+        ]
+      },
+      "SENSOR": {
+        "https://www.accesshealthct.com/": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "X-AB",
+        "value": "963a4689b51b418e9cb119a5e2b2c29d",
+        "domain": "sc-static.net",
+        "path": "/scevent.min.js",
+        "expires": "2025-04-29T15:22:42.054Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "PHPSESSID",
+        "value": "hjahgg82p5asatak1q73ate9rs",
+        "domain": "www.accesshealthct.com",
+        "path": "/",
+        "expires": -1,
+        "size": 35,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Aquaman",
+        "value": "!6fDbbWP8xFnS9DR7UvtJZt3FzAHIY+or+8lApzXbn+dBTWml3Nm1X5cMltXXDhFv7dWYgi9R+TnRYw==",
+        "domain": "www.accesshealthct.com",
+        "path": "/",
+        "expires": -1,
+        "size": 88,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "visid_incap_735939",
+        "value": "kRnwxe51RdOZKelJSI4ouDqdD2gAAAAAQUIPAAAAAAAH/8gXsKNe2iUsbKSCG4im",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2026-04-28T07:33:18.102Z",
+        "size": 82,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "incap_ses_499_735939",
+        "value": "nYl+Y1pNyQvrXXkJKM7sBkCdD2gAAAAACBQmJQyPbEM0tAa62ycM6A==",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": -1,
+        "size": 76,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.284649973.1745853762",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2025-07-27T15:22:42.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.912107485.1745853762",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2026-06-02T15:22:42.093Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid",
+        "value": "KkwHwAT7jjkBCUz7hmd7OjZRw06NJxvZ",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2026-05-29T07:41:00.000Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid_r",
+        "value": "KkwHwAT7jjkBCUz7hmd7OjZRw06NJxvZ",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2026-05-29T07:41:00.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853762224.524704785305893061",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2025-07-27T15:22:42.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ScCbts",
+        "value": "%5B%5D",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2025-05-05T15:22:42.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:37:42.329Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sc_at",
+        "value": "v2|H4sIAAAAAAAAAEXHwQ3AMAgDwImQbAox6jZJyRYZvv31d4diuGfaXpoW6mUTJWsO7KcbTj8M3FRk5aXx9SdeqxPutkAAAAA=",
+        "domain": "snapchat.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:42.655Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1745853762611",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:42.595Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "2d2f5f6b-91eb-4a4e-bc54-74b686f14a6d",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:42.595Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:42.595Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_sctr",
+        "value": "1%7C1745823600000",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2026-05-29T07:41:00.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_GKZ9FW7VB1",
+        "value": "GS1.1.1745853762.1.1.1745853762.60.0.0",
+        "domain": "accesshealthct.com",
+        "path": "/",
+        "expires": "2026-06-02T15:22:42.694Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "f5avr0403825403aaaaaaaaaaaaaaaa_cspm_",
+        "value": "FPDLAKOJCFECOJILJHFFGHCMBAMJPFOHFAFHPNEHHCOLOINGKPHPJAJMPIKIPHFKPLECIAGIPJGKKLCMAKLABOLFBJFEAGBOJDEIHFJKNDHDHMDCLHBEJONCLJGPADAL",
+        "domain": "www.accesshealthct.com",
+        "path": "/",
+        "expires": -1,
+        "size": 165,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.accesshealthct.com",
+        "raw": "https://www.facebook.com/tr/?redirect=0&rqm=GET&exp=k0&cdl=&cas=8138070589541248&cs_cc=1&coo=false&it=1745853762038&ler=empty&hrl=2eec6a&pm=1&fbp=fb.1.1745853762224.524704785305893061&o=12316&ec=1&a=tmSimo-GTM-WebTemplate&r=stable&v=2.9.199&sh=812&sw=375&ts=1745853762414&if=false&rl=&dl=https%3A%2F%2Fwww.accesshealthct.com&ev=PageView&id=326339271066956"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.accesshealthct.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=567174535759363&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762418&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=06aae6&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8666603930126067&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.accesshealthct.com",
+        "raw": "https://www.facebook.com/tr/?id=567174535759363&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762418&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=06aae6&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8666603930126067&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.accesshealthct.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762414&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.accesshealthct.com",
+        "raw": "https://www.facebook.com/tr/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762414&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.accesshealthct.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762226&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&tm=1&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.accesshealthct.com",
+        "raw": "https://www.facebook.com/tr/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762226&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&tm=1&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "526441431,526442398",
+            "ck": 0,
+            "ht": 1,
+            "ptid": "216a601b4b2be32e",
+            "ref": "https://www.accesshealthct.com/",
+            "rst": 9826,
+            "s": "b28c0f4b3ebbb718",
+            "to": "NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU=",
+            "v": "1.288.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gov-bam.nr-data.net/jserrors/1/e65b354df0?a=526441431,526442398&v=1.288.1&to=NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU%3D&rst=9826&ck=0&s=b28c0f4b3ebbb718&ref=https://www.accesshealthct.com/&ptid=216a601b4b2be32e&ht=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "526441431,526442398",
+            "ck": 0,
+            "ht": 1,
+            "ptid": "216a601b4b2be32e",
+            "ref": "https://www.accesshealthct.com/",
+            "rst": 9826,
+            "s": "b28c0f4b3ebbb718",
+            "to": "NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU=",
+            "v": "1.288.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gov-bam.nr-data.net/jserrors/1/e65b354df0?a=526441431,526442398&v=1.288.1&to=NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU%3D&rst=9826&ck=0&s=b28c0f4b3ebbb718&ref=https://www.accesshealthct.com/&ptid=216a601b4b2be32e&ht=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "526441431,526442398",
+            "ck": 0,
+            "ht": 1,
+            "ptid": "216a601b4b2be32e",
+            "ref": "https://www.accesshealthct.com/",
+            "rst": 9826,
+            "s": "b28c0f4b3ebbb718",
+            "to": "NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU=",
+            "v": "1.288.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gov-bam.nr-data.net/events/1/e65b354df0?a=526441431,526442398&v=1.288.1&to=NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU%3D&rst=9826&ck=0&s=b28c0f4b3ebbb718&ref=https://www.accesshealthct.com/&ptid=216a601b4b2be32e&ht=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAAI",
+            "_p": 1745853761647,
+            "_s": 2,
+            "are": 1,
+            "cid": 912107485.1745853,
+            "dl": "https://www.accesshealthct.com/",
+            "dma": 0,
+            "dt": "Access Health CT - CT’s Official Health Insurance Marketplace",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v881041051z8843531469za200zb843531469",
+            "ir": 1,
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853762,
+            "sr": "375x812",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 9823,
+            "tid": "G-GKZ9FW7VB1",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKZ9FW7VB1&gtm=45je54o0h2v881041051z8843531469za200zb843531469&_p=1745853761647&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=912107485.1745853762&ul=en-us&sr=375x812&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=EAAAAAI&dl=https%3A%2F%2Fwww.accesshealthct.com%2F&sid=1745853762&sct=1&seg=0&dt=Access%20Health%20CT%20-%20CT%E2%80%99s%20Official%20Health%20Insurance%20Marketplace&_s=2&tfd=9823"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "526441431,526442398",
+            "ck": 0,
+            "ht": 1,
+            "ptid": "216a601b4b2be32e",
+            "ref": "https://www.accesshealthct.com/",
+            "rst": 9289,
+            "s": "b28c0f4b3ebbb718",
+            "to": "NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU=",
+            "v": "1.288.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gov-bam.nr-data.net/events/1/e65b354df0?a=526441431,526442398&v=1.288.1&to=NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU%3D&rst=9289&ck=0&s=b28c0f4b3ebbb718&ref=https://www.accesshealthct.com/&ptid=216a601b4b2be32e&ht=1"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "526441431,526442398",
+            "af": "err,spa,xhr,stn,ins",
+            "ap": 6037,
+            "at": "GEFXQQJPRR4=",
+            "be": 6512,
+            "ck": 0,
+            "dc": 774,
+            "fe": 1576,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 88,
+                "ce": 132,
+                "dc": 8075,
+                "de": 7287,
+                "di": 7281,
+                "dn": 88,
+                "dne": 88,
+                "ds": 7281,
+                "f": 1,
+                "l": 8076,
+                "le": 8089,
+                "n": 0,
+                "of": 1745853754589,
+                "rp": 6513,
+                "rpe": 7126,
+                "rq": 133,
+                "s": 103
+              }
+            },
+            "ptid": "216a601b4b2be32e",
+            "ref": "https://www.accesshealthct.com/",
+            "rst": 8170,
+            "s": "b28c0f4b3ebbb718",
+            "to": "NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU=",
+            "v": "1.288.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gov-bam.nr-data.net/1/e65b354df0?a=526441431,526442398&v=1.288.1&to=NAZUN0pVVhBVUE1QXw1MdwBMXVcNG0NYXlU%3D&rst=8170&ck=0&s=b28c0f4b3ebbb718&ref=https://www.accesshealthct.com/&ptid=216a601b4b2be32e&af=err,spa,xhr,stn,ins&ap=6037&be=6512&fe=1576&dc=774&at=GEFXQQJPRR4%3D&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1745853754589,%22n%22:0,%22f%22:1,%22dn%22:88,%22dne%22:88,%22c%22:88,%22s%22:103,%22ce%22:132,%22rq%22:133,%22rp%22:6513,%22rpe%22:7126,%22di%22:7281,%22ds%22:7281,%22de%22:7287,%22dc%22:8075,%22l%22:8076,%22le%22:8089%7D,%22navigation%22:%7B%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.288.1.min.js"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pcid": "2d2f5f6b-91eb-4a4e-bc54-74b686f14a6d",
+            "pnid": 140,
+            "rand": 1745682829965
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/p?rand=1745682829965&pnid=140&pcid=2d2f5f6b-91eb-4a4e-bc54-74b686f14a6d"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": 2884,
+            "partner_url": "https://tr.snapchat.com/cm/p?rand=1745682829965&pnid=140&pcid=${TA_DEVICE_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1745682829965%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr6.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": 2884,
+            "partner_url": "https://tr.snapchat.com/cm/p?rand=1745682829965&pnid=140&pcid=${TA_DEVICE_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1745682829965%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 284649973.1745854,
+            "bg": "ffffff",
+            "capi": 2,
+            "cid": "CAQSGwDZpuyz16T4z-iU6nc2z6MLRdq5UR7ADhgdmQ",
+            "crd": "CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBOAFAAUondHJpZ2dlciwgZXZlbnQtc291cmNlPW5hdmlnYXRpb24tc291cmNlWgMKAQFiBAoCAgM",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UkMLTqHw2zYRm4vCQItnu7IVd7Q87NrDfY",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853762185,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54o0h2v9198268938z8843531469za201zb881041051",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "is_vtc": 1,
+            "label": "Fy-xCPzi4NYZEJH_oZo-",
+            "npa": 0,
+            "pscrd": "CMaquMzW0byHFiITCJnd1YqE-4wDFfybjggdz7QoeTIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADofaHR0cHM6Ly93d3cuYWNjZXNzaGVhbHRoY3QuY29tL0JYQ2hFSThNNjh3QVlRcFA2LTVZYXhrOW1WQVJJdEFNSHAxOGNoa2ZNQ05Xa3d1N0VZSmNtTFJWNDY4VnpwS1MxV2tnSjZkRkpGUmZSUW8tb2FVSEUzeG9VdA",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 273631776,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "Access Health CT - CT’s Official Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.accesshealthct.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/16698081169/?random=1954063891&cv=11&fst=1745853762185&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54o0h2v9198268938z8843531469za201zb881041051&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.accesshealthct.com%2F&label=Fy-xCPzi4NYZEJH_oZo-&hn=www.googleadservices.com&frm=0&tiba=Access%20Health%20CT%20-%20CT%E2%80%99s%20Official%20Health%20Insurance%20Marketplace&value=0&npa=0&auid=284649973.1745853762&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBOAFAAUondHJpZ2dlciwgZXZlbnQtc291cmNlPW5hdmlnYXRpb24tc291cmNlWgMKAQFiBAoCAgM&pscrd=CMaquMzW0byHFiITCJnd1YqE-4wDFfybjggdz7QoeTIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADofaHR0cHM6Ly93d3cuYWNjZXNzaGVhbHRoY3QuY29tL0JYQ2hFSThNNjh3QVlRcFA2LTVZYXhrOW1WQVJJdEFNSHAxOGNoa2ZNQ05Xa3d1N0VZSmNtTFJWNDY4VnpwS1MxV2tnSjZkRkpGUmZSUW8tb2FVSEUzeG9VdA&is_vtc=1&cid=CAQSGwDZpuyz16T4z-iU6nc2z6MLRdq5UR7ADhgdmQ&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_UkMLTqHw2zYRm4vCQItnu7IVd7Q87NrDfY&random=273631776"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmSimo-GTM-WebTemplate",
+            "cas": 8138070589541248,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.accesshealthct.com",
+            "ec": 1,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853762224.524704785305893061",
+            "hrl": "2eec6a",
+            "id": 326339271066956,
+            "if": false,
+            "it": 1745853762038,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "redirect": 0,
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853762414,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?redirect=0&rqm=GET&exp=k0&cdl=&cas=8138070589541248&cs_cc=1&coo=false&it=1745853762038&ler=empty&hrl=2eec6a&pm=1&fbp=fb.1.1745853762224.524704785305893061&o=12316&ec=1&a=tmSimo-GTM-WebTemplate&r=stable&v=2.9.199&sh=812&sw=375&ts=1745853762414&if=false&rl=&dl=https%3A%2F%2Fwww.accesshealthct.com&ev=PageView&id=326339271066956"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 8666603930126067,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.accesshealthct.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853762224.524704785305893061",
+            "hrl": "06aae6",
+            "id": 567174535759363,
+            "if": false,
+            "it": 1745853762038,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853762418,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=567174535759363&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762418&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=06aae6&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8666603930126067&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 8666603930126067,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.accesshealthct.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853762224.524704785305893061",
+            "hrl": "06aae6",
+            "id": 567174535759363,
+            "if": false,
+            "it": 1745853762038,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853762418,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=567174535759363&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762418&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=06aae6&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8666603930126067&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmSimo-GTM-WebTemplate",
+            "cas": 8138070589541248,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.accesshealthct.com",
+            "ec": 1,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853762224.524704785305893061",
+            "hrl": "2eec6a",
+            "id": 326339271066956,
+            "if": false,
+            "it": 1745853762038,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853762414,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762414&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmSimo-GTM-WebTemplate",
+            "cas": 8138070589541248,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.accesshealthct.com",
+            "ec": 1,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853762224.524704785305893061",
+            "hrl": "2eec6a",
+            "id": 326339271066956,
+            "if": false,
+            "it": 1745853762038,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853762414,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762414&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bt": "1d53c387",
+            "cb": 1745853762400,
+            "pnid": 140,
+            "u_sclid": "9708339c-f257-4889-9e08-c13f70c09a07",
+            "u_scsid": "0a7e8b36-b9d0-49e0-aaef-5879ba483bdf"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1745853762400&u_scsid=0a7e8b36-b9d0-49e0-aaef-5879ba483bdf&u_sclid=9708339c-f257-4889-9e08-c13f70c09a07"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 284649973.1745854,
+            "bg": "ffffff",
+            "capi": 2,
+            "crd": "CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBOAFAAUondHJpZ2dlciwgZXZlbnQtc291cmNlPW5hdmlnYXRpb24tc291cmNlWgMKAQFiBAoCAgM",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "dma": 0,
+            "eitems": "ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Ulzbj3HpAC0WCWrwvjq6nyPRTXRGyWNg-4",
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853762185,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54o0h2v9198268938z8843531469za201zb881041051",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "Fy-xCPzi4NYZEJH_oZo-",
+            "npa": 0,
+            "pscrd": "CMaquMzW0byHFiITCJnd1YqE-4wDFfybjggdz7QoeTIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADofaHR0cHM6Ly93d3cuYWNjZXNzaGVhbHRoY3QuY29tL0JYQ2hFSThNNjh3QVlRcFA2LTVZYXhrOW1WQVJJdEFNSHAxOGNoa2ZNQ05Xa3d1N0VZSmNtTFJWNDY4VnpwS1MxV2tnSjZkRkpGUmZSUW8tb2FVSEUzeG9VdA",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1954063891,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "Access Health CT - CT’s Official Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.accesshealthct.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16698081169/?random=1954063891&cv=11&fst=1745853762185&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54o0h2v9198268938z8843531469za201zb881041051&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.accesshealthct.com%2F&label=Fy-xCPzi4NYZEJH_oZo-&hn=www.googleadservices.com&frm=0&tiba=Access%20Health%20CT%20-%20CT%E2%80%99s%20Official%20Health%20Insurance%20Marketplace&value=0&npa=0&auid=284649973.1745853762&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiQybECCNPFsQII68yxAgjPzrECCP7OsQII_86xAgjWz7ECIgEBOAFAAUondHJpZ2dlciwgZXZlbnQtc291cmNlPW5hdmlnYXRpb24tc291cmNlWgMKAQFiBAoCAgM&eitems=ChEI8M68wAYQiv_d79Do6cnSARIdAIow_Ulzbj3HpAC0WCWrwvjq6nyPRTXRGyWNg-4&pscrd=CMaquMzW0byHFiITCJnd1YqE-4wDFfybjggdz7QoeTIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADofaHR0cHM6Ly93d3cuYWNjZXNzaGVhbHRoY3QuY29tL0JYQ2hFSThNNjh3QVlRcFA2LTVZYXhrOW1WQVJJdEFNSHAxOGNoa2ZNQ05Xa3d1N0VZSmNtTFJWNDY4VnpwS1MxV2tnSjZkRkpGUmZSUW8tb2FVSEUzeG9VdA"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||sc-static.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://tr.snapchat.com/cm/i?pid=ae31b5c2-c9a3-409b-8af8-adb22bb87ecd&u_scsid=295581eb-745b-4a4d-9c0a-a0a5fcabdfe9&u_sclid=126440f4-65f9-47fc-88a3-dcc6c0a7ffd6",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sc-static.net/scevent.min.js"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmSimo-GTM-WebTemplate",
+            "cas": 8138070589541248,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.accesshealthct.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853762224.524704785305893061",
+            "hrl": "2eec6a",
+            "id": 326339271066956,
+            "if": false,
+            "it": 1745853762038,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "tm": 1,
+            "ts": 1745853762226,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762226&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&tm=1&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmSimo-GTM-WebTemplate",
+            "cas": 8138070589541248,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.accesshealthct.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853762224.524704785305893061",
+            "hrl": "2eec6a",
+            "id": 326339271066956,
+            "if": false,
+            "it": 1745853762038,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "tm": 1,
+            "ts": 1745853762226,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=326339271066956&ev=PageView&dl=https%3A%2F%2Fwww.accesshealthct.com&rl=&if=false&ts=1745853762226&sw=375&sh=812&v=2.9.199&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=12316&fbp=fb.1.1745853762224.524704785305893061&pm=1&hrl=2eec6a&ler=empty&it=1745853762038&coo=false&tm=1&cs_cc=1&cas=8138070589541248&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.accesshealthct.com",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119,173,200,202,250,176,234,129,154,137,247,123,155,183,169,125,144,130,197,120,159,136",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/567174535759363?v=2.9.199&r=stable&domain=www.accesshealthct.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119%2C173%2C200%2C202%2C250%2C176%2C234%2C129%2C154%2C137%2C247%2C123%2C155%2C183%2C169%2C125%2C144%2C130%2C197%2C120%2C159%2C136"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 284649973.1745854,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "ct_cookie_present": 0,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853762185,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54o0h2v9198268938z8843531469za201zb881041051",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "Fy-xCPzi4NYZEJH_oZo-",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853762185,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "Access Health CT - CT’s Official Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.accesshealthct.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/16698081169?random=1745853762185&cv=11&fst=1745853762185&fmt=3&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54o0h2v9198268938z8843531469za201zb881041051&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.accesshealthct.com%2F&label=Fy-xCPzi4NYZEJH_oZo-&hn=www.googleadservices.com&frm=0&tiba=Access%20Health%20CT%20-%20CT%E2%80%99s%20Official%20Health%20Insurance%20Marketplace&value=0&bttype=purchase&npa=0&auid=284649973.1745853762&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&ct_cookie_present=0"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 284649973.1745854,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853762185,
+            "gcd": "13l3l3l3l1l1",
+            "gcl_ctr": 1,
+            "gtm": "45be54o0h2v9198268938z8843531469za201zb881041051",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "Fy-xCPzi4NYZEJH_oZo-",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "random": 1745853762185,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "Access Health CT - CT’s Official Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.accesshealthct.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/16698081169/?random=1745853762185&cv=11&fst=1745853762185&bg=ffffff&guid=ON&async=1&gcl_ctr=1&gtm=45be54o0h2v9198268938z8843531469za201zb881041051&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.accesshealthct.com%2F&label=Fy-xCPzi4NYZEJH_oZo-&hn=www.googleadservices.com&frm=0&tiba=Access%20Health%20CT%20-%20CT%E2%80%99s%20Official%20Health%20Insurance%20Marketplace&value=0&bttype=purchase&npa=0&auid=284649973.1745853762&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&capi=2&_tu=Cg&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": "ae31b5c2-c9a3-409b-8af8-adb22bb87ecd",
+            "u_sclid": "126440f4-65f9-47fc-88a3-dcc6c0a7ffd6",
+            "u_scsid": "295581eb-745b-4a4d-9c0a-a0a5fcabdfe9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/i?pid=ae31b5c2-c9a3-409b-8af8-adb22bb87ecd&u_scsid=295581eb-745b-4a4d-9c0a-a0a5fcabdfe9&u_sclid=126440f4-65f9-47fc-88a3-dcc6c0a7ffd6"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "3.44.6-2504241707"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/config/com/ae31b5c2-c9a3-409b-8af8-adb22bb87ecd.json?v=3.44.6-2504241707"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 912107485.1745853,
+            "dma": 0,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v881041051z8843531469za200zb843531469",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tid": "G-GKZ9FW7VB1",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-GKZ9FW7VB1&cid=912107485.1745853762&gtm=45je54o0h2v881041051z8843531469za200zb843531469&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EA",
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1745853761647,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 912107485.1745853,
+            "dl": "https://www.accesshealthct.com/",
+            "dma": 0,
+            "dt": "Access Health CT - CT’s Official Health Insurance Marketplace",
+            "en": "page_view",
+            "ep.content_group": "Other group",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v881041051z8843531469za200zb843531469",
+            "ir": 1,
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853762,
+            "sr": "375x812",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 7506,
+            "tid": "G-GKZ9FW7VB1",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKZ9FW7VB1&gtm=45je54o0h2v881041051z8843531469za200zb843531469&_p=1745853761647&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=912107485.1745853762&ul=en-us&sr=375x812&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=EA&_s=1&dl=https%3A%2F%2Fwww.accesshealthct.com%2F&sid=1745853762&sct=1&seg=0&dt=Access%20Health%20CT%20-%20CT%E2%80%99s%20Official%20Health%20Insurance%20Marketplace&en=page_view&_fv=1&_nsi=1&_ss=1&ep.content_group=Other%20group&tfd=7506"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54o0h2v881041051za200zb843531469",
+            "id": "AW-16698081169",
+            "l": "dataLayer",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-16698081169&l=dataLayer&cx=c&gtm=45je54o0h2v881041051za200zb843531469&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.accesshealthct.com",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/326339271066956?v=2.9.199&r=stable&domain=www.accesshealthct.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://www.accesshealthct.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fwww.accesshealthct.com"
+      },
+      {
+        "data": {
+          "filter": "||sc-static.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sc-static.net/scevent.min.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54o0h2v843531469za200",
+            "id": "G-GKZ9FW7VB1",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-GKZ9FW7VB1&l=dataLayer&cx=c&gtm=45He54o0h2v843531469za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 284649973.1745854,
+            "dl": "https://www.accesshealthct.com/",
+            "dma": 0,
+            "dt": "Access Health CT - CT’s Official Health Insurance Marketplace",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54o0h2v843531469za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 382838107.1745854,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 7332,
+            "tft": 1745853761920
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.accesshealthct.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=382838107.1745853762&dt=Access%20Health%20CT%20-%20CT%E2%80%99s%20Official%20Health%20Insurance%20Marketplace&auid=284649973.1745853762&navt=n&npa=0&gtm=45He54o0h2v843531469za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&tft=1745853761920&tfd=7332&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 69532425,
+            "app": "typekit",
+            "e": "css",
+            "f": "9795.9796.9797.9798",
+            "ht": "tk",
+            "k": "gog2ahb",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.css?s=1&k=gog2ahb&ht=tk&f=9795.9796.9797.9798&a=69532425&app=typekit&e=css"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5X659MQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accesshealthct.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5X659MQ"
+      }
+    ]
+  }
+}

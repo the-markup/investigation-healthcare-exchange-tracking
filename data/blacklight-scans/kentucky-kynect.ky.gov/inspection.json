@@ -1,0 +1,654 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://kynect.ky.gov/s/?language=en_US",
+  "uri_dest": "https://kynect.ky.gov/s/?language=en_US",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "kynect.ky.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:22:56.188Z",
+  "end_time": "2025-04-28T15:23:00.888Z",
+  "browsing_history": [
+    "https://kynect.ky.gov/s/?language=en_US"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "kynect.ky.gov"
+      ],
+      "third_party": [
+        "script.crazyegg.com",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "www.youtube.com",
+        "fonts.gstatic.com",
+        "googleads.g.doubleclick.net",
+        "static.doubleclick.net",
+        "www.google.com",
+        "jnn-pa.googleapis.com",
+        "i.ytimg.com",
+        "yt3.ggpht.com",
+        "play.google.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "touchstart",
+          "touchend"
+        ]
+      },
+      "MOUSE": {
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://kynect.ky.gov/components/lightning/f6Controller.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-R45MFQRZ2J": [
+          "click"
+        ],
+        "https://kynect.ky.gov/libraries/instrumentation/beaconLib.BeaconLibrary.js": [
+          "click"
+        ],
+        "https://kynect.ky.gov/components/o11y/web_vitals.js": [
+          "click"
+        ],
+        "https://kynect.ky.gov/components/instrumentation/scenarioTracker.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://www.youtube.com/s/player/22f02d3d/www-embed-player-pc.vflset/www-embed-player-pc.js": [
+          "orientationchange"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "orientationchange"
+        ],
+        "https://kynect.ky.gov/components/one/actionBar.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://kynect.ky.gov/components/lightning/f6Controller.js": [
+          "keydown"
+        ],
+        "https://kynect.ky.gov/components/o11y/web_vitals.js": [
+          "keydown"
+        ],
+        "https://kynect.ky.gov/components/instrumentation/scenarioTracker.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "renderCtx",
+        "value": "%7B%22pageId%22%3A%2211f39e33-07ee-4c09-885a-c7168a98ca84%22%2C%22schema%22%3A%22Published%22%2C%22viewType%22%3A%22Published%22%2C%22brandingSetId%22%3A%220a8f2ce2-a02d-4690-8cc6-b4b8a739a088%22%2C%22audienceIds%22%3A%22%22%7D",
+        "domain": "kynect.ky.gov",
+        "path": "/s",
+        "expires": -1,
+        "size": 236,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CookieConsentPolicy",
+        "value": "0:1",
+        "domain": "kynect.ky.gov",
+        "path": "/",
+        "expires": "2026-04-28T15:22:57.277Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "LSKey-c$CookieConsentPolicy",
+        "value": "0:1",
+        "domain": "kynect.ky.gov",
+        "path": "/",
+        "expires": "2026-04-28T15:22:57.277Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "C1DCF2CE28B2ACCE4EB80B57D815FD4D~000000000000000000000000000000~YAAQJk5DFyE1KnuWAQAATYX+fBtjWkOfm4UPKHaVtUJ85VmuMqP0mQdqg4Qivpc8BUf5B+a2vcIGsrUgg9WKQwtxDSGjqvmdwXbkPM9SfiGY7nBJoYsohV7KSXYkDF4JjlD33xGE0zLAGpgWh91EjcUa5EH/hGol3B7bDNPM+mnXcstNdSkTWi3fINW00s7B0y9s5NeLcVRKL6CkhGZ1NBACoeJJ9hEh/1whXfsm5HHy7mH2qbcIfRca8z6ZAL3sOfCLzC+g3DXFhuWKW/yEEtvDRtdoX3Sby1JdjQx1BRwXvgOudCt6bdabSJ5PXrT0gJv1ca1gc1B5fyjJc0RAXLabdSFWqLv8aCsSJ3tKUDPBER8UgtC6Fj32vvJzVv3hI4D5rbhx",
+        "domain": "ky.gov",
+        "path": "/",
+        "expires": "2025-04-28T17:22:56.278Z",
+        "size": 463,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_R45MFQRZ2J",
+        "value": "GS1.1.1745853778.1.0.1745853778.0.0.0",
+        "domain": "ky.gov",
+        "path": "/",
+        "expires": "2026-06-02T15:22:58.272Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.822611007.1745853778",
+        "domain": "ky.gov",
+        "path": "/",
+        "expires": "2026-06-02T15:22:58.272Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "YSC",
+        "value": "N_2eGCZsPcE",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__Secure-ROLLOUT_TOKEN",
+        "value": "CLqdj6iLpf76RBD_1K6ShPuMAxj_1K6ShPuMAw%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:22:58.463Z",
+        "size": 66,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://ky.gov",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "9FaGoswQ9IM",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:22:58.463Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJVUxIEGgAgLA%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:22:58.463Z",
+        "size": 44,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pctrk",
+        "value": "c38f9eb5-00d8-4573-ae9d-7052034a59ff",
+        "domain": "kynect.ky.gov",
+        "path": "/",
+        "expires": "2026-04-28T15:22:58.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sv",
+        "value": "E43FFE33A6C2D08E4FE2A6871838C2C1~YAAQJk5DF0I2KnuWAQAAoI3+fBtxpLTCB7WQPAmLNp7yT8me3DulpNTd7jiIXRzikfQ2xJCOVYt8fYL3XBJI34Nn36TGz2I16lyDRoX5RpMvsDOmLQulx5c3oyjr0QM3oktubIGxIjwnpMaS+t7VGyYBfJg71IEixwLwjePOmma/QkN2Vlt1VmtwWoAGEslLaekndbrI4Nc/rPvID3UEMSw4FvIi+02z+u9zc6y1FlD02fOCLtqCtc4N3FY=~1",
+        "domain": "ky.gov",
+        "path": "/",
+        "expires": "2025-04-28T17:22:58.309Z",
+        "size": 292,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NID",
+        "value": "523=rBZQGC03e_J2sV3KWkQRMiIqJpbvSe_TuYsg1A4npCrws9GMCGA4TznpPVmoKBAB3JW3tJH_gomnn3-nu4mLD4bRbMs4Ip7x8c5Q_uXDB5vke26rbGlY99Po1ZSe5LPD4F8OVp8agUi5wfXOPwnwql1hOKKDfrDLhYr8wu35sSN8WiZrfuBjt3ccbnxgwrRl5gc-Fjo",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2025-10-28T15:22:59.154Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dnSmew": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/generate_204?dnSmew"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "slf_rd": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/aEcMJH7G2Og?modestbranding=1&showinfo=0&rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1745853778094,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 822611007.1745853,
+            "dl": "https://kynect.ky.gov/s/?language=en_US",
+            "dma": 0,
+            "dt": "Home",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0h1v9104200268z8832515070za200zb832515070",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853778,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 1727,
+            "tid": "G-R45MFQRZ2J",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://kynect.ky.gov/s/?language=en_US",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-R45MFQRZ2J&gtm=45je54n0h1v9104200268z8832515070za200zb832515070&_p=1745853778094&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=822611007.1745853778&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853778&sct=1&seg=0&dl=https%3A%2F%2Fkynect.ky.gov%2Fs%2F%3Flanguage%3Den_US&dt=Home&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1727"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54o0h2v832515070za200",
+            "id": "G-R45MFQRZ2J",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://kynect.ky.gov/s/?language=en_US",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-R45MFQRZ2J&l=dataLayer&cx=c&gtm=45He54o0h2v832515070za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-R45MFQRZ2J"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://kynect.ky.gov/s/?language=en_US",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-R45MFQRZ2J"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-K6MF8Q5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://kynect.ky.gov/s/?language=en_US",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K6MF8Q5"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://kynect.ky.gov/s/?language=en_US",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0069/0273.js"
+      }
+    ]
+  }
+}

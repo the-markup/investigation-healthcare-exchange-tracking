@@ -1,0 +1,270 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://portal.healthconnect.vermont.gov/VTHBELand/welcome.action",
+  "uri_dest": "https://portal.healthconnect.vermont.gov/VTHBELand/welcome.action",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "portal.healthconnect.vermont.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:23:57.127Z",
+  "end_time": "2025-04-28T15:24:00.237Z",
+  "browsing_history": [
+    "https://portal.healthconnect.vermont.gov/VTHBELand/welcome.action"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "portal.healthconnect.vermont.gov",
+        "identity.id.vermont.gov"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "ajax.googleapis.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "www.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-FVJ4SV14S3": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "JSESSIONID",
+        "value": "iot8_3Ltk0IbxYB-Nw27HcvrDP4bjgZQKpJNGpgNjEXtcwXVlrIZ!1491852371!1001apfrp00025.optumfe.com!7005!-1!73831562!1001apfrp00024.optumfe.com!7005!-1!1745853838061",
+        "domain": "portal.healthconnect.vermont.gov",
+        "path": "/VTHBELand",
+        "expires": -1,
+        "size": 166,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "iot8_3Ltk0IbxYB-Nw27HcvrDP4bjgZQKpJNGpgNjEXtcwXVlrIZ!1491852371!1001apfrp00025.optumfe.com!7005!-1!73831562!1001apfrp00024.optumfe.com!7005!-1",
+        "domain": "portal.healthconnect.vermont.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 152,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_FVJ4SV14S3",
+        "value": "GS1.1.1745853838.1.0.1745853838.0.0.0",
+        "domain": "vermont.gov",
+        "path": "/",
+        "expires": "2026-06-02T15:23:58.746Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1775608786.1745853839",
+        "domain": "vermont.gov",
+        "path": "/",
+        "expires": "2026-06-02T15:23:58.747Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OAMAuthnHintCookie",
+        "value": "0@1745853838",
+        "domain": "vermont.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OAMRequestContext_portal.healthconnect.vermont.gov_443_73445a",
+        "value": "sDZswY+q8bVkoMLRM7al5A==",
+        "domain": "portal.healthconnect.vermont.gov",
+        "path": "/",
+        "expires": "2025-04-28T15:28:58.895Z",
+        "size": 85,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1745853838373,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1775608786.1745853,
+            "dl": "https://portal.healthconnect.vermont.gov/VTHBELand/welcome.action",
+            "dma": 0,
+            "dt": "VHC Landing Page",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9166498250za200",
+            "npa": 0,
+            "pscdl": "",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853838,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 1023,
+            "tid": "G-FVJ4SV14S3",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://portal.healthconnect.vermont.gov/VTHBELand/welcome.action",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVJ4SV14S3&gtm=45je54n0v9166498250za200&_p=1745853838373&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=1775608786.1745853839&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853838&sct=1&seg=0&dl=https%3A%2F%2Fportal.healthconnect.vermont.gov%2FVTHBELand%2Fwelcome.action&dt=VHC%20Landing%20Page&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1023"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-FVJ4SV14S3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://portal.healthconnect.vermont.gov/VTHBELand/welcome.action",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FVJ4SV14S3"
+      }
+    ]
+  }
+}

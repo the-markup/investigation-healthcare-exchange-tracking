@@ -1,0 +1,2417 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://healthsourceri.com/",
+  "uri_dest": "https://healthsourceri.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "healthsourceri.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:23:52.535Z",
+  "end_time": "2025-04-28T15:23:57.105Z",
+  "browsing_history": [
+    "https://healthsourceri.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "healthsourceri.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "healthsourceri.wpengine.com",
+        "s3.amazonaws.com",
+        "widgetlogic.org",
+        "app.five9.com",
+        "www.googletagmanager.com",
+        "cdn.userway.org",
+        "www.youtube.com",
+        "fonts.gstatic.com",
+        "www.google.com",
+        "www.google-analytics.com",
+        "bat.bing.com",
+        "snap.licdn.com",
+        "connect.facebook.net",
+        "pixel.byspotify.com",
+        "us-2305-adswizz.attribution.adswizz.com",
+        "us-37981-adswizz.attribution.adswizz.com",
+        "px.ads.linkedin.com",
+        "stats.g.doubleclick.net",
+        "pixels.spotify.com",
+        "googleads.g.doubleclick.net",
+        "static.doubleclick.net",
+        "td.doubleclick.net",
+        "jnn-pa.googleapis.com",
+        "i.ytimg.com",
+        "www.linkedin.com",
+        "pixel.tapad.com",
+        "api.userway.org",
+        "www.facebook.com",
+        "play.google.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.userway.org/widget/2025-04-22-09-13-51/index.js": [
+          "keydown"
+        ],
+        "https://cdn.userway.org/frontend/javascripts/combined.js?v=1745313231": [
+          "keyup"
+        ],
+        "https://cdn.userway.org/widgetapp/2025-04-22-09-13-51/widget_app_base_1745313231478.js": [
+          "keydown"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://healthsourceri.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "keyup",
+          "keydown"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.userway.org/frontend/javascripts/combined.js?v=1745313231": [
+          "mouseup"
+        ],
+        "https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js": [
+          "mousedown"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://connect.facebook.net/signals/config/1101102970378823?v=2.9.199&r=stable&domain=healthsourceri.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119": [
+          "click"
+        ],
+        "https://cdn.userway.org/widgetapp/2025-04-22-09-13-51/widget_app_base_1745313231478.js": [
+          "mousemove"
+        ],
+        "https://healthsourceri.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "click",
+          "mouseup"
+        ],
+        "https://healthsourceri.com/wp-content/plugins/simple-banner/simple-banner.js?ver=3.0.6": [
+          "scroll"
+        ],
+        "https://healthsourceri.com/wp-content/plugins/gtranslate/js/dwf.js?ver=6.8": [
+          "click"
+        ],
+        "https://healthsourceri.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?ver=4.27.4": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/destination?id=AW-975713793&l=dataLayer&cx=c&gtm=45je54n0v870134978za200zb72692790&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001": [
+          "click"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5GM4QD": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://healthsourceri.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://www.youtube.com/s/player/22f02d3d/www-embed-player-pc.vflset/www-embed-player-pc.js": [
+          "orientationchange"
+        ],
+        "https://www.youtube.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "orientationchange"
+        ],
+        "https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__wpdm_client",
+        "value": "09c10d6e3e0810894b24685ea792959e",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 45,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mc_session_ids[default]",
+        "value": "d94b5fa051c9747fdd5aab342cc88b7d83e37907",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-28T15:28:53.241Z",
+        "size": 63,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mc_session_ids[multi][0]",
+        "value": "8c829ca3006d2644349cf3255ca8e91cf6ac9008",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-28T15:28:53.241Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mc_session_ids[multi][1]",
+        "value": "6b356544e7efb985e08be2699371174f2e77f1f6",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-28T15:28:53.241Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mc_session_ids[multi][2]",
+        "value": "a8368e403f69103e3bc0a09c59744622c52041da",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-28T15:28:53.241Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mc_session_ids[multi][3]",
+        "value": "0bef7d791dd6921b46aec81bb63eec6cd51137d7",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-28T15:28:53.241Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mc_session_ids[multi][4]",
+        "value": "19f40d0bd1707acc5a576aed1df2c7fdc75dc5a0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-28T15:28:53.241Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "YSC",
+        "value": "HKAIFNT-ROE",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "Bzcmys3isVA",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:23:54.175Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJVUxIEGgAgUA%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:23:54.175Z",
+        "size": 44,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.506285979.1745853834",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:53.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.873620174.1745853834",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:53.872Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1986357172.1745853834",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-29T15:23:53.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dc_gtm_UA-41553520-1",
+        "value": "1",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-28T15:24:53.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__spdt",
+        "value": "d44aae8ba5bb4b7f9ed3a4c7c220d064",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:53.000Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:38:54.079Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_sugr",
+        "value": "c9fee1f0-2fee-4fe3-9254-015e766f9974",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:54.583Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&34ad1dd2-d658-4920-83fe-49604cf26ebd\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:55.583Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=VGST05:s=V:r=V:a=V:p=V:g=3367:u=1:x=1:i=1745853834:t=1745940234:v=2:sig=AQGAk8H6TvHL03SGAvjtalkr3P7VvuT4\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-04-29T15:23:55.077Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "wp-wpml_current_language",
+        "value": "en",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetsid",
+        "value": "cba14440244411f085af1d61317628c4",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2025-04-29T15:23:54.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetvid",
+        "value": "cba19bd0244411f0bc069f54df529013",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:54.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-ROLLOUT_TOKEN",
+        "value": "CKXDodWxkbDdyQEQhPzXrIT7jAMYgp_3rIT7jAM%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2025-10-25T15:23:54.175Z",
+        "size": 64,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://healthsourceri.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MUID",
+        "value": "0707F275BCF26BA70277E7A9BD716A87",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:55.184Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "bat.bing.com",
+        "path": "/",
+        "expires": "2025-05-05T15:23:55.184Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UserMatchHistory",
+        "value": "AQK6usMpaJklewAAAZZ8_2P0IZ2--pB2YwcztSOtXLdIcrhD_rmRfLikqgQA87J7qN9ZNfansAiYnQ",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-05-28T15:23:54.203Z",
+        "size": 94,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "value": "AQI8ZXIjCLCsowAAAZZ8_2P05aN7HWmcmUOmisCEMAN_9cf8bBPA49o-u6zzC4y3Y_hUnZHaCHkWx_Ji8qYicQ",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-05-28T15:23:54.203Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bscookie",
+        "value": "\"v=1&20250428152354100315b3-051c-455b-83bf-bf42e05424d9AQH1qVNdCb0SsbgRf-F37_6kKXQ79YmK\"",
+        "domain": "www.linkedin.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:55.455Z",
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:54.893Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1745853834811",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:54.893Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "c033236f-c946-4f02-bd06-2d443162e9a3",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:54.893Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "NID",
+        "value": "523=frHrq8IPq5FCMVTOWMqDCQ_Q7drcfEcYL1-q8qH3eaTJI4DmyWM6AoKONTqdmsCNhWAwbETHOonhUN1i5JI_sJBqYhT2HzQrdjQOzkFpMicCaDK-JLVIpzv2m6iYcGt753Tl7H8wXmN97GIgfel_vdqqauHjD5Xvph06NqFhHjaeNDGCv7dAk6nV76artzcwKueBZIU",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2025-10-28T15:23:54.786Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_47D7GLGKM4",
+        "value": "GS1.1.1745853833.1.0.1745853836.0.0.0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:56.151Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s2",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s3",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s4",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s6",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s7",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s8",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s9",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s10",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s11",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s12",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s13",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s14",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s15",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s16",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s17",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s18",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s19",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s21",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s23",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s24",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s25",
+        "value": "0",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s101",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s102",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s103",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s104",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s105",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s106",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s107",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "userway-s108",
+        "value": "null",
+        "domain": "healthsourceri.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://healthsourceri.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1101102970378823&ev=PageView&dl=https%3A%2F%2Fhealthsourceri.com&rl=&if=false&ts=1745853834334&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=8220&cs_est=true&pm=1&hrl=52183f&ler=empty&it=1745853833812&coo=false&cs_cc=1&cas=8989099147774982&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://healthsourceri.com",
+        "raw": "https://www.facebook.com/tr/?id=1101102970378823&ev=PageView&dl=https%3A%2F%2Fhealthsourceri.com&rl=&if=false&ts=1745853834334&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=8220&cs_est=true&pm=1&hrl=52183f&ler=empty&it=1745853833812&coo=false&cs_cc=1&cas=8989099147774982&cdl=&exp=k0&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/v1/log_event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "alt": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      },
+      {
+        "data": {
+          "filter": "||userway.org/api/v1/stats",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.userway.org/api/v1/stats/enabled-feature"
+      },
+      {
+        "data": {
+          "filter": "||userway.org/api/v1/stats",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.userway.org/api/v1/stats/enabled-feature"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "slf_rd": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "authuser": 0,
+            "format": "json",
+            "hasfast": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "liSync": true,
+            "li_adsId": "83761bc6-939e-4466-9d2f-57b50e7f3f49",
+            "pid": 706842,
+            "time": 1745853833866,
+            "url": "https://healthsourceri.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=706842&time=1745853833866&li_adsId=83761bc6-939e-4466-9d2f-57b50e7f3f49&url=https%3A%2F%2Fhealthsourceri.com%2F&cookiesTest=true&liSync=true"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "AXghpw": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/generate_204?AXghpw"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmgoogletagmanager",
+            "cas": 8989099147774982,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://healthsourceri.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "hrl": "52183f",
+            "id": 1101102970378823,
+            "if": false,
+            "it": 1745853833812,
+            "ler": "empty",
+            "o": 8220,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853834334,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1101102970378823&ev=PageView&dl=https%3A%2F%2Fhealthsourceri.com&rl=&if=false&ts=1745853834334&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=8220&cs_est=true&pm=1&hrl=52183f&ler=empty&it=1745853833812&coo=false&cs_cc=1&cas=8989099147774982&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "tmgoogletagmanager",
+            "cas": 8989099147774982,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://healthsourceri.com",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "hrl": "52183f",
+            "id": 1101102970378823,
+            "if": false,
+            "it": 1745853833812,
+            "ler": "empty",
+            "o": 8220,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853834334,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=1101102970378823&ev=PageView&dl=https%3A%2F%2Fhealthsourceri.com&rl=&if=false&ts=1745853834334&sw=375&sh=812&v=2.9.199&r=stable&a=tmgoogletagmanager&ec=0&o=8220&cs_est=true&pm=1&hrl=52183f&ler=empty&it=1745853833812&coo=false&cs_cc=1&cas=8989099147774982&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 506285979.1745854,
+            "bg": "ffffff",
+            "cid": "CAQSGwDZpuyz264opwDc_GujUVZGqy5LOVbhKEQZmA",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745852400000,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9170175438z872692790za201zb870134978",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ipr": "y",
+            "is_vtc": 1,
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "random": 666141938,
+            "rfmt": 3,
+            "rmt_tld": 0,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "Home - HealthSource RI",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://healthsourceri.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/975713793/?random=1745853833952&cv=11&fst=1745852400000&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9170175438z872692790za201zb870134978&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fhealthsourceri.com%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20-%20HealthSource%20RI&npa=0&auid=506285979.1745853834&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyz264opwDc_GujUVZGqy5LOVbhKEQZmA&random=666141938&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 1215,
+            "mid": "050341ad-0d8b-4ae1-b265-ed06686e135a",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://healthsourceri.com/",
+            "pi": 0,
+            "r": "",
+            "rn": 511926,
+            "sc": 24,
+            "sh": 812,
+            "sid": "cba14440244411f085af1d61317628c4",
+            "sv": 1,
+            "sw": 375,
+            "ti": 5442140,
+            "tl": "Home - HealthSource RI",
+            "tm": "gtm002",
+            "vid": "cba19bd0244411f0bc069f54df529013",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5442140&tm=gtm002&Ver=2&mid=050341ad-0d8b-4ae1-b265-ed06686e135a&bo=1&sid=cba14440244411f085af1d61317628c4&vid=cba19bd0244411f0bc069f54df529013&vids=1&msclkid=N&pi=0&lg=en-US&sw=375&sh=812&sc=24&nwd=1&tl=Home%20-%20HealthSource%20RI&p=https%3A%2F%2Fhealthsourceri.com%2F&r=&lt=1215&evt=pageLoad&sv=1&cdb=AQAQ&rn=511926"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "LSVXGw": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/generate_204?LSVXGw"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "li_adsId": "83761bc6-939e-4466-9d2f-57b50e7f3f49",
+            "pid": 706842,
+            "time": 1745853833866,
+            "url": "https://healthsourceri.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=706842&time=1745853833866&li_adsId=83761bc6-939e-4466-9d2f-57b50e7f3f49&url=https%3A%2F%2Fhealthsourceri.com%2F&cookiesTest=true"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "slf_rd": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 506285979.1745854,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853833952,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9170175438z872692790za201zb870134978",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "random": 1745853833952,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "Home - HealthSource RI",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://healthsourceri.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/975713793?random=1745853833952&cv=11&fst=1745853833952&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9170175438z872692790za201zb870134978&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fhealthsourceri.com%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20-%20HealthSource%20RI&npa=0&auid=506285979.1745853834&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 506285979.1745854,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853833952,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9170175438z872692790za201zb870134978",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "random": 1745853833952,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tiba": "Home - HealthSource RI",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://healthsourceri.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/975713793/?random=1745853833952&cv=11&fst=1745853833952&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9170175438z872692790za201zb870134978&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fhealthsourceri.com%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20-%20HealthSource%20RI&npa=0&auid=506285979.1745853834&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/3b4X1oQLo5k?feature=oembed",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5442140.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_gid": 1986357172.1745853,
+            "_r": 3,
+            "_u": "YCDAiAABBAAAAG~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 873620174.1745853,
+            "gjid": 1203529430,
+            "jid": 1038306793,
+            "t": "dc",
+            "tid": "UA-41553520-1",
+            "v": 1,
+            "z": 1727266617
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-41553520-1&cid=873620174.1745853834&jid=1038306793&gjid=1203529430&_gid=1986357172.1745853834&_u=YCDAiAABBAAAAG~&z=1727266617"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1986357172.1745853,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YCDAiAABBAAAAC~",
+            "_v": "j101",
+            "a": 1683919697,
+            "cid": 873620174.1745853,
+            "de": "UTF-8",
+            "dl": "https://healthsourceri.com/",
+            "dma": 0,
+            "dt": "Home - HealthSource RI",
+            "gcd": "13l3l3l3l1l1",
+            "gjid": 1203529430,
+            "gtm": "45He54n0n715GM4QDv72692790za200",
+            "je": 0,
+            "jid": 1038306793,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tid": "UA-41553520-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1706772949
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1683919697&t=pageview&_s=1&dl=https%3A%2F%2Fhealthsourceri.com%2F&ul=en-us&de=UTF-8&dt=Home%20-%20HealthSource%20RI&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YCDAiAABBAAAAC~&jid=1038306793&gjid=1203529430&cid=873620174.1745853834&tid=UA-41553520-1&_gid=1986357172.1745853834&_slc=1&gtm=45He54n0n715GM4QDv72692790za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&z=1706772949"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "li_adsId": "83761bc6-939e-4466-9d2f-57b50e7f3f49",
+            "pid": 706842,
+            "time": 1745853833866,
+            "url": "https://healthsourceri.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=706842&time=1745853833866&li_adsId=83761bc6-939e-4466-9d2f-57b50e7f3f49&url=https%3A%2F%2Fhealthsourceri.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": 706842,
+            "time": 1745853833866,
+            "url": "https://healthsourceri.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=706842&time=1745853833866&url=https%3A%2F%2Fhealthsourceri.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_geo": 1,
+            "_nsi": 1,
+            "_p": 1745853833478,
+            "_rdi": 1,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 873620174.1745853,
+            "dl": "https://healthsourceri.com/",
+            "dma": 0,
+            "dt": "Home - HealthSource RI",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v870134978z872692790za200zb72692790",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853833,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 983,
+            "tid": "G-47D7GLGKM4",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-47D7GLGKM4&gtm=45je54n0v870134978z872692790za200zb72692790&_p=1745853833478&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=873620174.1745853834&ul=en-us&are=1&frm=0&pscdl=&_geo=1&_rdi=1&_s=1&sid=1745853833&sct=1&seg=0&dl=https%3A%2F%2Fhealthsourceri.com%2F&dt=Home%20-%20HealthSource%20RI&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=983"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54n0v870134978za200zb72692790",
+            "id": "AW-975713793",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-975713793&l=dataLayer&cx=c&gtm=45je54n0v870134978za200zb72692790&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "healthsourceri.com",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1101102970378823?v=2.9.199&r=stable&domain=healthsourceri.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://healthsourceri.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fhealthsourceri.com"
+      },
+      {
+        "data": {
+          "filter": "||adswizz.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "aw_0_req.gdpr": true,
+            "pixelId": "26a04cf3-ab2d-4f64-8963-3e77144d029c",
+            "redirectURL": "aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-",
+            "subtype": "HomePage",
+            "type": "sitevisit"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-37981-adswizz.attribution.adswizz.com/fire?pixelId=26a04cf3-ab2d-4f64-8963-3e77144d029c&type=sitevisit&subtype=HomePage&aw_0_req.gdpr=true&redirectURL=aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-"
+      },
+      {
+        "data": {
+          "filter": "||adswizz.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "aw_0_req.gdpr": true,
+            "pixelId": "cc00fc4c-70cb-418c-bde1-408a4c9a8767",
+            "redirectURL": "aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-",
+            "subtype": "HomePage",
+            "type": "sitevisit"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-37981-adswizz.attribution.adswizz.com/fire?pixelId=cc00fc4c-70cb-418c-bde1-408a4c9a8767&type=sitevisit&subtype=HomePage&aw_0_req.gdpr=true&redirectURL=aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-"
+      },
+      {
+        "data": {
+          "filter": "||adswizz.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "aw_0_req.gdpr": true,
+            "pixelId": "8fde61b5-e48b-4ff5-a5d5-168d27e3726e",
+            "redirectURL": "aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-",
+            "subtype": "HomePage",
+            "type": "sitevisit"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-2305-adswizz.attribution.adswizz.com/fire?pixelId=8fde61b5-e48b-4ff5-a5d5-168d27e3726e&type=sitevisit&subtype=HomePage&aw_0_req.gdpr=true&redirectURL=aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v72692790za200",
+            "id": "G-47D7GLGKM4",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-47D7GLGKM4&l=dataLayer&cx=c&gtm=45He54n0v72692790za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 506285979.1745854,
+            "dl": "https://healthsourceri.com/",
+            "dma": 0,
+            "dt": "Home - HealthSource RI",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54n0v72692790za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 1247446904.1745853,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 816,
+            "tft": 1745853833691
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fhealthsourceri.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1247446904.1745853834&dt=Home%20-%20HealthSource%20RI&auid=506285979.1745853834&navt=n&npa=0&gtm=45He54n0v72692790za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&tft=1745853833691&tfd=816&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5GM4QD"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://healthsourceri.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5GM4QD"
+      }
+    ]
+  }
+}

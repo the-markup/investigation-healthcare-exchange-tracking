@@ -1,0 +1,1845 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://pennie.com/",
+  "uri_dest": "https://pennie.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "pennie.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:23:48.084Z",
+  "end_time": "2025-04-28T15:23:52.515Z",
+  "browsing_history": [
+    "https://pennie.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "pennie.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "www.google.com",
+        "use.typekit.net",
+        "stats.wp.com",
+        "www.googletagmanager.com",
+        "p.typekit.net",
+        "player.vimeo.com",
+        "fonts.gstatic.com",
+        "cdn.userway.org",
+        "home-c32.nice-incontact.com",
+        "api.weglot.com",
+        "pixel.wp.com",
+        "www.gstatic.com",
+        "connect.facebook.net",
+        "static.ads-twitter.com",
+        "js.adsrvr.org",
+        "snap.licdn.com",
+        "ads.undertone.com",
+        "www.google-analytics.com",
+        "api.userway.org",
+        "t.co",
+        "analytics.twitter.com",
+        "px.ads.linkedin.com",
+        "unpkg.com",
+        "pix.pontiac.media",
+        "f.vimeocdn.com",
+        "i.vimeocdn.com",
+        "3155290.fls.doubleclick.net",
+        "td.doubleclick.net",
+        "ad.doubleclick.net",
+        "cdn.raygun.io",
+        "www.facebook.com",
+        "www.linkedin.com",
+        "vod-adaptive-ak.vimeocdn.com",
+        "www.googleadservices.com",
+        "adservice.google.com",
+        "api-c32.nice-incontact.com",
+        "api.raygun.io",
+        "invalid",
+        "googleads.g.doubleclick.net",
+        "api-na1.niceincontact.com",
+        "insight.adsrvr.org",
+        "match.adsrvr.org",
+        "ib.adnxs.com",
+        "cm.g.doubleclick.net",
+        "pixel.rubiconproject.com",
+        "cdn77.api.userway.org"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.userway.org/widgetapp/2025-04-22-09-13-51/remediation/remediation_1745313231478.js": [
+          "keydown"
+        ],
+        "https://home-c32.nice-incontact.com/incontact/chatclient/js/bundle.min.js": [
+          "keypress",
+          "keyup",
+          "keydown",
+          "input"
+        ],
+        "https://f.vimeocdn.com/p/4.40.48/js/player.module.js": [
+          "keydown",
+          "keyup",
+          "keypress"
+        ],
+        "https://cdn.userway.org/widgetapp/2025-04-22-09-13-51/widget_app_base_1745313231478.js": [
+          "keydown"
+        ],
+        "https://pennie.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "keydown",
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.userway.org/widgetapp/2025-04-22-09-13-51/remediation/remediation_1745313231478.js": [
+          "mousedown"
+        ],
+        "https://home-c32.nice-incontact.com/incontact/chatclient/js/bundle.min.js": [
+          "click"
+        ],
+        "https://f.vimeocdn.com/p/4.40.48/js/player.module.js": [
+          "click"
+        ],
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js": [
+          "mousedown"
+        ],
+        "https://cdn.raygun.io/raygun4js/raygun.min.js": [
+          "click"
+        ],
+        "https://cdn.userway.org/widgetapp/2025-04-22-09-13-51/widget_app_base_1745313231478.js": [
+          "mousemove"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KDKSBRX": [
+          "click"
+        ],
+        "https://pennie.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "mouseup",
+          "scroll",
+          "click"
+        ],
+        "https://pennie.com/wp-content/plugins/weglot/dist/front-js.js?ver=4.2.9": [
+          "click"
+        ],
+        "https://pennie.com/wp-content/themes/Divi/js/custom.unified.js?ver=4.5.7": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://f.vimeocdn.com/p/4.40.48/js/player.module.js": [
+          "orientationchange"
+        ],
+        "https://pennie.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://f.vimeocdn.com/p/4.40.48/js/vendor.module.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1437171919.1745853829",
+        "domain": "pennie.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:49.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ASP.NET_SessionId",
+        "value": "h0y4dkio41n1jnoibjoiyem3",
+        "domain": "home-c32.nice-incontact.com",
+        "path": "/",
+        "expires": -1,
+        "size": 41,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UTID",
+        "value": "32a46933a04e43fe9530c935159ad5dc",
+        "domain": "undertone.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.837Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UTID_ENC",
+        "value": "2zxlc9wlv5j07irlmcsg8yuak",
+        "domain": "undertone.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.837Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_9GEJCBKR0G",
+        "value": "GS1.1.1745853829.1.0.1745853829.0.0.0",
+        "domain": "pennie.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:49.501Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.432048139.1745853829",
+        "domain": "pennie.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:49.623Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.2068817243.1745853830",
+        "domain": "pennie.com",
+        "path": "/",
+        "expires": "2025-04-29T15:23:49.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_175892623_1",
+        "value": "1",
+        "domain": "pennie.com",
+        "path": "/",
+        "expires": "2025-04-28T15:24:49.000Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "li_sugr",
+        "value": "306d6c3b-0417-416e-8bd0-65927a54dd16",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:49.838Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&0b17087e-5d09-450c-8149-f3f8371d3eae\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:49.838Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=OGST05:s=O:r=O:a=O:p=O:g=3369:u=1:x=1:i=1745853829:t=1745940229:v=2:sig=AQHV-LZCIWlhBxikDIDQFRhqA_o-VC-2\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-04-29T15:23:49.637Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "muc_ads",
+        "value": "2064a5c0-a2aa-4964-b07f-58c8c4bf43bf",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2026-06-02T15:23:49.637Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "24hMtqWHoXpX.SxKtAoaqF0IdleAdkMmpu4VaMZ4a5A-1745853829-1.0.1.1-4dcUf4.wXKzGESa.uXALgAA7Rw2ntJQqE.6ziye6G2koZ1m1ZKkvnb_Oa7D6KtHRXZARi5Z_r.QdmfifkfaUap.jCouHUolD34ArC8LsyUU",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2025-04-28T15:53:49.637Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853829639.772084300981358518",
+        "domain": "pennie.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:49.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "personalization_id",
+        "value": "\"v1_cFEEuyNqcuGz/ijRa5q5sg==\"",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:49.649Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "FhJIDxL4m6QqtDNlo5164P68buu.fX6wOaa5.bvCr2c-1745853829-1.0.1.1-p4xUtePbzF_CKLWqjDE0EG8ijhjnpMPHhaIaGTztPoRObDHLcwnr6owl5UWDGv0ow9QdBiHoE2Ne.05WhG0iGWcELJdZ6Vnkc.kBEhjgziM",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2025-04-28T15:53:49.649Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "8GvHceEZf.ER6.Kvz2UlmY18.3TvBbbJbWcIjvcFNGM-1745853829-1.0.1.1-l_QveQ51SxmVvtrCnB2Z2UwBSEoX5srSFqWrexJmrYoWKuLjjYSguu4Zbxod9aQ9",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2025-04-28T15:53:49.679Z",
+        "size": 134,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "svmZB1WD1WxWNSTlmUFJ461wYwV.fFQV2aBfQTFPP3I-1745853829743-0.0.1.1-604800000",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 82,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ar_debug",
+        "value": "1",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-05-28T15:23:49.687Z",
+        "size": 9,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:38:49.776Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UserMatchHistory",
+        "value": "AQKuisqMT5BurQAAAZZ8_1Jz_bEKX-Yu7mIwo9ENbHeMEZBhFIvA8AM08F-6Ufzep-04N0NReFPrkQ",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-05-28T15:23:49.694Z",
+        "size": 94,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "value": "AQLYJjj5MsCzKAAAAZZ8_1JzFLr5ephRtR-OL_4dG3UOuZCGGOuJcfkiuwnlMeDPqaInz4LL4D7m2TPZpITgAQ",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-05-28T15:23:49.694Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bscookie",
+        "value": "\"v=1&202504281523491c14fd54-259f-4d3e-8d4f-9a74234e67d1AQF9XRvgkZ9ADHbv_n5eHR-izYwNPcBa\"",
+        "domain": "www.linkedin.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:49.783Z",
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "e4f06d17-0542-46e1-b937-4ffde4bffc2e",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.897Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "yPwaoCtiXTFuYsY/W4EAA2GDxT8GEDMG1BWmqUIwpoJ1oTFxw2GKXawTBwoiUv9QL4xiQJSvtCHjvtRj5/kL2zrEv8m4KitnUVZr6JOihaMSRPyOzQwMicFIRiTE",
+        "domain": "home-c32.nice-incontact.com",
+        "path": "/",
+        "expires": "2025-05-05T15:23:50.598Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit_p",
+        "value": "1|zUxmg1NXgw6CEzykbIIpPMUIlBrrrcS9QKtuQAx31ULp+DYcZrvuo5Vby5/NHQjbpAst611JPARw0S94mtzOH0pB9H8pjytykCdHvyxZSdamjzMABeSF0CaXvcwgHTMrDL5MYz0HOuHkWCz7fmHADlvJlJynVPJ4i8N7BAmaQgdJt49mPrPRUFyo1mMSXCQ85kHVXO4iITS/uI9Aj+Yjkr7KKI+4mJy3oGirqm5gUhh8KMm0j6uXBGY3KwFBcKEE94+z9/eToJrLtHkR71fkUv/JTzblBZm7jOq1oSpaE+yma+WVcS1g3g==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.746Z",
+        "size": 321,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://pennie.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos",
+        "value": "MA18ALCT-26-DC4",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.746Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos_p",
+        "value": "MA18ALCT-26-DC4",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.746Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://pennie.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "1|zUxmg1NXgw6CEzykbIIpPMUIlBrrrcS9QKtuQAx31ULp+DYcZrvuo5Vby5/NHQjbpAst611JPARw0S94mtzOH0pB9H8pjytykCdHvyxZSdamjzMABeSF0CaXvcwgHTMrDL5MYz0HOuHkWCz7fmHADlvJlJynVPJ4i8N7BAmaQgdJt49mPrPRUFyo1mMSXCQ85kHVXO4iITS/uI9Aj+Yjkr7KKI+4mJy3oGirqm5gUhh8KMm0j6uXBGY3KwFBcKEE94+z9/eToJrLtHkR71fkUv/JTzblBZm7jOq1oSpaE+yma+WVcS1g3g==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.746Z",
+        "size": 319,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "7339371978290313555",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:50.860Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFwoIYXBwbmV4dXMSCwiyk-jj1pyDPhAFEhUKBmdvb2dsZRILCITWiPv27oA-EAUSFgoHcnViaWNvbhILCIDvp-DWnIM-EAUYBSACKAMyCwiskKqN7ZyDPhAFQg8iDQgBEgkKBXRpZXIyEAFaBzQ4N29sZmdgAQ..",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:23:50.897Z",
+        "size": 169,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://pennie.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1112626032510295&ev=PageView&dl=https%3A%2F%2Fpennie.com&rl=&if=false&ts=1745853829642&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853829639.772084300981358518&pm=1&hrl=04fb17&ler=empty&it=1745853829444&coo=false&cs_cc=1&cas=7955500964471392%2C7333263340121500&cdl=&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://pennie.com",
+        "raw": "https://www.facebook.com/tr/?id=1112626032510295&ev=PageView&dl=https%3A%2F%2Fpennie.com&rl=&if=false&ts=1745853829642&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853829639.772084300981358518&pm=1&hrl=04fb17&ler=empty&it=1745853829444&coo=false&cs_cc=1&cas=7955500964471392%2C7333263340121500&cdl=&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=e4f06d17-0542-46e1-b937-4ffde4bffc2e": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253a%252f%252fmatch.adsrvr.org%252ftrack%252fcmf%252fappnexus%253fttd%253d1%2526anid%253d%2524UID%26ttd_tdid%3De4f06d17-0542-46e1-b937-4ffde4bffc2e"
+      },
+      {
+        "data": {
+          "filter": "||undertone.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 266253,
+            "trackerid": 8407
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.undertone.com/t?trackerid=8407&cb=266253"
+      },
+      {
+        "data": {
+          "filter": "||rubiconproject.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "expires": 30,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "next": "https://match.adsrvr.org/track/cmf/rubicon",
+            "nid": 2307,
+            "put": "e4f06d17-0542-46e1-b937-4ffde4bffc2e",
+            "v": 8981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.rubiconproject.com/tap.php?v=8981&nid=2307&put=e4f06d17-0542-46e1-b937-4ffde4bffc2e&gdpr=0&gdpr_consent=&expires=30&next=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Frubicon"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "google_cm": "",
+            "google_hm": "ZTRmMDZkMTctMDU0Mi00NmUxLWI5MzctNGZmZGU0YmZmYzJl",
+            "google_nid": "TheTradeDesk",
+            "google_sc": "",
+            "ttd_tdid": "e4f06d17-0542-46e1-b937-4ffde4bffc2e"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=TheTradeDesk&google_cm&google_sc&google_hm=ZTRmMDZkMTctMDU0Mi00NmUxLWI5MzctNGZmZGU0YmZmYzJl&gdpr=0&gdpr_consent=&ttd_tdid=e4f06d17-0542-46e1-b937-4ffde4bffc2e"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=$UID": "",
+            "ttd_tdid": "e4f06d17-0542-46e1-b937-4ffde4bffc2e"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=e4f06d17-0542-46e1-b937-4ffde4bffc2e"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "487olfg",
+            "paapi": 1,
+            "ref": "https://pennie.com/",
+            "upid": "39axvwi",
+            "upv": "1.1.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/upb/?adv=487olfg&ref=https%3A%2F%2Fpennie.com%2F&upid=39axvwi&upv=1.1.0&paapi=1"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "487olfg",
+            "paapi": 1,
+            "ref": "https://pennie.com/",
+            "upid": "39axvwi",
+            "upv": "1.1.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/up?adv=487olfg&ref=https%3A%2F%2Fpennie.com%2F&upid=39axvwi&upv=1.1.0&paapi=1"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "auid": 1437171919.1745853,
+            "capi": 1,
+            "cid": "CAQSGwDZpuyznYxZtVsOax_223VkhgEmvrhYx6kJ4Q",
+            "crd": "CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQIiAQFAAUosbm90LW5hdmlnYXRpb24tc291cmNlLCB0cmlnZ2VyLCBldmVudC1zb3VyY2VaAwoBAWIECgICAw",
+            "ct_cookie_present": false,
+            "cv": 9,
+            "eid": "375603260,466465926,512247838,658953496",
+            "fmt": 3,
+            "frm": 2,
+            "fst": 1745853829912,
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ig": 1,
+            "is_vtc": 1,
+            "label": "CoGkCPPclPMYENSY5pwD",
+            "npa": 1,
+            "num": 1,
+            "pscrd": "CM6N54bMqMjKGSITCLz896qE-4wDFQa3jggd5Cc1djIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADokaHR0cHM6Ly8zMTU1MjkwLmZscy5kb3VibGVjbGljay5uZXQvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZHFwcHlvTTE4U0plQ2hvYW1tNnRuaXI4RmlFTHpDQ3A1UzFxX2JmekZEb2ZJX2hVLUxXcjQ",
+            "random": 2061878702,
+            "ref": "https://pennie.com/",
+            "resp": "GooglemKTybQhCsO",
+            "sendb": 1,
+            "top": "https://pennie.com/",
+            "u_ah": 1415,
+            "u_aw": 2560,
+            "u_cd": 24,
+            "u_h": 1440,
+            "u_his": 2,
+            "u_java": false,
+            "u_nmime": 2,
+            "u_nplug": 5,
+            "u_tz": -420,
+            "u_w": 2560,
+            "url": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=htt"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/865700948/?random=608954915&cv=9&fst=1745853829912&num=1&npa=1&label=CoGkCPPclPMYENSY5pwD&guid=ON&resp=GooglemKTybQhCsO&eid=375603260%2C466465926%2C512247838%2C658953496&u_h=1440&u_w=2560&u_ah=1415&u_aw=2560&u_cd=24&u_his=2&u_tz=-420&u_java=false&u_nplug=5&u_nmime=2&sendb=1&ig=1&auid=1437171919.1745853829&frm=2&url=https%3A%2F%2F3155290.fls.doubleclick.net%2Factivityi%3Bsrc%3D3155290%3Btype%3Dpenni0%3Bcat%3Dlp_la0%3Bord%3D6694911492431%3Bnpa%3D0%3Bauiddc%3D1437171919.1745853829%3Bps%3D1%3Bpcor%3D1150544358%3Buaa%3D%3Buab%3D%3Buafvl%3D%3Buamb%3D0%3Buam%3D%3Buap%3D%3Buapv%3D%3Buaw%3D0%3Bfrm%3D0%3B_tu%3DKlA%3Bgtm%3D45fe54n0v9189892026z8831735816za201zb877502512%3Bgcd%3D13l3l3l3l1l1%3Bdma%3D0%3Bdc_fmt%3D1%3Btag_exp%3D102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001%3Bptag_exp%3D102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001%3Bepver%3D2%3B~oref%3Dhtt&ref=https%3A%2F%2Fpennie.com%2F&top=https%3A%2F%2Fpennie.com%2F&capi=1&hn=www.googleadservices.com&fmt=3&ct_cookie_present=false&crd=CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQIiAQFAAUosbm90LW5hdmlnYXRpb24tc291cmNlLCB0cmlnZ2VyLCBldmVudC1zb3VyY2VaAwoBAWIECgICAw&pscrd=CM6N54bMqMjKGSITCLz896qE-4wDFQa3jggd5Cc1djIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADokaHR0cHM6Ly8zMTU1MjkwLmZscy5kb3VibGVjbGljay5uZXQvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZHFwcHlvTTE4U0plQ2hvYW1tNnRuaXI4RmlFTHpDQ3A1UzFxX2JmekZEb2ZJX2hVLUxXcjQ&is_vtc=1&cid=CAQSGwDZpuyznYxZtVsOax_223VkhgEmvrhYx6kJ4Q&random=2061878702&resp=GooglemKTybQhCsO"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "auid": 1437171919.1745853,
+            "capi": 1,
+            "crd": "CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQIiAQFAAUosbm90LW5hdmlnYXRpb24tc291cmNlLCB0cmlnZ2VyLCBldmVudC1zb3VyY2VaAwoBAWIECgICAw",
+            "ct_cookie_present": false,
+            "cv": 9,
+            "eid": "375603260,466465926,512247838,658953496",
+            "fmt": 3,
+            "frm": 2,
+            "fst": 1745853829912,
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ig": 1,
+            "label": "CoGkCPPclPMYENSY5pwD",
+            "npa": 1,
+            "num": 1,
+            "pscrd": "CM6N54bMqMjKGSITCLz896qE-4wDFQa3jggd5Cc1djIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADokaHR0cHM6Ly8zMTU1MjkwLmZscy5kb3VibGVjbGljay5uZXQvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZHFwcHlvTTE4U0plQ2hvYW1tNnRuaXI4RmlFTHpDQ3A1UzFxX2JmekZEb2ZJX2hVLUxXcjQ",
+            "random": 608954915,
+            "ref": "https://pennie.com/",
+            "resp": "GooglemKTybQhCsO",
+            "sendb": 1,
+            "top": "https://pennie.com/",
+            "u_ah": 1415,
+            "u_aw": 2560,
+            "u_cd": 24,
+            "u_h": 1440,
+            "u_his": 2,
+            "u_java": false,
+            "u_nmime": 2,
+            "u_nplug": 5,
+            "u_tz": -420,
+            "u_w": 2560,
+            "url": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=htt"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/865700948/?random=608954915&cv=9&fst=1745853829912&num=1&npa=1&label=CoGkCPPclPMYENSY5pwD&guid=ON&resp=GooglemKTybQhCsO&eid=375603260%2C466465926%2C512247838%2C658953496&u_h=1440&u_w=2560&u_ah=1415&u_aw=2560&u_cd=24&u_his=2&u_tz=-420&u_java=false&u_nplug=5&u_nmime=2&sendb=1&ig=1&auid=1437171919.1745853829&frm=2&url=https%3A%2F%2F3155290.fls.doubleclick.net%2Factivityi%3Bsrc%3D3155290%3Btype%3Dpenni0%3Bcat%3Dlp_la0%3Bord%3D6694911492431%3Bnpa%3D0%3Bauiddc%3D1437171919.1745853829%3Bps%3D1%3Bpcor%3D1150544358%3Buaa%3D%3Buab%3D%3Buafvl%3D%3Buamb%3D0%3Buam%3D%3Buap%3D%3Buapv%3D%3Buaw%3D0%3Bfrm%3D0%3B_tu%3DKlA%3Bgtm%3D45fe54n0v9189892026z8831735816za201zb877502512%3Bgcd%3D13l3l3l3l1l1%3Bdma%3D0%3Bdc_fmt%3D1%3Btag_exp%3D102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001%3Bptag_exp%3D102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001%3Bepver%3D2%3B~oref%3Dhtt&ref=https%3A%2F%2Fpennie.com%2F&top=https%3A%2F%2Fpennie.com%2F&capi=1&hn=www.googleadservices.com&fmt=3&ct_cookie_present=false&crd=CPLOsQIIorixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIkMmxAgjTxbECCOvMsQIIz86xAgj-zrECCP_OsQIiAQFAAUosbm90LW5hdmlnYXRpb24tc291cmNlLCB0cmlnZ2VyLCBldmVudC1zb3VyY2VaAwoBAWIECgICAw&pscrd=CM6N54bMqMjKGSITCLz896qE-4wDFQa3jggd5Cc1djIMCANiCAgAEAAYACAAMgwIBGIICAAQABgAIAAyDAgHYggIABAAGAAgADIMCAhiCAgAEAAYACAAMgwICWIICAAQABgAIAAyDAgKYggIABAAGAAgADIMCAJiCAgAEAAYACAAMgwIC2IICAAQABgAIAAyDAgVYggIABAAGAAgADIMCB9iCAgAEAAYACAAMgwIE2IICAAQABgAIAAyDAgSYggIABAAGAAgADokaHR0cHM6Ly8zMTU1MjkwLmZscy5kb3VibGVjbGljay5uZXQvQldDaEVJOE02OHdBWVFwUDYtNVlheGs5bVZBUklzQU1IcDE4ZHFwcHlvTTE4U0plQ2hvYW1tNnRuaXI4RmlFTHpDQ3A1UzFxX2JmekZEb2ZJX2hVLUxXcjQ"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "auid": 1437171919.1745853,
+            "capi": 1,
+            "cv": 9,
+            "eid": "375603260,466465926,512247838,658953496",
+            "fmt": 4,
+            "frm": 2,
+            "fst": 1745853829912,
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ig": 1,
+            "label": "CoGkCPPclPMYENSY5pwD",
+            "npa": 1,
+            "num": 1,
+            "random": 1745853829912,
+            "ref": "https://pennie.com/",
+            "resp": "GooglemKTybQhCsO",
+            "rfmt": 3,
+            "sendb": 1,
+            "top": "https://pennie.com/",
+            "u_ah": 1415,
+            "u_aw": 2560,
+            "u_cd": 24,
+            "u_h": 1440,
+            "u_his": 2,
+            "u_java": false,
+            "u_nmime": 2,
+            "u_nplug": 5,
+            "u_tz": -420,
+            "u_w": 2560,
+            "url": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=htt"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/865700948/?random=1745853829912&cv=9&fst=1745853829912&num=1&npa=1&label=CoGkCPPclPMYENSY5pwD&guid=ON&resp=GooglemKTybQhCsO&eid=375603260%2C466465926%2C512247838%2C658953496&u_h=1440&u_w=2560&u_ah=1415&u_aw=2560&u_cd=24&u_his=2&u_tz=-420&u_java=false&u_nplug=5&u_nmime=2&sendb=1&ig=1&auid=1437171919.1745853829&frm=2&url=https%3A%2F%2F3155290.fls.doubleclick.net%2Factivityi%3Bsrc%3D3155290%3Btype%3Dpenni0%3Bcat%3Dlp_la0%3Bord%3D6694911492431%3Bnpa%3D0%3Bauiddc%3D1437171919.1745853829%3Bps%3D1%3Bpcor%3D1150544358%3Buaa%3D%3Buab%3D%3Buafvl%3D%3Buamb%3D0%3Buam%3D%3Buap%3D%3Buapv%3D%3Buaw%3D0%3Bfrm%3D0%3B_tu%3DKlA%3Bgtm%3D45fe54n0v9189892026z8831735816za201zb877502512%3Bgcd%3D13l3l3l3l1l1%3Bdma%3D0%3Bdc_fmt%3D1%3Btag_exp%3D102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001%3Bptag_exp%3D102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001%3Bepver%3D2%3B~oref%3Dhtt&ref=https%3A%2F%2Fpennie.com%2F&top=https%3A%2F%2Fpennie.com%2F&capi=1&hn=www.googleadservices.com&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=*;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion.js"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "liSync": true,
+            "li_adsId": "57ad20ef-f0c8-4d73-b4f6-813faf499af1",
+            "pid": 4172257,
+            "time": 1745853829508,
+            "url": "https://pennie.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=4172257&time=1745853829508&li_adsId=57ad20ef-f0c8-4d73-b4f6-813faf499af1&url=https%3A%2F%2Fpennie.com%2F&cookiesTest=true&liSync=true"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "li_adsId": "57ad20ef-f0c8-4d73-b4f6-813faf499af1",
+            "pid": 4172257,
+            "time": 1745853829508,
+            "url": "https://pennie.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=4172257&time=1745853829508&li_adsId=57ad20ef-f0c8-4d73-b4f6-813faf499af1&url=https%3A%2F%2Fpennie.com%2F&cookiesTest=true"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": "7955500964471392,7333263340121500",
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://pennie.com",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853829639.772084300981358518",
+            "hrl": "04fb17",
+            "id": 1112626032510295,
+            "if": false,
+            "it": 1745853829444,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853829642,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1112626032510295&ev=PageView&dl=https%3A%2F%2Fpennie.com&rl=&if=false&ts=1745853829642&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853829639.772084300981358518&pm=1&hrl=04fb17&ler=empty&it=1745853829444&coo=false&cs_cc=1&cas=7955500964471392%2C7333263340121500&cdl=&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": "7955500964471392,7333263340121500",
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://pennie.com",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853829639.772084300981358518",
+            "hrl": "04fb17",
+            "id": 1112626032510295,
+            "if": false,
+            "it": 1745853829444,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853829642,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=1112626032510295&ev=PageView&dl=https%3A%2F%2Fpennie.com&rl=&if=false&ts=1745853829642&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853829639.772084300981358518&pm=1&hrl=04fb17&ler=empty&it=1745853829444&coo=false&cs_cc=1&cas=7955500964471392%2C7333263340121500&cdl=&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 2068817243.1745853,
+            "_r": 1,
+            "_s": 1,
+            "_u": "YADAAUABAAAAACAAI~",
+            "_v": "j101",
+            "a": 199242366,
+            "cid": 432048139.1745854,
+            "de": "UTF-8",
+            "dl": "https://pennie.com/",
+            "dma": 0,
+            "dt": "Home | Pennie",
+            "gcd": "13l3l3l3l1l1",
+            "gjid": 909226397,
+            "gtm": "457e54n0za200",
+            "je": 0,
+            "jid": 1931848722,
+            "jsscut": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tid": "UA-175892623-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 91715825
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=199242366&t=pageview&_s=1&dl=https%3A%2F%2Fpennie.com%2F&ul=en-us&de=UTF-8&dt=Home%20%7C%20Pennie&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YADAAUABAAAAACAAI~&jid=1931848722&gjid=909226397&cid=432048139.1745853829&tid=UA-175892623-1&_gid=2068817243.1745853830&_r=1&gtm=457e54n0za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&jsscut=1&z=91715825"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/activity;register_conversion=1;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=10;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/fls/rul/activityi;fledge=1;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=9;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://3155290.fls.doubleclick.net/activityi;src=3155290;type=penni0;cat=lp_la0;ord=6694911492431;npa=0;auiddc=1437171919.1745853829;ps=1;pcor=1150544358;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189892026z8831735816za201zb877502512;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001;epver=2;~oref=https%3A%2F%2Fpennie.com%2F?"
+      },
+      {
+        "data": {
+          "filter": "/pixel?id=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 448,
+            "type": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pix.pontiac.media/pixel?id=448&type=2"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "li_adsId": "57ad20ef-f0c8-4d73-b4f6-813faf499af1",
+            "pid": 4172257,
+            "time": 1745853829508,
+            "url": "https://pennie.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=4172257&time=1745853829508&li_adsId=57ad20ef-f0c8-4d73-b4f6-813faf499af1&url=https%3A%2F%2Fpennie.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": 4172257,
+            "time": 1745853829508,
+            "url": "https://pennie.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=4172257&time=1745853829508&url=https%3A%2F%2Fpennie.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1745853828697,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 432048139.1745854,
+            "dl": "https://pennie.com/",
+            "dma": 0,
+            "dt": "Home | Pennie",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v877502512z8831735816za200zb831735816",
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853829,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 1053,
+            "tid": "G-9GEJCBKR0G",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9GEJCBKR0G&gtm=45je54n0v877502512z8831735816za200zb831735816&_p=1745853828697&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=432048139.1745853829&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1745853829&sct=1&seg=0&dl=https%3A%2F%2Fpennie.com%2F&dt=Home%20%7C%20Pennie&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1053"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54n0v877502512za200zb831735816",
+            "id": "DC-3155290",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-3155290&l=dataLayer&cx=c&gtm=45je54n0v877502512za200zb831735816&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "dv": "America/Los_Angeles&en-US&Google Inc.&MacIntel&127&375&812&8&24&375&812&0&na",
+            "eci": 2,
+            "event_id": "d9eb017e-330c-47e9-a057-f3e1de8079df",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "ae88df25-700a-43cf-9a5b-989fd21be5e7",
+            "tw_document_href": "https://pennie.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o4yd3",
+            "type": "javascript",
+            "version": "2.3.33"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26375%26812%268%2624%26375%26812%260%26na&eci=2&event_id=d9eb017e-330c-47e9-a057-f3e1de8079df&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=ae88df25-700a-43cf-9a5b-989fd21be5e7&tw_document_href=https%3A%2F%2Fpennie.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o4yd3&type=javascript&version=2.3.33"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "dv": "America/Los_Angeles&en-US&Google Inc.&MacIntel&127&375&812&8&24&375&812&0&na",
+            "eci": 2,
+            "event_id": "d9eb017e-330c-47e9-a057-f3e1de8079df",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "ae88df25-700a-43cf-9a5b-989fd21be5e7",
+            "tw_document_href": "https://pennie.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o4yd3",
+            "type": "javascript",
+            "version": "2.3.33"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26375%26812%268%2624%26375%26812%260%26na&eci=2&event_id=d9eb017e-330c-47e9-a057-f3e1de8079df&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=ae88df25-700a-43cf-9a5b-989fd21be5e7&tw_document_href=https%3A%2F%2Fpennie.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o4yd3&type=javascript&version=2.3.33"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "pennie.com",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1112626032510295?v=2.9.199&r=stable&domain=pennie.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://pennie.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fpennie.com"
+      },
+      {
+        "data": {
+          "filter": "||undertone.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 784037,
+            "trackerid": 9142
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.undertone.com/t?trackerid=9142&cb=784037"
+      },
+      {
+        "data": {
+          "filter": "||undertone.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 266253,
+            "trackerid": 8407
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.undertone.com/t?trackerid=8407&cb=266253"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.adsrvr.org/up_loader.1.1.0.js"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-175892623-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-175892623-1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v831735816za200",
+            "id": "G-9GEJCBKR0G",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-9GEJCBKR0G&l=dataLayer&cx=c&gtm=45He54n0v831735816za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 1437171919.1745853,
+            "dl": "https://pennie.com/",
+            "dma": 0,
+            "dt": "Home | Pennie",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54n0v831735816za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 1427680957.1745853,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 823,
+            "tft": 1745853829272
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fpennie.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1427680957.1745853829&dt=Home%20%7C%20Pennie&auid=1437171919.1745853829&navt=n&npa=0&gtm=45He54n0v831735816za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&tft=1745853829272&tfd=823&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||pixel.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "blog": 181947444,
+            "fcp": 711,
+            "host": "pennie.com",
+            "j": "1:14.1",
+            "post": 9502,
+            "rand": 0.6844655219153488,
+            "ref": "",
+            "srv": "pennie.com",
+            "tz": -4,
+            "v": "ext"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.wp.com/g.gif?v=ext&blog=181947444&post=9502&tz=-4&srv=pennie.com&j=1%3A14.1&host=pennie.com&ref=&fcp=711&rand=0.6844655219153488"
+      },
+      {
+        "data": {
+          "filter": "||weglot.com/pageviews?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "api_key": "wg_64d698a0b69bbd98983c428075224be41"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.weglot.com/pageviews?api_key=wg_64d698a0b69bbd98983c428075224be41"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 20732713,
+            "app": "typekit",
+            "e": "css",
+            "f": "18478.18479.18480.18481.18482.18483.18486.18487.18488.18489.24536.24553.24554.24555.24556.24557.24558.24559.24539.24540.24543.24544.24545.24546.24547.24548.24549.24552",
+            "ht": "tk",
+            "k": "fym0juk",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.css?s=1&k=fym0juk&ht=tk&f=18478.18479.18480.18481.18482.18483.18486.18487.18488.18489.24536.24553.24554.24555.24556.24557.24558.24559.24539.24540.24543.24544.24545.24546.24547.24548.24549.24552&a=20732713&app=typekit&e=css"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KDKSBRX"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KDKSBRX"
+      },
+      {
+        "data": {
+          "filter": "||stats.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pennie.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.wp.com/e-202517.js"
+      }
+    ]
+  }
+}

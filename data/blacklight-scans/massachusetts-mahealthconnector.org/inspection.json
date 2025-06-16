@@ -1,0 +1,3080 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://www.mahealthconnector.org/",
+  "uri_dest": "https://www.mahealthconnector.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.mahealthconnector.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:23:13.636Z",
+  "end_time": "2025-04-28T15:23:18.059Z",
+  "browsing_history": [
+    "https://www.mahealthconnector.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.mahealthconnector.org"
+      ],
+      "third_party": [
+        "betterhealthconnector.com",
+        "fonts.gstatic.com",
+        "www.googletagmanager.com",
+        "kit.fontawesome.com",
+        "www.youtube-nocookie.com",
+        "fonts.googleapis.com",
+        "pro.fontawesome.com",
+        "www.google.com",
+        "www.google-analytics.com",
+        "secure.quantserve.com",
+        "snap.licdn.com",
+        "connect.facebook.net",
+        "d.agkn.com",
+        "live.rezync.com",
+        "googleads.g.doubleclick.net",
+        "td.doubleclick.net",
+        "10286885.fls.doubleclick.net",
+        "ad.doubleclick.net",
+        "rules.quantcount.com",
+        "px.ads.linkedin.com",
+        "c1.rfihub.net",
+        "cdn.boomtrain.com",
+        "secure.adnxs.com",
+        "i.ytimg.com",
+        "i.liadm.com",
+        "jnn-pa.googleapis.com",
+        "yt3.ggpht.com",
+        "20849971p.rfihub.com",
+        "pixel.quantserve.com",
+        "cdn01.basis.net",
+        "adservice.google.com",
+        "www.linkedin.com",
+        "www.facebook.com",
+        "cm.g.doubleclick.net",
+        "ib.adnxs.com",
+        "dpm.demdex.net",
+        "image2.pubmatic.com",
+        "us-u.openx.net",
+        "p.rfihub.com",
+        "contextual.media.net",
+        "bpi.rtactivate.com",
+        "dsum-sec.casalemedia.com",
+        "idsync.rlcdn.com",
+        "partners.tremorhub.com",
+        "aa.agkn.com",
+        "x.bidswitch.net",
+        "sync-tm.everesttech.net",
+        "people.api.boomtrain.com",
+        "ps.eyeota.net",
+        "a.rfihub.com",
+        "i6.liadm.com",
+        "pixel-sync.sitescout.com",
+        "pixel.sitescout.com",
+        "pippio.com",
+        "attribution.sitescout.com",
+        "thrtle.com",
+        "events.api.boomtrain.com",
+        "match.adsrvr.org",
+        "cs.media.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://betterhealthconnector.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/swiper.js?ver=11.1.0": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.youtube-nocookie.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://betterhealthconnector.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "touchmove",
+          "touchstart",
+          "touchend"
+        ],
+        "https://betterhealthconnector.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-general-global.js?ver=3.11.15": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js": [
+          "mousedown"
+        ],
+        "https://www.google.com/js/th/zy9rNhS9wlhNVTKoH2dvsgD5_XMSUSRS4-UwaGEJmsU.js": [
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://www.youtube-nocookie.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://betterhealthconnector.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-carousel.js?ver=6.7.2": [
+          "mousemove"
+        ],
+        "https://betterhealthconnector.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "scroll",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NBNW5X": [
+          "click",
+          "mousedown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.youtube-nocookie.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.youtube-nocookie.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://betterhealthconnector.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "keydown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NBNW5X": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://www.youtube-nocookie.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA+CAYAAADqOXHxAAAAAXNSR0IArs4c6QAAAIdJREFUKFNNx7EKQQEAQNGXwWIwWAwGg8VgMFgMBotBSUlKkpKUJCUpSUpSkpSkJClJyUfqbO5w6gbBfyETRgRRxBBHAkmkkEYGWeSQRwFFlFBGBVXUUEcDTbTQRgdd9NDHAEOMMMYEU8wwxwJLrLDGBlvssMcBR5xwxgVX3HDHA0+88MYH3x++Shc4cLYGbAAAAABJRU5ErkJggg=="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {
+        "https://www.youtube-nocookie.com/s/player/22f02d3d/player_ias.vflset/en_US/base.js": [
+          "{}"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_li_ss",
+        "value": "ChMKCQj_____BxDcGgoGCPUBENIa",
+        "domain": "i.liadm.com",
+        "path": "/s",
+        "expires": "2025-05-28T15:23:15.900Z",
+        "size": 34,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1640799738.1745853795",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2025-07-27T15:23:15.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_P4KXFQ6SH0",
+        "value": "GS1.1.1745853794.1.0.1745853794.0.0.0",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2026-06-02T15:23:14.865Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "u",
+        "value": "C|0AAAvolniL6JZ4gAAAAAA",
+        "domain": "agkn.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:14.902Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ab",
+        "value": "0001%3AF4np9rALAKOiyUDeYfc9Kv5dLfky8ybe",
+        "domain": "agkn.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:14.902Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "zync-uuid",
+        "value": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+        "domain": "rezync.com",
+        "path": "/",
+        "expires": "2026-05-23T08:23:15.689Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.656240783.1745853795",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2026-06-02T15:23:15.002Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1998083976.1745853795",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2025-04-29T15:23:15.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-1774409-1",
+        "value": "1",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2025-04-28T15:24:15.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:38:15.131Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ar_debug",
+        "value": "1",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-05-28T15:23:15.050Z",
+        "size": 9,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_sugr",
+        "value": "d5365fa5-0636-4d88-bd3a-f51700f477b0",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:15.287Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&c490b861-7f64-4879-8c4d-3c016e7e6cb0\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:16.287Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=OGST05:s=O:r=O:a=O:p=O:g=3369:u=1:x=1:i=1745853795:t=1745940195:v=2:sig=AQF958Rtca4Bu_hAW_ARKunDPr88QcvC\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-04-29T15:23:16.096Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "4027284209123563619",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:15.461Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UserMatchHistory",
+        "value": "AQIirg3OPCeFugAAAZZ8_st9s4ha0QMeTVGoqklCxeSzcFwsYWbFGLV9f6nUxDLVJmvMmdSzrN8Zwg",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-05-28T15:23:15.140Z",
+        "size": 94,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "value": "AQJZLJpmRM83-QAAAZZ8_st92WaQFWnzlHzKe5NJNXXbVBWnV9AKQ9Q4RimjkEk0jHDMcCcwSCriWBrtfDa_og",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-05-28T15:23:15.140Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853795176.459115678525222831",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2025-07-27T15:23:15.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bscookie",
+        "value": "\"v=1&20250428152315c379559a-505e-43cf-8d52-7c17740ee20aAQErk__bBIf8LBXnquhxrKb0Fsxoyn5s\"",
+        "domain": "www.linkedin.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:16.230Z",
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rud",
+        "value": "H4sIAAAAAAAA_-MSNjY0NTM2N7cwMTQztDAxNTeysBTiM9S1dC_39nbxCMpJN0oFADZi4qolAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:15.635Z",
+        "size": 79,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ruds",
+        "value": "H4sIAAAAAAAA_-MSNjY0NTM2N7cwMTQztDAxNTeysBTiM9S1dC_39nbxCMpJN0oFADZi4qolAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 80,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_bts",
+        "value": "f25c1d90-d088-4506-b393-c2dfa3006115",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2025-04-28T16:23:15.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "anj",
+        "value": "dTM7k!M4/YErk#WF']wIg2E?iqcsEk!@wnfH8KAM.xpH^Gn!i#Et+D(D>IscFSTDgHMi3+s=IV!#+NW^!AXTO:4=sB!+k6xHC)^>",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:15.461Z",
+        "size": 103,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sd-session-id",
+        "value": ".eJwVykkOwjAMAMC_-NygOJvtfKYKxJUiaEBNuVD178BxpDlgfum2lq59h7xvb53g9mg_DcgHjPZZ9Q4ZPMbkiThgQg6RHAucEwwdoz373Or_JFW7lKspUdCEimSEF2uSE4e2iJOKGSlEjp4kXIRSImY4v7DNJWs.aA-dYw.IoFMKLwgfVQshWflqZ5qJA0ZiSY",
+        "domain": "live.rezync.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:15.689Z",
+        "size": 208,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "28564471990117533731658136690121180002",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2025-10-25T15:23:15.577Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMID",
+        "value": "aA.dY9HM4NcALaGJBq1FuwAA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.541Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPS",
+        "value": "5858",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:15.541Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPRO",
+        "value": "5858",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2025-07-27T15:23:15.541Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rlas3",
+        "value": "iXJ3aft92SQPwcSNobMNvlgCg9u071Dy5v+5Ho7H09Y=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.563Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CAA=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:15.563Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "28564471990117533731658136690121180002",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2025-10-25T15:23:15.577Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "eud",
+        "value": "H4sIAAAAAAAA_-NicjUO4jU0NzG1MDU2tzQ1M7acxYjEN7Y03ITG34XGP4XGf4XG_4XGX8SEyl-Fxt-ELs-Cyr-FzDc1NN3EiuY-blT-JGFzY7PUVIO0xCTdRFNLQ12TFENzXUuLNANdMyNLI0ODREsjyxRDK7gmEz1LczMzcwuLWcLIIWNpsQiN_0gY1aZZkqh8AIQD-x1dAQAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": "2026-05-23T15:23:15.635Z",
+        "size": 211,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "euds",
+        "value": "H4sIAAAAAAAA_wXBQQ6AIAwEwMR48i81LdBul7sPwQAP8eXOXMdTvxM11tI9XhlOkzYNwtwqUVhMBwundUPz9Aq2m4hA5g8WWktbPgAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 110,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid",
+        "value": "e39e1c02-c260-4b8b-b6d3-606563427253",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.697Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "c",
+        "value": "1745853795",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.697Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid_lu",
+        "value": "1745853795",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.697Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mako_uid",
+        "value": "1967cfece55-42190000010a4223",
+        "domain": "eyeota.net",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.885Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SERVERID",
+        "value": "16931~DM",
+        "domain": "eyeota.net",
+        "path": "/",
+        "expires": "2025-04-28T15:33:15.974Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidid",
+        "value": "02431c10-13de-4544-8aeb-bd033b1c9fc2",
+        "domain": "liadm.com",
+        "path": "/",
+        "expires": "2026-06-02T15:23:15.900Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "didts",
+        "value": "1745853795",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.928Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nnls",
+        "value": "",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:15.928Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CAA=",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2025-06-27T15:23:15.928Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "did",
+        "value": "xYOPSXb9UlJlrDmd",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.928Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_bti",
+        "value": "%7B%22app_id%22%3A%22massachusetts-health-connector%22%2C%22bsin%22%3A%227S8Ak1XDM88JKO73udHlm9oQaUDKyYbLLsf32dXMhx0w7bHr3HXmc4WaQzVOtgY0cs4bZE8%2BK5bjWYWpwrjutA%3D%3D%22%2C%22is_identified%22%3Afalse%7D",
+        "domain": "mahealthconnector.org",
+        "path": "/",
+        "expires": "2026-04-28T15:23:15.000Z",
+        "size": 207,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cp-impression-added-forcp_id_7ca3c",
+        "value": "true",
+        "domain": "www.mahealthconnector.org",
+        "path": "/",
+        "expires": "2025-04-29T15:23:16.000Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TDID",
+        "value": "f9a3bc9b-3578-4f48-a32b-112e28275dff",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:23:16.452Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAEYBSABKAIyCwj6h4DI6pyDPhAFOAE.",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:23:16.452Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mc",
+        "value": "eyJpZCI6IjE4MTkwMzQ2LWZiYmYtNDU1My1iMTg4LTgzNDg5ZjRjOWI5YiIsImwiOjE3NDU4NTM3OTY1NzcsInQiOjJ9",
+        "domain": "thrtle.com",
+        "path": "/",
+        "expires": "2025-11-14T15:23:16.539Z",
+        "size": 94,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sc",
+        "value": "eyJpIjoiMTgxOTAzNDYtZmJiZi00NTUzLWIxODgtODM0ODlmNGM5YjliIiwic2lkIjoic2lkLWI1MWE1MzUwLTI0NDQtMTFmMC04YjNmLTAyNDIwYWZmMThmOSIsIm1zIjoyLCJ0cyI6MiwicHMiOjIsInNwIjo1MDQ4LCJwcCI6MiwidHNlIjoyLCJpciI6dHJ1ZSwibHRzZSI6MTc0NTg1Mzc5NjU3N30=",
+        "domain": "thrtle.com",
+        "path": "/",
+        "expires": "2025-11-14T15:23:16.539Z",
+        "size": 230,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.mahealthconnector.org",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=135212137194653&ev=PageView&dl=https%3A%2F%2Fwww.mahealthconnector.org&rl=&if=false&ts=1745853795179&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853795176.459115678525222831&pm=1&hrl=5cdf6a&ler=empty&it=1745853794993&coo=false&cs_cc=1&cas=1933939906733869&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.mahealthconnector.org",
+        "raw": "https://www.facebook.com/tr/?id=135212137194653&ev=PageView&dl=https%3A%2F%2Fwww.mahealthconnector.org&rl=&if=false&ts=1745853795179&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853795176.459115678525222831&pm=1&hrl=5cdf6a&ler=empty&it=1745853794993&coo=false&cs_cc=1&cas=1933939906733869&cdl=&exp=k0&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/v1/log_event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "alt": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube-nocookie.com/embed/MN7rnFR7qCc?rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+      },
+      {
+        "data": {
+          "filter": "||thrtle.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "vxii_pdid": "",
+            "vxii_pid": 5048,
+            "vxii_ts": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://thrtle.com/sync?vxii_pid=5048&vxii_pdid=&vxii_ts=2"
+      },
+      {
+        "data": {
+          "filter": "||media.net^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cs": 1,
+            "ovsid": "18190346-fbbf-4553-b188-83489f4c9b9b",
+            "redirect": "https://thrtle.com/sync?vxii_pid=5048&vxii_pdid=<vsid>&vxii_ts=2",
+            "type": "thr",
+            "us_privacy": "",
+            "vxii_pdid": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cs.media.net/cksync?cs=1&ovsid=18190346-fbbf-4553-b188-83489f4c9b9b&redirect=https%3A%2F%2Fthrtle.com%2Fsync%3Fvxii_pid%3D5048%26vxii_pdid%3D%3Cvsid%3E%26vxii_ts%3D2&type=thr&us_privacy=&vxii_pdid="
+      },
+      {
+        "data": {
+          "filter": "||thrtle.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "vxii_pdid": "f9a3bc9b-3578-4f48-a32b-112e28275dff",
+            "vxii_pid": 5015
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://thrtle.com/sync?vxii_pid=5015&vxii_pdid=f9a3bc9b-3578-4f48-a32b-112e28275dff"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "TTD_PUID": "18190346-fbbf-4553-b188-83489f4c9b9b",
+            "ttd_pid": "brgeu23",
+            "ttd_tpi": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=brgeu23&ttd_tpi=1&TTD_PUID=18190346-fbbf-4553-b188-83489f4c9b9b"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "TTD_PUID": "18190346-fbbf-4553-b188-83489f4c9b9b",
+            "ttd_pid": "brgeu23",
+            "ttd_tpi": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=brgeu23&ttd_tpi=1&TTD_PUID=18190346-fbbf-4553-b188-83489f4c9b9b"
+      },
+      {
+        "data": {
+          "filter": "||thrtle.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_reach": 1,
+            "vxii_pdid": "02431c10-13de-4544-8aeb-bd033b1c9fc2",
+            "vxii_pid": 12,
+            "vxii_pid1": 7006,
+            "vxii_rcid": "18190346-fbbf-4553-b188-83489f4c9b9b",
+            "vxii_rmax": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://thrtle.com/sync?_reach=1&vxii_pdid=02431c10-13de-4544-8aeb-bd033b1c9fc2&vxii_pid=12&vxii_pid1=7006&vxii_rcid=18190346-fbbf-4553-b188-83489f4c9b9b&vxii_rmax=3"
+      },
+      {
+        "data": {
+          "filter": "||boomtrain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.api.boomtrain.com/event/track"
+      },
+      {
+        "data": {
+          "filter": "||thrtle.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "us_privacy": "1YN-",
+            "vxii_pdid": "02431c10-13de-4544-8aeb-bd033b1c9fc2",
+            "vxii_pid": 7006
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://thrtle.com/sync?vxii_pid=7006&vxii_pdid=02431c10-13de-4544-8aeb-bd033b1c9fc2&us_privacy=1YN-"
+      },
+      {
+        "data": {
+          "filter": "||eyeota.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bid": "omt9pi0",
+            "uid": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ps.eyeota.net/match/bounce/?uid=3156377841618457289&bid=omt9pi0"
+      },
+      {
+        "data": {
+          "filter": "||pippio.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1745853795.667516,
+            "it": 1,
+            "iv": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "pid": 500040
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?it=1&pid=500040&_=1745853795.667516&iv=36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "oids": "NGE4NDlmNDAzOTgxZjIxZg",
+            "px": "",
+            "upid": "e4ea17b4f7ce1346"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://10286885.fls.doubleclick.net/activityi;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://attribution.sitescout.com/privacySandbox/attributionReporting/trigger?oids=NGE4NDlmNDAzOTgxZjIxZg&upid=e4ea17b4f7ce1346&px"
+      },
+      {
+        "data": {
+          "filter": "||pippio.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1745853795.527062,
+            "it": 1,
+            "iv": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "pid": 500040
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?it=1&pid=500040&_=1745853795.527062&iv=36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cat": "mhcfy004",
+            "cntr_revenue": "",
+            "cntr_transactionId": 5550725961142,
+            "cntr_url": "https://www.mahealthconnector.org/",
+            "cookieQ": 1,
+            "src": 10286885,
+            "type": "healt000",
+            "u1": "",
+            "u2": "",
+            "u3": "",
+            "u4": "",
+            "u5": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://10286885.fls.doubleclick.net/activityi;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.sitescout.com/up/e4ea17b4f7ce1346?cookieQ=1&cntr_revenue=&cntr_transactionId=5550725961142&u1=&u2=&u3=&u4=&u5=&src=10286885&cat=mhcfy004&type=healt000&cntr_url=https%3A%2F%2Fwww.mahealthconnector.org%2F"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cookieQ": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync?cookieQ=1"
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_li_chk": true,
+            "bidder_id": 246506,
+            "bidder_uuid": 3156377841618457000,
+            "previous_uuid": "02431c1013de45448aebbd033b1c9fc2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.liadm.com/s/90096?bidder_id=246506&bidder_uuid=3156377841618457289&_li_chk=true&previous_uuid=02431c1013de45448aebbd033b1c9fc2"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cat": "mhcfy004",
+            "cntr_revenue": "",
+            "cntr_transactionId": 5550725961142,
+            "cntr_url": "https://www.mahealthconnector.org/",
+            "src": 10286885,
+            "type": "healt000",
+            "u1": "",
+            "u2": "",
+            "u3": "",
+            "u4": "",
+            "u5": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://10286885.fls.doubleclick.net/activityi;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.sitescout.com/up/e4ea17b4f7ce1346?cntr_revenue=&cntr_transactionId=5550725961142&u1=&u2=&u3=&u4=&u5=&src=10286885&cat=mhcfy004&type=healt000&cntr_url=https%3A%2F%2Fwww.mahealthconnector.org%2F"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_test": "aA_dYwAFPcnebQA_",
+            "redir": "https://p.rfihub.com/cm?in=1&pub=21653&userid=${TM_USER_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/ct/upi/pid/Mlpt2JaG/?redir=https%3A%2F%2Fp.rfihub.com%2Fcm%3Fin%3D1%26pub%3D21653%26userid%3D%24%7BTM_USER_ID%7D&_test=aA_dYwAFPcnebQA_"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync"
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1745853795.667516,
+            "bidder_id": 200442,
+            "bidder_uuid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "it": 1,
+            "iv": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "pid": 500040
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.liadm.com/s/56409?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pid=500040&it=1&iv=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&_=1745853795.667516"
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": "bd8618c307ae9885a12561b7191e2cea",
+            "cid": 3156377841618457000,
+            "forward": "https://i.liadm.com/s/56409?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pid=500040&it=1&iv=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&_=1745853795.667516",
+            "referrer": "{encSite}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/pixel?c=bd8618c307ae9885a12561b7191e2cea&cid=3156377841618457289&referrer={encSite}&forward=https%3A%2F%2Fi.liadm.com%2Fs%2F56409%3Fbidder_id%3D200442%26bidder_uuid%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26pid%3D500040%26it%3D1%26iv%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26_%3D1745853795.667516"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1745853795.6675448,
+            "forward": "https://i.liadm.com/s/56409?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pid=500040&it=1&iv=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&_=1745853795.667516",
+            "in": 0,
+            "pub": 39342,
+            "userid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=39342&in=0&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&forward=https%3A//i.liadm.com/s/56409%3Fbidder_id%3D200442%26bidder_uuid%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26pid%3D500040%26it%3D1%26iv%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26_%3D1745853795.667516&cb=1745853795.6675448"
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": "bd8618c307ae9885a12561b7191e2cea",
+            "cid": 3156377841618457000,
+            "forward": "",
+            "referrer": "{encSite}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/pixel?c=bd8618c307ae9885a12561b7191e2cea&cid=3156377841618457289&referrer={encSite}&forward="
+      },
+      {
+        "data": {
+          "filter": "||casalemedia.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "C": 1,
+            "cm_dsp_id": 57,
+            "external_user_id": 3156377841618457000,
+            "forward": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dsum-sec.casalemedia.com/rum?cm_dsp_id=57&external_user_id=3156377841618457289&forward=&C=1"
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1745853795.527062,
+            "bidder_id": 200442,
+            "bidder_uuid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "it": 1,
+            "iv": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "pid": 500040
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.liadm.com/s/56409?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pid=500040&it=1&iv=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&_=1745853795.527062"
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1745853795.107587,
+            "bidder_id": 200442,
+            "bidder_uuid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i6.liadm.com/s/64581?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788&_=1745853795.107587"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dpuuid": 3156377841618457000,
+            "et:ibs|data:dpid": 1121,
+            "redir": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=1121&dpuuid=3156377841618457289&redir="
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": "bd8618c307ae9885a12561b7191e2cea",
+            "cid": 3156377841618457000,
+            "forward": "https://i.liadm.com/s/56409?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pid=500040&it=1&iv=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&_=1745853795.527062",
+            "referrer": "{encSite}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/pixel?c=bd8618c307ae9885a12561b7191e2cea&cid=3156377841618457289&referrer={encSite}&forward=https%3A%2F%2Fi.liadm.com%2Fs%2F56409%3Fbidder_id%3D200442%26bidder_uuid%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26pid%3D500040%26it%3D1%26iv%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26_%3D1745853795.527062"
+      },
+      {
+        "data": {
+          "filter": "||openx.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cc": 1,
+            "id": 537073062,
+            "r": "",
+            "val": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-u.openx.net/w/1.0/sd?cc=1&id=537073062&val=3156377841618457289&r="
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1745853795.527085,
+            "forward": "https://i.liadm.com/s/56409?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pid=500040&it=1&iv=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&_=1745853795.527062",
+            "in": 0,
+            "pub": 39342,
+            "userid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=39342&in=0&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&forward=https%3A//i.liadm.com/s/56409%3Fbidder_id%3D200442%26bidder_uuid%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26pid%3D500040%26it%3D1%26iv%3D36ee0fab-a591-4d17-98f0-629210a929d1%253A1745853794.9766788%26_%3D1745853795.527062&cb=1745853795.527085"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "forward": "",
+            "google_error": 3,
+            "in": 0,
+            "pub": 445
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&in=0&forward=&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||eyeota.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bid": "omt9pi0",
+            "uid": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ps.eyeota.net/match?uid=3156377841618457289&bid=omt9pi0"
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1745853795.107587,
+            "_li_chk": true,
+            "bidder_id": 200442,
+            "bidder_uuid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "previous_uuid": "760c2ca7808c4e218b8fd2156e4c8c09"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.liadm.com/s/64581?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788&_=1745853795.107587&_li_chk=true&previous_uuid=760c2ca7808c4e218b8fd2156e4c8c09"
+      },
+      {
+        "data": {
+          "filter": "||boomtrain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "data": "eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e30sImV4dGVybmFsX2lkcyI6eyJ6eW5jIjoiMzZlZTBmYWItYTU5MS00ZDE3LTk4ZjAtNjI5MjEwYTkyOWQxOjE3NDU4NTM3OTQuOTc2Njc4OCJ9fQ==",
+            "site_id": "massachusetts-health-connector"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://people.api.boomtrain.com/identify/resolve?data=eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e30sImV4dGVybmFsX2lkcyI6eyJ6eW5jIjoiMzZlZTBmYWItYTU5MS00ZDE3LTk4ZjAtNjI5MjEwYTkyOWQxOjE3NDU4NTM3OTQuOTc2Njc4OCJ9fQ%3D%3D&site_id=massachusetts-health-connector"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://p.rfihub.com/cm?in=1&pub=21653&userid=${TM_USER_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/upi/pid/Mlpt2JaG/?redir=https%3A%2F%2Fp.rfihub.com%2Fcm%3Fin%3D1%26pub%3D21653%26userid%3D%24%7BTM_USER_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dsp_id": 119,
+            "expires": 30,
+            "gdpr": "{GDPR}",
+            "gdpr_consent": "{GDPR_CONSENT_469}",
+            "gdpr_pd": "{GDPR_PD}",
+            "user_id": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.bidswitch.net/sync?dsp_id=119&user_id=3156377841618457289&expires=30&gdpr={GDPR}&gdpr_consent={GDPR_CONSENT_469}&gdpr_pd={GDPR_PD}"
+      },
+      {
+        "data": {
+          "filter": "||agkn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "rf": 3156377841618457000,
+            "sid": 9212192898
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aa.agkn.com/adscores/g.pixel?sid=9212192898&rf=3156377841618457289"
+      },
+      {
+        "data": {
+          "filter": "||tremorhub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "UIRF": 3156377841618457000,
+            "r": "CAnj-7HiBGR-"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partners.tremorhub.com/sync?UIRF=3156377841618457289&r=CAnj-7HiBGR-"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/360947.gif?partner_uid=3156377841618457289"
+      },
+      {
+        "data": {
+          "filter": "||casalemedia.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cm_dsp_id": 57,
+            "external_user_id": 3156377841618457000,
+            "forward": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dsum-sec.casalemedia.com/rum?cm_dsp_id=57&external_user_id=3156377841618457289&forward="
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bidder_id": 246506,
+            "bidder_uuid": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.liadm.com/s/90096?bidder_id=246506&bidder_uuid=3156377841618457289"
+      },
+      {
+        "data": {
+          "filter": "||rtactivate.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 11017,
+            "user_id": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bpi.rtactivate.com/tag/?id=11017&user_id=3156377841618457289"
+      },
+      {
+        "data": {
+          "filter": "||media.net^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cs": 3,
+            "ovsid": 3156377841618457000,
+            "type": "rkt"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://contextual.media.net/cksync.php?cs=3&type=rkt&ovsid=3156377841618457289"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "in": 1,
+            "pub": 24472
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=24472&in=1"
+      },
+      {
+        "data": {
+          "filter": "||openx.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "id": 537073062,
+            "r": "",
+            "val": 3156377841618457000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-u.openx.net/w/1.0/sd?id=537073062&val=3156377841618457289&r="
+      },
+      {
+        "data": {
+          "filter": "||pubmatic.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "piggybackCookie": 3156377841618457000,
+            "r": "",
+            "vcode": "bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTI5NjAw=="
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTI5NjAw==&piggybackCookie=3156377841618457289&r="
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=1121&dpuuid=3156377841618457289&redir="
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "code": 3156377841618457000,
+            "entity": 18
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/setuid?entity=18&code=3156377841618457289"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "forward": "",
+            "google_cm": "",
+            "google_hm": "MzE1NjM3Nzg0MTYxODQ1NzI4OQ==",
+            "google_nid": "zeta_interactive",
+            "google_sc": "",
+            "in": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?&in=0&google_nid=zeta_interactive&google_cm=&google_sc=&google_hm=MzE1NjM3Nzg0MTYxODQ1NzI4OQ==&forward="
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": "bd8618c307ae9885a12561b7191e2cea",
+            "cid": 3156377841618457000,
+            "forward": "",
+            "referrer": "https://www.mahealthconnector.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/pixel?c=bd8618c307ae9885a12561b7191e2cea&cid=3156377841618457289&referrer=https%3A%2F%2Fwww.mahealthconnector.org%2F&forward="
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "liSync": true,
+            "li_adsId": "ea6f8856-4171-48d3-b242-c90105b726fc",
+            "pid": 2794969,
+            "time": 1745853794973,
+            "url": "https://www.mahealthconnector.org/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2794969&time=1745853794973&li_adsId=ea6f8856-4171-48d3-b242-c90105b726fc&url=https%3A%2F%2Fwww.mahealthconnector.org%2F&cookiesTest=true&liSync=true"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 1933939906733869,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.mahealthconnector.org",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853795176.459115678525222831",
+            "hrl": "5cdf6a",
+            "id": 135212137194653,
+            "if": false,
+            "it": 1745853794993,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "c2",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853795179,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=135212137194653&ev=PageView&dl=https%3A%2F%2Fwww.mahealthconnector.org&rl=&if=false&ts=1745853795179&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853795176.459115678525222831&pm=1&hrl=5cdf6a&ler=empty&it=1745853794993&coo=false&cs_cc=1&cas=1933939906733869&cdl=&exp=k0&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": 1933939906733869,
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.mahealthconnector.org",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "k0",
+            "fbp": "fb.1.1745853795176.459115678525222831",
+            "hrl": "5cdf6a",
+            "id": 135212137194653,
+            "if": false,
+            "it": 1745853794993,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "c2",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853795179,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=135212137194653&ev=PageView&dl=https%3A%2F%2Fwww.mahealthconnector.org&rl=&if=false&ts=1745853795179&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853795176.459115678525222831&pm=1&hrl=5cdf6a&ler=empty&it=1745853794993&coo=false&cs_cc=1&cas=1933939906733869&cdl=&exp=k0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://10286885.fls.doubleclick.net/activityi;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adservice.google.com/ddm/fls/z/src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=*;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F"
+      },
+      {
+        "data": {
+          "filter": "||basis.net/assets/up.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "um": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://10286885.fls.doubleclick.net/activityi;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn01.basis.net/assets/up.js?um=1"
+      },
+      {
+        "data": {
+          "filter": "||quantserve.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.quantserve.com/pixel;r=819225114;labels=_fp.event.Homepage;source=gtm;rf=0;a=p-EGCvhN32zKz5N;url=https%3A%2F%2Fwww.mahealthconnector.org%2F;ns=0;ce=1;qjs=1;qv=4ce77a9a-20250403165047;ref=;dst=1;et=1745853795135;tzo=420;ogl=locale.en_US%2Ctype.website%2Csite_name.Massachusetts%20Health%20Connector%2Ctitle.%2Cdescription.Do%20you%20need%20health%20coverage%3F%20%0AEnroll%20any%20time%20of%20the%20year%20if%20you%20are%20applying%20fo%2Curl.%2F%2Cimage.https%3A%2F%2Fbetterhealthconnector%252Ecom%2Fwp-content%2Fuploads%2Fhealth-connector-logo%252Epng%2Cimage%3Awidth.250%2Cimage%3Aheight.81%2Cimage%3Atype.image%2Fpng;d=mahealthconnector.org;uht=2;fpan=1;fpa=P1-847a525b-6fff-4e7f-91fc-ddc686bb3076;pbc=;_ses=d0af40ab-6038-4ebc-a785-ddee9e28cd68;_seg=0;_ss=1;gdpr=0;mdl="
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "k0lbHA": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube-nocookie.com/embed/MN7rnFR7qCc?rel=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube-nocookie.com/generate_204?k0lbHA"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "/seg?t=1&add=35031653": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.adnxs.com/bounce?%2Fseg%3Ft%3D1%26add%3D35031653"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "li_adsId": "ea6f8856-4171-48d3-b242-c90105b726fc",
+            "pid": 2794969,
+            "time": 1745853794973,
+            "url": "https://www.mahealthconnector.org/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2794969&time=1745853794973&li_adsId=ea6f8856-4171-48d3-b242-c90105b726fc&url=https%3A%2F%2Fwww.mahealthconnector.org%2F&cookiesTest=true"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_o": 46993,
+            "_t": 20849971,
+            "ca": 20849971,
+            "pe": "https://www.mahealthconnector.org/",
+            "pf": "",
+            "ra": 4209528778858993,
+            "rb": 46993,
+            "userid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788",
+            "ver": 9
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://20849971p.rfihub.com/ca.html?ver=9&rb=46993&ca=20849971&_o=46993&_t=20849971&userid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&pe=https%3A%2F%2Fwww.mahealthconnector.org%2F&pf=&ra=4209528778858993"
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1745853795.107587,
+            "bidder_id": 200442,
+            "bidder_uuid": "36ee0fab-a591-4d17-98f0-629210a929d1:1745853794.9766788"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.liadm.com/s/64581?bidder_id=200442&bidder_uuid=36ee0fab-a591-4d17-98f0-629210a929d1%3A1745853794.9766788&_=1745853795.107587"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-P4KXFQ6SH0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-P4KXFQ6SH0&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1640799738.1745853,
+            "bg": "ffffff",
+            "cid": "CAQSGwDZpuyzPiWxQ7ePSm0F4u5HciIOmQbq3nkZIQ",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745852400000,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9206154383z86484604za200zb6484604",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ipr": "y",
+            "is_vtc": 1,
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001",
+            "random": 1435671098,
+            "rfmt": 3,
+            "rmt_tld": 0,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home - MassHealth Coverages - Massachusetts Health Connector",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.mahealthconnector.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/999124043/?random=1745853794907&cv=11&fst=1745852400000&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9206154383z86484604za200zb6484604&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.mahealthconnector.org%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20-%20MassHealth%20Coverages%20-%20Massachusetts%20Health%20Connector&npa=0&auid=1640799738.1745853795&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzPiWxQ7ePSm0F4u5HciIOmQbq3nkZIQ&random=1435671098&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": "0aa2530f29e4f4a05b5d5d9bb35d60c2",
+            "cache_buster": 1745853795007,
+            "k": "lionly",
+            "p": "93c1662463a616a7155169889dd99651"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/sync?c=0aa2530f29e4f4a05b5d5d9bb35d60c2&p=93c1662463a616a7155169889dd99651&k=lionly&cache_buster=1745853795007"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "add": 35031653,
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.adnxs.com/seg?t=1&add=35031653"
+      },
+      {
+        "data": {
+          "filter": "||boomtrain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.boomtrain.com/p13n/massachusetts-health-connector/p13n.min.js"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c1.rfihub.net/js/tc.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1998083976.1745853,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YADAAEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 164000364,
+            "cid": 656240783.1745853,
+            "de": "UTF-8",
+            "dl": "https://www.mahealthconnector.org/",
+            "dma": 0,
+            "dt": "Home - MassHealth Coverages - Massachusetts Health Connector",
+            "gcd": "13l3l3l3l1l1",
+            "gjid": 99651689,
+            "gtm": "45He54n0n71NBNW5Xv6484604za200",
+            "je": 0,
+            "jid": 948833425,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001",
+            "tid": "UA-1774409-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1786354679
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=164000364&t=pageview&_s=1&dl=https%3A%2F%2Fwww.mahealthconnector.org%2F&ul=en-us&de=UTF-8&dt=Home%20-%20MassHealth%20Coverages%20-%20Massachusetts%20Health%20Connector&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YADAAEABAAAAACAAI~&jid=948833425&gjid=99651689&cid=656240783.1745853795&tid=UA-1774409-1&_gid=1998083976.1745853795&_r=1&_slc=1&gtm=45He54n0n71NBNW5Xv6484604za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001&z=1786354679"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.mahealthconnector.org",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "c2",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/135212137194653?v=2.9.199&r=c2&domain=www.mahealthconnector.org&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "li_adsId": "ea6f8856-4171-48d3-b242-c90105b726fc",
+            "pid": 2794969,
+            "time": 1745853794973,
+            "url": "https://www.mahealthconnector.org/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2794969&time=1745853794973&li_adsId=ea6f8856-4171-48d3-b242-c90105b726fc&url=https%3A%2F%2Fwww.mahealthconnector.org%2F"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": 2794969,
+            "time": 1745853794973,
+            "url": "https://www.mahealthconnector.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=2794969&time=1745853794973&url=https%3A%2F%2Fwww.mahealthconnector.org%2F"
+      },
+      {
+        "data": {
+          "filter": "||quantcount.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rules.quantcount.com/rules-p-EGCvhN32zKz5N.js"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/activity;register_conversion=1;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=10;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/fls/rul/activityi;fledge=1;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=9;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://10286885.fls.doubleclick.net/activityi;src=10286885;type=healt000;cat=mhcfy004;ord=5550725961142;npa=0;auiddc=1640799738.1745853795;ps=1;pcor=2139496460;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KlA;gtm=45fe54n0v9189917462z86484604za200zb6484604;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001;epver=2;~oref=https%3A%2F%2Fwww.mahealthconnector.org%2F?"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://www.mahealthconnector.org"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fwww.mahealthconnector.org"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1640799738.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853794907,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9206154383z86484604za200zb6484604",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001",
+            "random": 1745853794907,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home - MassHealth Coverages - Massachusetts Health Connector",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.mahealthconnector.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/999124043?random=1745853794907&cv=11&fst=1745853794907&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9206154383z86484604za200zb6484604&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.mahealthconnector.org%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20-%20MassHealth%20Coverages%20-%20Massachusetts%20Health%20Connector&npa=0&auid=1640799738.1745853795&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1640799738.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853794907,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0v9206154383z86484604za200zb6484604",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001",
+            "random": 1745853794907,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Home - MassHealth Coverages - Massachusetts Health Connector",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.mahealthconnector.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/999124043/?random=1745853794907&cv=11&fst=1745853794907&bg=ffffff&guid=ON&async=1&gtm=45be54n0v9206154383z86484604za200zb6484604&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001&u_w=375&u_h=812&url=https%3A%2F%2Fwww.mahealthconnector.org%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20-%20MassHealth%20Coverages%20-%20Massachusetts%20Health%20Connector&npa=0&auid=1640799738.1745853795&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1745853794423,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 656240783.1745853,
+            "dl": "https://www.mahealthconnector.org/",
+            "dma": 0,
+            "dt": "Home - MassHealth Coverages - Massachusetts Health Connector",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54o0h2v9130129782za200zb9185244785",
+            "ir": 1,
+            "npa": 0,
+            "pscdl": "",
+            "ptag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853794,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tfd": 826,
+            "tid": "G-P4KXFQ6SH0",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-P4KXFQ6SH0&gtm=45je54o0h2v9130129782za200zb9185244785&_p=1745853794423&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&ptag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=656240783.1745853795&ul=en-us&sr=375x812&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=&_eu=EA&_s=1&sid=1745853794&sct=1&seg=0&dl=https%3A%2F%2Fwww.mahealthconnector.org%2F&dt=Home%20-%20MassHealth%20Coverages%20-%20Massachusetts%20Health%20Connector&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=826"
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": "16b6410431b6374e780104abb0443ca8",
+            "cache_buster": 1745853794795,
+            "k": "massachusetts-health-connector-pixel-5070",
+            "p": "f36f84db15980b498a2d882488bfaf74",
+            "zmpID": "massachusetts-health-connector"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/sync?c=16b6410431b6374e780104abb0443ca8&p=f36f84db15980b498a2d882488bfaf74&k=massachusetts-health-connector-pixel-5070&zmpID=massachusetts-health-connector&cache_buster=1745853794795"
+      },
+      {
+        "data": {
+          "filter": "||agkn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "che": "",
+            "gtmcb": 621296227
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d.agkn.com/pixel/17319/?che=&gtmcb=621296227"
+      },
+      {
+        "data": {
+          "filter": "||agkn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "che": "",
+            "gtmcb": 1957929617
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d.agkn.com/pixel/17318/?che=&gtmcb=1957929617"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||quantserve.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.quantserve.com/quant.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v6484604za200",
+            "id": "DC-10286885",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-10286885&l=dataLayer&cx=c&gtm=45He54n0v6484604za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v6484604za200",
+            "id": "AW-999124043",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-999124043&l=dataLayer&cx=c&gtm=45He54n0v6484604za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103130498~103130500~103200001"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 1640799738.1745853,
+            "dl": "https://www.mahealthconnector.org/",
+            "dma": 0,
+            "dt": "Home - MassHealth Coverages - Massachusetts Health Connector",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45fe54n0v9185244785za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 70275911.17458537,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 654,
+            "tft": 1745853794694,
+            "tid": "DC-12478002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?tid=DC-12478002&en=page_view&dl=https%3A%2F%2Fwww.mahealthconnector.org%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=70275911.1745853795&dt=Home%20-%20MassHealth%20Coverages%20-%20Massachusetts%20Health%20Connector&auid=1640799738.1745853795&navt=n&npa=0&gtm=45fe54n0v9185244785za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&tft=1745853794694&tfd=654&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45fe54n0v9185244785za200",
+            "id": "G-P4KXFQ6SH0",
+            "l": "dataLayer",
+            "tag_exp": "101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-P4KXFQ6SH0&l=dataLayer&cx=c&gtm=45fe54n0v9185244785za200&tag_exp=101509156~102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NBNW5X"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NBNW5X"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "DC-12478002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-12478002"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-P4KXFQ6SH0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mahealthconnector.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-P4KXFQ6SH0"
+      }
+    ]
+  }
+}

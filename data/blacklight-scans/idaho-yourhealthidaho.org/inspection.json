@@ -1,0 +1,2195 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://www.yourhealthidaho.org/",
+  "uri_dest": "https://www.yourhealthidaho.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.yourhealthidaho.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:22:51.852Z",
+  "end_time": "2025-04-28T15:22:56.174Z",
+  "browsing_history": [
+    "https://www.yourhealthidaho.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.yourhealthidaho.org"
+      ],
+      "third_party": [
+        "maxcdn.bootstrapcdn.com",
+        "fonts.googleapis.com",
+        "sharpenchat.iz1.sharpen.cx",
+        "www.google.com",
+        "static.cloudflareinsights.com",
+        "api.maxaccess.io",
+        "www.googletagmanager.com",
+        "static.hotjar.com",
+        "fonts.gstatic.com",
+        "script.hotjar.com",
+        "www.google-analytics.com",
+        "tags.srv.stackadapt.com",
+        "sc-static.net",
+        "dx.mountain.com",
+        "bat.bing.com",
+        "connect.facebook.net",
+        "s.pinimg.com",
+        "stats.g.doubleclick.net",
+        "use.fonticons.com",
+        "cdnjs.cloudflare.com",
+        "api-current.iz1.sharpen.cx",
+        "scripts-cdn.maxaccess.io",
+        "analytics.google.com",
+        "qvdt3feo.com",
+        "www.gstatic.com",
+        "tr.snapchat.com",
+        "44.228.85.26",
+        "use.fortawesome.com",
+        "ct.pinterest.com",
+        "googleads.g.doubleclick.net",
+        "td.doubleclick.net",
+        "www.facebook.com",
+        "tr6.snapchat.com",
+        "px.mountain.com",
+        "pixel.tapad.com",
+        "gs.mountain.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://tags.srv.stackadapt.com/events.js": [
+          "mousemove",
+          "click"
+        ],
+        "https://sc-static.net/scevent.min.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-GDHTFM29MT&l=dataLayer&cx=c&gtm=45He54n0v79851639za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004": [
+          "click"
+        ],
+        "https://www.yourhealthidaho.org/wp-includes/js/jquery/jquery.js?ver=3.7.1": [
+          "scroll",
+          "click",
+          "mouseup"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "click"
+        ],
+        "https://www.yourhealthidaho.org/wp-content/plugins/gtranslate/js/dwf.js?ver=6.7.2": [
+          "click"
+        ],
+        "https://script.hotjar.com/modules.0157df8a158a106f0dc5.js": [
+          "scroll",
+          "mousemove",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KLTM4BJ": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "keydown"
+        ],
+        "https://script.hotjar.com/modules.0157df8a158a106f0dc5.js": [
+          "keypress"
+        ]
+      },
+      "SENSOR": {
+        "https://www.yourhealthidaho.org/wp-includes/js/jquery/jquery.js?ver=3.7.1": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "X-AB",
+        "value": "963a4689b51b418e9cb119a5e2b2c29d",
+        "domain": "sc-static.net",
+        "path": "/scevent.min.js",
+        "expires": "2025-04-29T15:22:52.957Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "HAPROXY",
+        "value": "app1web|aA+dT|aA+dT",
+        "domain": "www.yourhealthidaho.org",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1539379053.1745853773",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2025-07-27T15:22:52.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.746836744.1745853773",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2025-04-29T15:22:52.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dc_gtm_UA-43319506-1",
+        "value": "1",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2025-04-28T15:23:52.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSessionUser_5078960",
+        "value": "eyJpZCI6ImY5ZjkzMzA0LTQ1MjAtNWEwOC04OGI0LWI1NTZmM2YyYTkwMCIsImNyZWF0ZWQiOjE3NDU4NTM3NzMwMTcsImV4aXN0aW5nIjpmYWxzZX0=",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.000Z",
+        "size": 138,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSession_5078960",
+        "value": "eyJpZCI6IjM3ZWUyODBjLTg0MTktNGI1Yi1iYmNiLWZkYzkxM2I4MGRkOCIsImMiOjE3NDU4NTM3NzMwMTgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2025-04-28T15:52:53.000Z",
+        "size": 166,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.275851219.1745853773",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-06-02T15:22:53.107Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid",
+        "value": "3YAZv-o0-LFSUBiqUKXGqdCV1T1jYLB9",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-05-29T07:41:11.000Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid_r",
+        "value": "3YAZv-o0-LFSUBiqUKXGqdCV1T1jYLB9",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-05-29T07:41:11.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetsid",
+        "value": "a75b44b0244411f0a1b9e132d3337dcd",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2025-04-29T15:22:53.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetvid",
+        "value": "a75b64f0244411f0a94f67c3f7843b49",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-05-23T15:22:53.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "1560B477379F679829B2A1AB361C6661",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:53.314Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "bat.bing.com",
+        "path": "/",
+        "expires": "2025-05-05T15:22:53.314Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853773321.328314023502435677",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2025-07-27T15:22:53.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:37:53.384Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ScCbts",
+        "value": "%5B%5D",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2025-05-05T15:22:53.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pin_unauth",
+        "value": "dWlkPU5HRTNNbVEyTWpRdE5EaGxPUzAwWVRJMkxUa3hNamN0TnpObVpETTROemxqWW1JNA",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.000Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sa-user-id",
+        "value": "s%3A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%2FXwb%2BWpDi%2BvV2cv2bE%2Bjg",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.470Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id",
+        "value": "s%3A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%2FXwb%2BWpDi%2BvV2cv2bE%2Bjg",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.470Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v2",
+        "value": "s%3Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%2BGj8u%2Flh09vXviJCpRhgCKRTqlJaywGRA",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.470Z",
+        "size": 92,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v2",
+        "value": "s%3Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%2BGj8u%2Flh09vXviJCpRhgCKRTqlJaywGRA",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.470Z",
+        "size": 92,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v3",
+        "value": "s%3AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyDNur7ABjABOgT48FXIQgRQyh9G.gdUMEuvncEJJXUChb5UHEwDAd7OydT771FgsbwHj1SI",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.470Z",
+        "size": 141,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v3",
+        "value": "s%3AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyDNur7ABjABOgT48FXIQgRQyh9G.gdUMEuvncEJJXUChb5UHEwDAd7OydT771FgsbwHj1SI",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.470Z",
+        "size": 141,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id",
+        "value": "s%253A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%252FXwb%252BWpDi%252BvV2cv2bE%252Bjg",
+        "domain": "www.yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.000Z",
+        "size": 114,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sa-user-id-v2",
+        "value": "s%253Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%252BGj8u%252Flh09vXviJCpRhgCKRTqlJaywGRA",
+        "domain": "www.yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.000Z",
+        "size": 98,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sa-user-id-v3",
+        "value": "s%253AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyDNur7ABjABOgT48FXIQgRQyh9G.gdUMEuvncEJJXUChb5UHEwDAd7OydT771FgsbwHj1SI",
+        "domain": "www.yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-04-28T15:22:53.000Z",
+        "size": 143,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sc_at",
+        "value": "v2|H4sIAAAAAAAAAE3GwREAIQgEsIqYkQNctBtdtQqLv695haFtBIdMVBM3XTKzUvJ8XLvFIXDVS1d4ZBhg92n5AYA2QPlAAAAA",
+        "domain": "snapchat.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:53.765Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1745853773716",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:53.701Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "a8580d92-a58b-4797-9d6e-0c60327ab0e8",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:53.701Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:53.701Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "guid",
+        "value": "a7aa7ee6-2444-11f0-89de-c353fa58163e",
+        "domain": "mountain.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:54.102Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_sctr",
+        "value": "1%7C1745823600000",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-05-29T07:41:11.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tt",
+        "value": "H4sIAAAAAAAAAKtWKlOyMqoFAP609q8HAAAA",
+        "domain": "px.mountain.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:54.102Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_GDHTFM29MT",
+        "value": "GS1.1.1745853773.1.0.1745853775.58.0.0",
+        "domain": "yourhealthidaho.org",
+        "path": "/",
+        "expires": "2026-06-02T15:22:55.109Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.yourhealthidaho.org",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=314072402300795&ev=PageView&dl=https%3A%2F%2Fwww.yourhealthidaho.org&rl=&if=false&ts=1745853773323&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853773321.328314023502435677&pm=1&hrl=c768e4&ler=empty&it=1745853773130&coo=false&cs_cc=1&cas=7770367202994132%2C5553459744737280%2C3502277983156207%2C2376294475720306&cdl=&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.yourhealthidaho.org",
+        "raw": "https://www.facebook.com/tr/?id=314072402300795&ev=PageView&dl=https%3A%2F%2Fwww.yourhealthidaho.org&rl=&if=false&ts=1745853773323&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853773321.328314023502435677&pm=1&hrl=c768e4&ler=empty&it=1745853773130&coo=false&cs_cc=1&cas=7770367202994132%2C5553459744737280%2C3502277983156207%2C2376294475720306&cdl=&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-1562091.js",
+        "static.hotjar.com/c/hotjar-5078960.js"
+      ],
+      "script.hotjar.com": [
+        "script.hotjar.com/modules.0157df8a158a106f0dc5.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "bo": 2,
+            "evt": "pageHide",
+            "mid": "8cc0bed4-8588-4cd3-8173-e41777b52c9e",
+            "msclkid": "N",
+            "sid": "a75b44b0244411f0a1b9e132d3337dcd",
+            "ti": 14002049,
+            "tm": "gtm002",
+            "vid": "a75b64f0244411f0a94f67c3f7843b49",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=14002049&tm=gtm002&Ver=2&mid=8cc0bed4-8588-4cd3-8173-e41777b52c9e&bo=2&sid=a75b44b0244411f0a1b9e132d3337dcd&vid=a75b64f0244411f0a94f67c3f7843b49&vids=1&msclkid=N&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1009,
+            "_eu": "AAAAAAI",
+            "_p": 1745853772509,
+            "_s": 4,
+            "are": 1,
+            "cid": 275851219.1745854,
+            "dl": "https://www.yourhealthidaho.org/",
+            "dma": 0,
+            "dt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v868879870za200zb79851639",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853773,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 3941,
+            "tid": "G-GDHTFM29MT",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-GDHTFM29MT&gtm=45je54n0v868879870za200zb79851639&_p=1745853772509&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=275851219.1745853773&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=AAAAAAI&_s=4&sid=1745853773&sct=1&seg=0&dl=https%3A%2F%2Fwww.yourhealthidaho.org%2F&dt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&en=user_engagement&_et=1009&tfd=3941"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AEEAAAI",
+            "_p": 1745853772509,
+            "_s": 3,
+            "are": 1,
+            "cid": 275851219.1745854,
+            "dl": "https://www.yourhealthidaho.org/",
+            "dma": 0,
+            "dt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v868879870za200zb79851639",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853773,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 3940,
+            "tid": "G-GDHTFM29MT",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-GDHTFM29MT&gtm=45je54n0v868879870za200zb79851639&_p=1745853772509&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=275851219.1745853773&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=AEEAAAI&sid=1745853773&sct=1&seg=0&dl=https%3A%2F%2Fwww.yourhealthidaho.org%2F&dt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&_s=3&tfd=3940"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAI",
+            "_p": 1745853772509,
+            "_s": 2,
+            "are": 1,
+            "cid": 275851219.1745854,
+            "dl": "https://www.yourhealthidaho.org/",
+            "dma": 0,
+            "dt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v868879870z879851639za200zb79851639",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853773,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 2802,
+            "tid": "G-GDHTFM29MT",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-GDHTFM29MT&gtm=45je54n0v868879870z879851639za200zb79851639&_p=1745853772509&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=275851219.1745853773&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=AAAAAAI&sid=1745853773&sct=1&seg=0&dl=https%3A%2F%2Fwww.yourhealthidaho.org%2F&dt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&_s=2&tfd=2802"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/ct.html"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/static/ct/token_create.js"
+      },
+      {
+        "data": {
+          "filter": "||px.mountain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "available_ga": [
+              {
+                "id": "G-GDHTFM29MT",
+                "sess_id": "1745853773"
+              },
+              {
+                "id": "UA-43319506-1",
+                "sess_id": null
+              }
+            ],
+            "cb": 1745853773783295,
+            "dcm_cid": 1745853773.1,
+            "dcm_gid": 746836744.1745853,
+            "dxver": "4.0.0",
+            "ga_client_id": 275851219.1745854,
+            "ga_info": {
+              "available_ga": [
+                {
+                  "id": "G-GDHTFM29MT",
+                  "sess_id": "1745853773"
+                },
+                {
+                  "id": "UA-43319506-1",
+                  "sess_id": null
+                }
+              ],
+              "dcm_cid": "1745853773.1",
+              "dcm_gid": "746836744.1745853773",
+              "execution_workflow": {
+                "dcm_cid": "OK",
+                "dcm_gid": "OK",
+                "getClientIdByCookie": "OK",
+                "iteration": 2,
+                "shpt": "OK"
+              },
+              "ga_client_id": "275851219.1745853773",
+              "ga_tracking_id": "G-GDHTFM29MT;UA-43319506-1",
+              "mntnis": "0IbVzFtiAzn4emBircuB1Tbu4UQYAKeH",
+              "shpt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+              "status": "OK"
+            },
+            "ga_tracking_id": "G-GDHTFM29MT;UA-43319506-1",
+            "hardcoded_ga": "",
+            "meta_tag_data": [
+              {
+                "robots.content": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+              },
+              {
+                "description.content": "Idaho’s health insurance marketplace where Idahoans find the right coverage for their needs. The only place to save on monthly premiums with a tax credit."
+              }
+            ],
+            "plh": "https://www.yourhealthidaho.org/",
+            "shadditional": "googletagmanager=true,ga4=true",
+            "shaid": 34787,
+            "shgts": 1745853773982,
+            "shguid": "05ea234c-409f-309b-84c4-ebbbeb536e0d",
+            "shpt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.mountain.com/st?ga_tracking_id=G-GDHTFM29MT%3BUA-43319506-1&ga_client_id=275851219.1745853773&shpt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&ga_info=%7B%22status%22%3A%22OK%22%2C%22available_ga%22%3A%5B%7B%22id%22%3A%22G-GDHTFM29MT%22%2C%22sess_id%22%3A%221745853773%22%7D%2C%7B%22id%22%3A%22UA-43319506-1%22%2C%22sess_id%22%3Anull%7D%5D%2C%22ga_tracking_id%22%3A%22G-GDHTFM29MT%3BUA-43319506-1%22%2C%22ga_client_id%22%3A%22275851219.1745853773%22%2C%22shpt%22%3A%22Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace%22%2C%22dcm_cid%22%3A%221745853773.1%22%2C%22dcm_gid%22%3A%22746836744.1745853773%22%2C%22mntnis%22%3A%220IbVzFtiAzn4emBircuB1Tbu4UQYAKeH%22%2C%22execution_workflow%22%3A%7B%22iteration%22%3A2%2C%22getClientIdByCookie%22%3A%22OK%22%2C%22shpt%22%3A%22OK%22%2C%22dcm_cid%22%3A%22OK%22%2C%22dcm_gid%22%3A%22OK%22%7D%7D&dcm_cid=1745853773.1&dcm_gid=746836744.1745853773&available_ga=%5B%7B%22id%22%3A%22G-GDHTFM29MT%22%2C%22sess_id%22%3A%221745853773%22%7D%2C%7B%22id%22%3A%22UA-43319506-1%22%2C%22sess_id%22%3Anull%7D%5D&hardcoded_ga=&meta_tag_data=%5B%7B%22robots.content%22%3A%22index%2C%20follow%2C%20max-image-preview%3Alarge%2C%20max-snippet%3A-1%2C%20max-video-preview%3A-1%22%7D%2C%7B%22description.content%22%3A%22Idaho%E2%80%99s%20health%20insurance%20marketplace%20where%20Idahoans%20find%20the%20right%20coverage%20for%20their%20needs.%20The%20only%20place%20to%20save%20on%20monthly%20premiums%20with%20a%20tax%20credit.%22%7D%5D&dxver=4.0.0&shaid=34787&plh=https%3A%2F%2Fwww.yourhealthidaho.org%2F&shadditional=googletagmanager%3Dtrue%2Cga4%3Dtrue&cb=1745853773783295&shguid=05ea234c-409f-309b-84c4-ebbbeb536e0d&shgts=1745853773982"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "host": "https://www.yourhealthidaho.org",
+            "is_js": true,
+            "l_src": "",
+            "l_src_d": "",
+            "landing_url": "https://www.yourhealthidaho.org/",
+            "sa-user-id": "s%3A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%2FXwb%2BWpDi%2BvV2cv2bE%2Bjg",
+            "sa-user-id-v2": "s%3Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%2BGj8u%2Flh09vXviJCpRhgCKRTqlJaywGRA",
+            "sa-user-id-v3": "s%3AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyDNur7ABjABOgT48FXIQgRQyh9G.gdUMEuvncEJJXUChb5UHEwDAd7OydT771FgsbwHj1SI",
+            "sa_conv_data_css_value": "''",
+            "sa_conv_data_image_value": "ffd8ffe000104a46494600010101006000600000ffdb004300080606070605080707070909080a0c140d0c0b0b0c1912130f141d1a1f1e1d1a1c1c20242e2720222c231c1c2837292c30313434341f27393d38323c2e333432ffdb0043010909090c0b0c180d0d1832211c213232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232ffc00011080001000103012200021101031101ffc4001f0000010501010101010100000000000000000102030405060708090a0bffc400b5100002010303020403050504040000017d01020300041105122131410613516107227114328191a1082342b1c11552d1f02433627282090a161718191a25262728292a3435363738393a434445464748494a535455565758595a636465666768696a737475767778797a838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae1e2e3e4e5e6e7e8e9eaf1f2f3f4f5f6f7f8f9faffc4001f0100030101010101010101010000000000000102030405060708090a0bffc400b51100020102040403040705040400010277000102031104052131061241510761711322328108144291a1b1c109233352f0156272d10a162434e125f11718191a262728292a35363738393a434445464748494a535455565758595a636465666768696a737475767778797a82838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae2e3e4e5e6e7e8e9eaf2f3f4f5f6f7f8f9faffda000c03010002110311003f00f7fa28a2803fffd96bb7f3daa839568b75320276bc0fe6bb34777611",
+            "shop": false,
+            "t": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "tip": "GE5mdUPR7ca09jI4beigVB1Y_lAu1ZVFQFJEXgOWCJg",
+            "u_src": "",
+            "u_src_d": "",
+            "uid": "SkL_wkqmNrMxibbUXomuNA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=SkL_wkqmNrMxibbUXomuNA&is_js=true&landing_url=https%3A%2F%2Fwww.yourhealthidaho.org%2F&t=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&tip=GE5mdUPR7ca09jI4beigVB1Y_lAu1ZVFQFJEXgOWCJg&host=https%3A%2F%2Fwww.yourhealthidaho.org&sa_conv_data_css_value=%27%27&sa_conv_data_image_value=ffd8ffe000104a46494600010101006000600000ffdb004300080606070605080707070909080a0c140d0c0b0b0c1912130f141d1a1f1e1d1a1c1c20242e2720222c231c1c2837292c30313434341f27393d38323c2e333432ffdb0043010909090c0b0c180d0d1832211c213232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232ffc00011080001000103012200021101031101ffc4001f0000010501010101010100000000000000000102030405060708090a0bffc400b5100002010303020403050504040000017d01020300041105122131410613516107227114328191a1082342b1c11552d1f02433627282090a161718191a25262728292a3435363738393a434445464748494a535455565758595a636465666768696a737475767778797a838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae1e2e3e4e5e6e7e8e9eaf1f2f3f4f5f6f7f8f9faffc4001f0100030101010101010101010000000000000102030405060708090a0bffc400b51100020102040403040705040400010277000102031104052131061241510761711322328108144291a1b1c109233352f0156272d10a162434e125f11718191a262728292a35363738393a434445464748494a535455565758595a636465666768696a737475767778797a82838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae2e3e4e5e6e7e8e9eaf2f3f4f5f6f7f8f9faffda000c03010002110311003f00f7fa28a2803fffd96bb7f3daa839568b75320276bc0fe6bb34777611&l_src=&l_src_d=&u_src=&u_src_d=&shop=false&sa-user-id-v3=s%253AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyDNur7ABjABOgT48FXIQgRQyh9G.gdUMEuvncEJJXUChb5UHEwDAd7OydT771FgsbwHj1SI&sa-user-id-v2=s%253Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%252BGj8u%252Flh09vXviJCpRhgCKRTqlJaywGRA&sa-user-id=s%253A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%252FXwb%252BWpDi%252BvV2cv2bE%252Bjg"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pcid": "a8580d92-a58b-4797-9d6e-0c60327ab0e8",
+            "pnid": 140,
+            "rand": 1745454850727
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/p?rand=1745454850727&pnid=140&pcid=a8580d92-a58b-4797-9d6e-0c60327ab0e8"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": 2884,
+            "partner_url": "https://tr.snapchat.com/cm/p?rand=1745454850727&pnid=140&pcid=${TA_DEVICE_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1745454850727%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": 2884,
+            "partner_url": "https://tr.snapchat.com/cm/p?rand=1745454850727&pnid=140&pcid=${TA_DEVICE_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1745454850727%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "||px.mountain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "available_ga": [
+              {
+                "id": "G-GDHTFM29MT",
+                "sess_id": "1745853773"
+              },
+              {
+                "id": "UA-43319506-1",
+                "sess_id": null
+              }
+            ],
+            "cb": "19073285678567720term=value",
+            "dcm_cid": 1745853773.1,
+            "dcm_gid": 746836744.1745853,
+            "dxver": "4.0.0",
+            "ga_client_id": 275851219.1745854,
+            "ga_info": {
+              "available_ga": [
+                {
+                  "id": "G-GDHTFM29MT",
+                  "sess_id": "1745853773"
+                },
+                {
+                  "id": "UA-43319506-1",
+                  "sess_id": null
+                }
+              ],
+              "dcm_cid": "1745853773.1",
+              "dcm_gid": "746836744.1745853773",
+              "execution_workflow": {
+                "dcm_cid": "OK",
+                "dcm_gid": "OK",
+                "getClientIdByCookie": "OK",
+                "iteration": 2,
+                "shpt": "OK"
+              },
+              "ga_client_id": "275851219.1745853773",
+              "ga_tracking_id": "G-GDHTFM29MT;UA-43319506-1",
+              "mntnis": "0IbVzFtiAzn4emBircuB1Tbu4UQYAKeH",
+              "shpt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+              "status": "OK"
+            },
+            "ga_tracking_id": "G-GDHTFM29MT;UA-43319506-1",
+            "hardcoded_ga": "",
+            "meta_tag_data": [
+              {
+                "robots.content": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+              },
+              {
+                "description.content": "Idaho’s health insurance marketplace where Idahoans find the right coverage for their needs. The only place to save on monthly premiums with a tax credit."
+              }
+            ],
+            "plh": "https://www.yourhealthidaho.org/",
+            "shadditional": "googletagmanager=true,ga4=true",
+            "shaid": 34787,
+            "shpt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.mountain.com/st?ga_tracking_id=G-GDHTFM29MT%3BUA-43319506-1&ga_client_id=275851219.1745853773&shpt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&ga_info=%7B%22status%22%3A%22OK%22%2C%22available_ga%22%3A%5B%7B%22id%22%3A%22G-GDHTFM29MT%22%2C%22sess_id%22%3A%221745853773%22%7D%2C%7B%22id%22%3A%22UA-43319506-1%22%2C%22sess_id%22%3Anull%7D%5D%2C%22ga_tracking_id%22%3A%22G-GDHTFM29MT%3BUA-43319506-1%22%2C%22ga_client_id%22%3A%22275851219.1745853773%22%2C%22shpt%22%3A%22Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace%22%2C%22dcm_cid%22%3A%221745853773.1%22%2C%22dcm_gid%22%3A%22746836744.1745853773%22%2C%22mntnis%22%3A%220IbVzFtiAzn4emBircuB1Tbu4UQYAKeH%22%2C%22execution_workflow%22%3A%7B%22iteration%22%3A2%2C%22getClientIdByCookie%22%3A%22OK%22%2C%22shpt%22%3A%22OK%22%2C%22dcm_cid%22%3A%22OK%22%2C%22dcm_gid%22%3A%22OK%22%7D%7D&dcm_cid=1745853773.1&dcm_gid=746836744.1745853773&available_ga=%5B%7B%22id%22%3A%22G-GDHTFM29MT%22%2C%22sess_id%22%3A%221745853773%22%7D%2C%7B%22id%22%3A%22UA-43319506-1%22%2C%22sess_id%22%3Anull%7D%5D&hardcoded_ga=&meta_tag_data=%5B%7B%22robots.content%22%3A%22index%2C%20follow%2C%20max-image-preview%3Alarge%2C%20max-snippet%3A-1%2C%20max-video-preview%3A-1%22%7D%2C%7B%22description.content%22%3A%22Idaho%E2%80%99s%20health%20insurance%20marketplace%20where%20Idahoans%20find%20the%20right%20coverage%20for%20their%20needs.%20The%20only%20place%20to%20save%20on%20monthly%20premiums%20with%20a%20tax%20credit.%22%7D%5D&dxver=4.0.0&shaid=34787&plh=https%3A%2F%2Fwww.yourhealthidaho.org%2F&cb=19073285678567720term%3Dvalue&shadditional=googletagmanager%3Dtrue%2Cga4%3Dtrue"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr6.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bt": "1d53c387",
+            "cb": 1745853773505,
+            "pnid": 140,
+            "u_sclid": "3d114fe7-55d2-43cd-94f6-a19c02f50461",
+            "u_scsid": "400d3c0a-1d09-4295-bc2e-837d133b015f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1745853773505&u_scsid=400d3c0a-1d09-4295-bc2e-837d133b015f&u_sclid=3d114fe7-55d2-43cd-94f6-a19c02f50461"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/sa.jpeg"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/sa.css"
+      },
+      {
+        "data": {
+          "filter": "||sc-static.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://tr.snapchat.com/cm/i?pid=6b6ae864-528a-4e21-88e0-93ab7ed5d993&u_scsid=f5ec2bb2-ef37-4473-afc3-d54b4670e765&u_sclid=89aa515b-ae1a-4c0a-9ee8-86da4180a8ee",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sc-static.net/scevent.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1539379053.1745853,
+            "bg": "ffffff",
+            "cid": "CAQSGwDZpuyzbv2W09Cx3kQOhwJVHC4uccLQDUMaww",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745852400000,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0z879851639za201zb868879870",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ipr": "y",
+            "is_vtc": 1,
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "random": 2570877216,
+            "rfmt": 3,
+            "rmt_tld": 0,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.yourhealthidaho.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/964347145/?random=1745853773235&cv=11&fst=1745852400000&bg=ffffff&guid=ON&async=1&gtm=45be54n0z879851639za201zb868879870&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fwww.yourhealthidaho.org%2F&hn=www.googleadservices.com&frm=0&tiba=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&npa=0&auid=1539379053.1745853773&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzbv2W09Cx3kQOhwJVHC4uccLQDUMaww&random=2570877216&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": "7770367202994132,5553459744737280,3502277983156207,2376294475720306",
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.yourhealthidaho.org",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853773321.328314023502435677",
+            "hrl": "c768e4",
+            "id": 314072402300795,
+            "if": false,
+            "it": 1745853773130,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "c2",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853773323,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=314072402300795&ev=PageView&dl=https%3A%2F%2Fwww.yourhealthidaho.org&rl=&if=false&ts=1745853773323&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853773321.328314023502435677&pm=1&hrl=c768e4&ler=empty&it=1745853773130&coo=false&cs_cc=1&cas=7770367202994132%2C5553459744737280%2C3502277983156207%2C2376294475720306&cdl=&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cas": "7770367202994132,5553459744737280,3502277983156207,2376294475720306",
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://www.yourhealthidaho.org",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853773321.328314023502435677",
+            "hrl": "c768e4",
+            "id": 314072402300795,
+            "if": false,
+            "it": 1745853773130,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "c2",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853773323,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=314072402300795&ev=PageView&dl=https%3A%2F%2Fwww.yourhealthidaho.org&rl=&if=false&ts=1745853773323&sw=375&sh=812&v=2.9.199&r=c2&ec=0&o=12316&fbp=fb.1.1745853773321.328314023502435677&pm=1&hrl=c768e4&ler=empty&it=1745853773130&coo=false&cs_cc=1&cas=7770367202994132%2C5553459744737280%2C3502277983156207%2C2376294475720306&cdl=&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 845,
+            "mid": "8cc0bed4-8588-4cd3-8173-e41777b52c9e",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://www.yourhealthidaho.org/",
+            "pi": 0,
+            "r": "",
+            "rn": 149901,
+            "sc": 24,
+            "sh": 812,
+            "sid": "a75b44b0244411f0a1b9e132d3337dcd",
+            "sv": 1,
+            "sw": 375,
+            "ti": 14002049,
+            "tl": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "tm": "gtm002",
+            "vid": "a75b64f0244411f0a94f67c3f7843b49",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=14002049&tm=gtm002&Ver=2&mid=8cc0bed4-8588-4cd3-8173-e41777b52c9e&bo=1&sid=a75b44b0244411f0a1b9e132d3337dcd&vid=a75b64f0244411f0a94f67c3f7843b49&vids=1&msclkid=N&pi=0&lg=en-US&sw=375&sh=812&sc=24&nwd=1&tl=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&p=https%3A%2F%2Fwww.yourhealthidaho.org%2F&r=&lt=845&evt=pageLoad&sv=1&cdb=AQAQ&rn=149901"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1539379053.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853773235,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0z879851639za201zb868879870",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "random": 1745853773235,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.yourhealthidaho.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/964347145?random=1745853773235&cv=11&fst=1745853773235&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54n0z879851639za201zb868879870&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fwww.yourhealthidaho.org%2F&hn=www.googleadservices.com&frm=0&tiba=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&npa=0&auid=1539379053.1745853773&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "Cg",
+            "async": 1,
+            "auid": 1539379053.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853773235,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0z879851639za201zb868879870",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "random": 1745853773235,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.yourhealthidaho.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/964347145/?random=1745853773235&cv=11&fst=1745853773235&bg=ffffff&guid=ON&async=1&gtm=45be54n0z879851639za201zb868879870&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fwww.yourhealthidaho.org%2F&hn=www.googleadservices.com&frm=0&tiba=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&npa=0&auid=1539379053.1745853773&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&_tu=Cg&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ad": {
+              "architecture": "",
+              "bitness": "",
+              "brands": [],
+              "ecm_enabled": true,
+              "if": false,
+              "is_eu": true,
+              "loc": "https://www.yourhealthidaho.org/",
+              "mh": "8821a9da",
+              "mobile": false,
+              "model": "",
+              "platform": "",
+              "platformVersion": "",
+              "ref": "",
+              "sh": 812,
+              "sw": 375,
+              "uaFullVersion": ""
+            },
+            "cb": 1745853773205,
+            "event": "init",
+            "pd": {
+              "em": "24aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0"
+            },
+            "tid": 2613441547282
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/v3/?tid=2613441547282&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.yourhealthidaho.org%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A812%2C%22sw%22%3A375%2C%22mh%22%3A%228821a9da%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22brands%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1745853773205"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": 1745853773203,
+            "dep": "2,PAGE_LOAD",
+            "pd": {
+              "em": "24aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0"
+            },
+            "tid": 2613441547282
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/user/?tid=2613441547282&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%7D&cb=1745853773203&dep=2%2CPAGE_LOAD"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": "6b6ae864-528a-4e21-88e0-93ab7ed5d993",
+            "u_sclid": "89aa515b-ae1a-4c0a-9ee8-86da4180a8ee",
+            "u_scsid": "f5ec2bb2-ef37-4473-afc3-d54b4670e765"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/i?pid=6b6ae864-528a-4e21-88e0-93ab7ed5d993&u_scsid=f5ec2bb2-ef37-4473-afc3-d54b4670e765&u_sclid=89aa515b-ae1a-4c0a-9ee8-86da4180a8ee"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "3.44.6-2504241707"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/config/org/6b6ae864-528a-4e21-88e0-93ab7ed5d993.json?v=3.44.6-2504241707"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/14002049.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.yourhealthidaho.org",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "c2",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/314072402300795?v=2.9.199&r=c2&domain=www.yourhealthidaho.org&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 275851219.1745854,
+            "dma": 0,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v868879870z879851639za200zb79851639",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tid": "G-GDHTFM29MT",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-GDHTFM29MT&cid=275851219.1745853773&gtm=45je54n0v868879870z879851639za200zb79851639&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_p": 1745853772509,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 275851219.1745854,
+            "dl": "https://www.yourhealthidaho.org/",
+            "dma": 0,
+            "dt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v868879870z879851639za200zb79851639",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853773,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 925,
+            "tid": "G-GDHTFM29MT",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-GDHTFM29MT&gtm=45je54n0v868879870z879851639za200zb79851639&_p=1745853772509&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&cid=275851219.1745853773&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_s=1&sid=1745853773&sct=1&seg=0&dl=https%3A%2F%2Fwww.yourhealthidaho.org%2F&dt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&en=page_view&_fv=1&_ss=1&tfd=925"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45je54n0v868879870za200zb79851639",
+            "id": "AW-964347145",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-964347145&l=dataLayer&cx=c&gtm=45je54n0v868879870za200zb79851639&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_gid": 746836744.1745853,
+            "_r": 3,
+            "_u": "YGBAgAABAAAAAG~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 275851219.1745854,
+            "gjid": 1441903599,
+            "jid": 1071294414,
+            "t": "dc",
+            "tid": "UA-43319506-1",
+            "v": 1,
+            "z": 974513568
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-43319506-1&cid=275851219.1745853773&jid=1071294414&gjid=1441903599&_gid=746836744.1745853773&_u=YGBAgAABAAAAAG~&z=974513568"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 746836744.1745853,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YGBAgAABAAAAAC~",
+            "_v": "j101",
+            "a": 1945789597,
+            "cid": 275851219.1745854,
+            "de": "UTF-8",
+            "dl": "https://www.yourhealthidaho.org/",
+            "dma": 0,
+            "dt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "gcd": "13l3l3l3l1l1",
+            "gjid": 1441903599,
+            "gtm": "45He54n0n81KLTM4BJv79851639za200",
+            "je": 0,
+            "jid": 1071294414,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tid": "UA-43319506-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1338216247
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1945789597&t=pageview&_s=1&dl=https%3A%2F%2Fwww.yourhealthidaho.org%2F&ul=en-us&de=UTF-8&dt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YGBAgAABAAAAAC~&jid=1071294414&gjid=1441903599&cid=275851219.1745853773&tid=UA-43319506-1&_gid=746836744.1745853773&_slc=1&gtm=45He54n0n81KLTM4BJv79851639za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&z=1338216247"
+      },
+      {
+        "data": {
+          "filter": "||s.pinimg.com/ct/core.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.pinimg.com/ct/core.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://www.yourhealthidaho.org"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fwww.yourhealthidaho.org"
+      },
+      {
+        "data": {
+          "filter": "||dx.mountain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "19073285678567720term=value",
+            "dxver": "4.0.0",
+            "plh": "https://www.yourhealthidaho.org/",
+            "shaid": 34787,
+            "tdr": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dx.mountain.com/spx?dxver=4.0.0&shaid=34787&tdr=&plh=https%3A%2F%2Fwww.yourhealthidaho.org%2F&cb=19073285678567720term=value"
+      },
+      {
+        "data": {
+          "filter": "||sc-static.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sc-static.net/scevent.min.js"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/events.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-1562091.js?sv=7"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v79851639za200",
+            "id": "G-GDHTFM29MT",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-GDHTFM29MT&l=dataLayer&cx=c&gtm=45He54n0v79851639za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 1539379053.1745853,
+            "dl": "https://www.yourhealthidaho.org/",
+            "dma": 0,
+            "dt": "Your Health Idaho » Idaho's Official Health Insurance Marketplace",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45He54n0v79851639za200",
+            "navt": "n",
+            "npa": 0,
+            "rnd": 1894363393.1745853,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 645,
+            "tft": 1745853772828
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.yourhealthidaho.org%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1894363393.1745853773&dt=Your%20Health%20Idaho%20%C2%BB%20Idaho%27s%20Official%20Health%20Insurance%20Marketplace&auid=1539379053.1745853773&navt=n&npa=0&gtm=45He54n0v79851639za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&tft=1745853772828&tfd=645&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.hotjar.com/modules.0157df8a158a106f0dc5.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-5078960.js?sv=5"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KLTM4BJ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KLTM4BJ"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.yourhealthidaho.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      }
+    ]
+  }
+}

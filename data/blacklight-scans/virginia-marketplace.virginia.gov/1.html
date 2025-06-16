@@ -1,0 +1,997 @@
+<!DOCTYPE html><html lang="en" dir="ltr" class="h-100 js"><head>
+
+   <script src="https://connect.facebook.net/signals/config/251192281210673?v=2.9.199&amp;r=stable&amp;domain=www.marketplace.virginia.gov&amp;hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&amp;ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=DC-12615263&amp;l=dataLayer&amp;cx=c&amp;gtm=45He54n0h1v9166904739za200&amp;tag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-FQFD5D4NJH&amp;l=dataLayer&amp;cx=c&amp;gtm=45He54n0h1v9166904739za200&amp;tag_exp=101509157~102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"></script><script type="text/template" id="alert-template">
+      <div class="container-fluid alert ${ alert_severity } alert-dismissible fade show" id="${ cookie_id }" role="alert">
+          <div class="container">
+
+            <button type="button" class="btn-close ${ is_sticky }" data-bs-dismiss="alert" data-alertID="${ cookie_id }" aria-label="Close"></button>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <h5>${ alert_title }</h5>
+                    ${ alert_body }
+                </div>
+            </div>
+          </div>
+      </div>
+      <script>
+      jQuery(document).ready(function() {
+        var hidden = '${ is_sticky }';
+        var pinned = (hidden == 'hide') ? true : false;
+        // NO COOKIE SET
+        if (!Cookies.get('${ cookie_id }')) {
+          // SHOW THE ALERT
+            jQuery('#${ cookie_id }').show();
+            if (pinned == true) {
+              //Cookies.set(jQuery('#${ cookie_id }').prop('id'), 'true', { secure: true, expires : ${ cookie_expires } });
+              if(${ cookie_expires } > 0) {
+                Cookies.set(jQuery('#${ cookie_id }').prop('id'), 'true', { secure: true, expires: ${ cookie_expires } });
+              } else {
+                Cookies.set(jQuery('#${ cookie_id }').prop('id'), 'true', { secure: true, });
+              }
+            }
+        } 
+
+        if (Cookies.get('${ cookie_id }') && (pinned == true)) {
+          jQuery('#${ cookie_id }').show();
+        } 
+
+        jQuery('#${ cookie_id }').on('closed.bs.alert', function() {
+          var closedAlertID = jQuery(this).prop('id');
+          //Cookies.set(closedAlertID, 'true', { secure: true, expires : ${ cookie_expires } });
+          if(${ cookie_expires } > 0) {
+            Cookies.set(closedAlertID, 'true', { secure: true, expires: ${ cookie_expires } });
+          } else {
+            Cookies.set(closedAlertID, 'true', { secure: true, });
+          }
+        });
+      });
+      </script>    
+    <meta charset="utf-8">
+<meta name="description" content="Shop for affordable and low-cost health insurance through Virginia’s Insurance Marketplace. Find a plan that's right for you.">
+<meta name="keywords" content="Insurance, Virginia, Healthcare">
+<link rel="canonical" href="https://www.marketplace.virginia.gov/">
+<link rel="shortlink" href="https://www.marketplace.virginia.gov/">
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon">
+<link rel="alternate" hreflang="en" href="https://www.marketplace.virginia.gov/">
+<link rel="alternate" hreflang="es" href="https://www.marketplace.virginia.gov/es">
+
+    <title>Virginia’s Insurance Marketplace | Virginia Health Benefit Exchange</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_ON0Yvdxvm-nj5vV_iMdphnj1cWPHF24eLjQUTEUrLJw.css">
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_9HcJrh4lOt62Ecnjq24IybXB900wBBF2ustiZz3-8r4.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/qxk2roj.css">
+    <script src="/sites/default/files/js/js_wyfGCaVGqQ-Hk7Tju4H-lvnQoHhkBemenKcJKhAjOcI.js"></script>
+
+  <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NL28HCZK" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FQFD5D4NJH" type="text/javascript"></script><style class="gtranslate_css"></style><style class="gtranslate_css"></style><style type="text/css">@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&display=swap);.bbar-skipnav{position:absolute;left:-9999px;z-index:999;padding:1rem;background-color:#fff;border:1px solid var(--dark-grey);color:#0079ba;opacity:0;font-family:Roboto,sans-serif}.bbar-skipnav:focus{left:50%;transform:translateX(-50%);opacity:1}body .va-agency-bar-container{font-family:Roboto,sans-serif;z-index:1;position:relative;font-size:16px!important;-webkit-font-smoothing:antialiased}body .va-agency-bar-container button{border-radius:0!important;font-size:88%!important;line-height:1.15!important;box-shadow:none;-webkit-font-smoothing:antialiased;text-shadow:none}body .va-agency-bar-container button:hover{box-shadow:none;border:0;-webkit-font-smoothing:antialiased;text-shadow:none}.bbar-skip{left:50%;position:absolute!important;transform:translateY(-200%);background:#fff}div#after-bbar{position:absolute;left:-999px;width:1px;height:1px}body .va-agency-bar-container ul{font-size:1em}body .va-agency-bar-container a{font-size:1em}#va-agency-bar-resource ul{text-indent:initial;list-style:none}div#va-agency-bar-resource li:before{content:initial}.va-agency-bar-container{font-family:Roboto,sans-serif;z-index:1;position:relative}.va-agency-bar-container a,.va-agency-bar-container b,.va-agency-bar-container p{font-size:initial}.va-agency-bar-container b{font-weight:600}.va-agency-bar-container p{line-height:1.625}p.va-agency-bar-header>a{font-size:1em}p.va-agency-bar-header a[href^="https://"]:before{display:none}.va-agency-bar-container h1,.va-agency-bar-container h2,.va-agency-bar-container h3,.va-agency-bar-container h4,.va-agency-bar-container h5,.va-agency-bar-container p{font-family:Roboto,sans-serif;color:#212121}.va-agency-bar-container .va-agency-bar .cardinal-logo{padding:3px 10px;max-width:90px;margin:initial}.va-agency-bar-container .va-agency-bar .cardinal-logo img{height:auto!important;width:100px!important;max-height:42px;padding:initial;vertical-align:initial;max-width:100%}.va-agency-bar-container .va-agency-bar{display:flex;background:#212121;color:#fff;padding:0!important;font-size:1em!important}.va-agency-logo-select{background:#0c5982;border-radius:0 0 10px 10px;padding:0 10px;position:relative;z-index:2}.va-agency-logo-select img{max-width:65px}.va-agency-logo-select a{display:block;position:relative;top:50%;transform:translateY(calc(-50%))}.va-agency-content{color:#fff;display:inline-block;position:relative;display:flex;padding:5px}p.va-agency-bar-header span{display:block;font-size:.75em;text-transform:initial;font-weight:400;color:#fff;width:initial;background:initial;margin:initial}p.va-agency-bar-header{font-weight:700;font-size:1em;vertical-align:middle;margin:0!important;text-transform:none}p.va-agency-bar-header a{color:#fff;text-decoration:none;font-weight:700;box-shadow:initial}p.va-agency-bar-header a:hover{text-decoration:underline}.va-agency-bar.aatheme-white{background:#fff;border-bottom:1px solid #f2f2f2}.aatheme-white p.va-agency-bar-header>*,.aatheme-white p.va-agency-bar-header>*>*{color:#172b54}p.va-agency-bar-header span a{margin-left:5px;text-decoration:underline;position:relative;font-size:1em;font-weight:500}p.va-agency-bar-header span a::after{content:"";font-size:1.5em;padding-left:2px;height:16px;width:20px;background:#00f;position:static;line-height:1;display:inline-block;vertical-align:middle;background:url(https://www.developer.virginia.gov/media/developer/assets/img/down-arrow.png) no-repeat center;background-size:50%;transform:rotate(0);transition:all .5s}.aatheme-white p.va-agency-bar-header span a::after{background:url(https://www.developer.virginia.gov/media/developer/assets/img/down-arrow-blue.png) no-repeat center;background-size:50%}p.va-agency-bar-header span a.bbarheresHow-open::after{content:"";transform:rotate(180deg)}.va-agency-bar-container .va-agency-bar.va_aagency_bar-open{flex-wrap:wrap}#va-agency-bar-resource #bbarheresHow{display:flex;background:#efefef;max-width:1000px;margin:0 auto;flex-wrap:wrap}#va-agency-bar-resource #bbarheresHow>.resource-item:nth-child(odd){background:#fafafa}#va-agency-bar-resource #bbarheresHow>.resource-item{background:#f5f5f5;padding:15px;flex:1}#va-agency-bar-resource #bbarheresHow #bbarheresHow-close{flex:0 0 100%}.va-agency-bar-container .resource-item-logo-display{background-image:url(https://www.developer.virginia.gov/media/developer/assets/img/bbar_logos-white.svg);height:45px;width:75px;background-size:80%;background-color:#212121;padding:10px;background-repeat:no-repeat;background-position:center}.va-agency-bar-container .aatheme-white+#va-agency-bar-resource .resource-item-logo-display{background-image:url(https://www.developer.virginia.gov/media/developer/assets/img/bbar_logos-blue.svg);background-color:#fff}.va-agency-bar-container .resource-item p{text-transform:initial;margin-bottom:10px;font-size:1em;font-weight:600;color:#212121!important}.va-agency-bar-container #va-agency-bar-resource{background:#eeeded}.va-agency-bar-container .aatheme-black.va-agency-bar.va_aagency_bar-open #va-agency-bar-resource #bbarheresHow{border-bottom:1px solid #eeeded}.va-agency-bar-container .va-agency-bar.va_aagency_bar-open #va-agency-bar-resource{flex-grow:1;width:100%}.va-agency-bar-container .aatheme-white+#va-agency-bar-resource{border-bottom:1px solid #f0efef}.va-agency-bar-container #bbarheresHow .resource-item p{font-size:1em;font-weight:400}.va-agency-bar-container ::selection{background:#891723;color:#fff;text-shadow:none}@media(max-width:575px){p.va-agency-bar-header span a{display:block;margin-left:0}#bbarheresHow{flex-direction:column}}div#va-agency-bar-builder{padding:30px 0}span.bbarmobile-official{display:none!important}@media (max-width:992px){.va-agency-bar-container .va-agency-bar .cardinal-logo img{width:60px!important}.va-agency-bar-container .va-agency-bar{width:100%!important}p.va-agency-bar-header span{display:none;font-size:.85em}p.va-agency-bar-header span a{font-size:.85em}div#va-agency-bar-builder{padding:30px 0}p.va-agency-bar-header span{display:none}p.va-agency-bar-header span.bbarmobile-official span{display:inline-block;margin-right:5px}p.va-agency-bar-header span.bbarmobile-official a{display:inline-block}.va-agency-bar-container p{line-height:1.25!important}p.va-agency-bar-header>a{font-size:.85em!important}p.va-agency-bar-header span.bbarmobile-official a::after{font-size:1.25em;top:-7px}p.va-agency-bar-header span.bbarmobile-official a.bbarheresHow-open::after{font-size:1.25em!important;top:2px!important}}@media(max-width:375px){p.va-agency-bar-header span.bbarmobile-official a{margin-left:0;display:block}}button.bbarServiceResource{font-size:.85em!important;color:#f6f6f6!important;margin:0;text-decoration:none;display:block;font-weight:600;line-height:1;margin-left:auto;padding:12px;background:#383939!important;border:0;font-family:Roboto,sans-serif;text-transform:initial}.bbarServiceResource img{max-width:23px!important;display:inline-block!important;vertical-align:middle;margin:initial!important;margin-right:10px!important;padding:initial!important}#bbar-services{background:#383939;padding:15px;display:flex;font-family:Roboto,sans-serif;justify-content:center;flex-direction:column}#va_aagency_bar #bbar-services p{color:#fff!important;margin-bottom:1em;font-size:1.25em;line-height:1.25;padding-bottom:4px;font-weight:600!important;text-shadow:none}#bbar-services a{color:#fff!important;text-decoration:underline;display:inline-block!important;box-shadow:initial;font-family:Roboto,sans-serif;text-shadow:none}#bbar-services .bbarServicesList a{width:100%}#bbar-services .bbarServicesList a:after{background-image:url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2232%22%20height%3D%22192%22%3E%0A%3Cdefs%3E%3Csymbol%20id%3D%22arrow-ext%22%3E%3Cpath%20d%3D%22M18 5v2h5.6L11.3 19.3l1.4 1.4L25 8.4V14h2V5h-9zM5 9v18h18V14l-2 2v9H7V11h9l2-2H5z%22%2F%3E%3C%2Fsymbol%3E%3C%2Fdefs%3E%3Cuse%20xlink%3Ahref%3D%22%23arrow-ext%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%2319191A%22%20%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23arrow-ext%22%20x%3D%220%22%20y%3D%2232%22%20fill%3D%22%23F3F5F9%22%20%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23arrow-ext%22%20x%3D%220%22%20y%3D%2264%22%20fill%3D%22%236B6E6D%22%20%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23arrow-ext%22%20x%3D%220%22%20y%3D%2296%22%20fill%3D%22%239BAAC9%22%20%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23arrow-ext%22%20x%3D%220%22%20y%3D%22128%22%20fill%3D%22%230079BA%22%20%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23arrow-ext%22%20x%3D%220%22%20y%3D%22160%22%20fill%3D%22%233298CF%22%20%2F%3E%3C%2Fsvg%3E');background-position:50% 20%;content:'';font-size:.95em;background-size:1em;width:1em;height:1em;display:inline-block;vertical-align:middle}#bbar-services a:hover{color:#c3c3c3}#bbar-services>div{max-width:1200px!important;margin:0 auto}#site-services li.bbar-service-item{margin-bottom:10px}#global-services li.bbar-service-item{margin-bottom:10px;border-bottom:1px solid #5f5f5f}div#global-services ul{-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px;text-indent:initial}li.bbar-service-item button{background:0 0;border:0;color:#fff;font-size:1.1em!important;font-weight:600;padding:5px;width:100%;text-align:left;cursor:pointer;margin:0!important;transition:all 1s;box-shadow:0 0;text-shadow:0 0;text-transform:initial}li.bbar-service-item:before{content:initial}li.bbar-service-item button:hover{background:#ba1a1a}#global-services li.bbar-service-item{margin-bottom:10px!important;border-bottom:1px solid #5f5f5f;list-style:none;font-size:1em}ul.bbarServiceCategoryList ul a{margin:10px 10px 0;display:block;font-size:.9em}.global-services-open#global-services{flex-grow:1}.global-services-open#global-services ul{-moz-column-count:initial;-moz-column-gap:initial;-webkit-column-count:initial;-webkit-column-gap:initial;column-count:initial;column-gap:initial;text-indent:initial}.global-services-open#global-services ul li:before{content:initial}ul.bbarServiceCategoryList{border-left:1px solid #7e7e7e;margin-bottom:20px!important}#bbar-services ul{list-style:none;margin:0}ul.bbarServiceCategoryList li{margin-bottom:15px!important;font-size:1.1em}ul.bbarServiceCategoryList li button{color:#e9e9e9}ul.bbarServiceCategoryList li>button{font-size:.9em;margin-left:10px!important}ul.bbarServicesList{margin-left:15px!important;font-size:1em}button.bbarServiceCategory.bbarbuttonServiceCategory-on{background:#ba1a1a;margin-bottom:10px!important}.bbar-down-arrow{height:5px;width:9px;display:inline-block;margin:5px;background:url(https://www.developer.virginia.gov/media/developer/assets/img/down-arrow.png) no-repeat center;background-size:cover;position:relative;top:3px;transition:all .25s}button.bbarServiceCategory.bbarbuttonServiceCategory-on .bbar-down-arrow{transform:rotate(180deg)}button.bbarSubCatService .bbar-down-arrow{height:5px;width:9px;opacity:.45}button.bbarSubCatService.bbarbuttonServiceSubCategory-on .bbar-down-arrow{transform:rotate(180deg)}span.bbar-ServiceAgencyName{margin:5px 10px 20px;font-size:.75em;line-height:1;display:block;opacity:.85;font-weight:400;color:#fff;width:initial;background:initial;text-shadow:none;font-family:Roboto}li.bbar-service-item button.bbarSubCatService{font-size:.95em!important}div#bbar-services>div img{padding:0!important;margin:0 5px 0!important;display:inline-block!important;height:30px!important;position:relative;top:-5px;max-width:70px}div#bbar-globalsearch{width:100%}div#bbar-service-items{display:flex;width:100%;justify-content:center}div#bbar-service-items>div{padding:10px 30px;transition:all 1s}button.bbarServiceResource:hover{background:#ba1a1a!important;cursor:pointer}button.bbarServiceResource:focus{outline:2px solid #ba1a1a;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;outline-offset:-2px}.va-agency-bar-container button{outline:0}@media (max-width:992px){div#bbar-service-items{flex-direction:column}span.bbarmobile-official{display:flex!important;flex-wrap:wrap;padding-bottom:5px}}@media(max-width:575px){.va-agency-bar-container .va-agency-bar .cardinal-logo img{max-height:35px}.va-agency-bar-container .va-agency-bar{flex-wrap:wrap;align-items:center;justify-content:center}.bbarServiceResource{padding:0 0 5px 0;font-size:10px;display:table;margin:0 0 0 auto}}div#bbar-services #global-services>p{display:flex;border:0}div#va_aagency_bar .bbarServiceResource+.bbarServiceResource img{margin:0 10px!important}div#bbarServiceBar{display:flex;margin:0 0 0 auto}.bbar-close{background:#ba1a1a;padding:10px;margin-left:10px;color:#fff;border:0;display:block;margin:0 auto;vertical-align:middle;font-weight:600;cursor:pointer;max-width:6em}.bbar-close img{max-width:15px;vertical-align:middle;margin:0 auto;margin-right:3px;box-sizing:content-box;display:inline-block;padding:initial}div#va-agency-bar-resource .bbar-close img{position:relative;top:-2px}img+.bbar-close{margin-left:10px;padding:10px 10px!important}img+.bbar-close img{margin:initial!important;max-width:15px!important}span.bbar-close{display:none}@media (max-width:800px){p.va-agency-bar-header span a{display:block}}@media (max-width:705px){p.va-agency-bar-header span.bbarmobile-official a{display:block;margin:0}div#global-services ul{-moz-column-count:initial;-moz-column-gap:initial;-webkit-column-count:initial;-webkit-column-gap:initial;column-count:initial;column-gap:initial;text-indent:initial}}@media (max-width:575px){.va-agency-bar-container .va-agency-bar .cardinal-logo{max-width:initial}.va-agency-bar-container .va-agency-bar .cardinal-logo img{max-height:35px;display:block;margin:0 auto}.va-agency-content{padding:10px}button.bbarServiceResource{width:100%}.va-agency-content{padding:5px 10px}}#va_aagency_bar .sui-layout{display:flex;flex-direction:column;width:100%}#va_aagency_bar .sui-layout-header{border-bottom:1px solid #eee;padding:32px 24px}#va_aagency_bar .sui-layout-body{background:#fcfcfc}#va_aagency_bar .sui-layout-body:after{background:linear-gradient(180deg,#fcfcfc 0,#fff);content:"";display:none;height:80px;position:relative;width:100%}@media (max-width:800px){#va_aagency_bar .sui-layout-body:after{display:none}}#va_aagency_bar .sui-layout-body__inner{display:flex;margin-left:auto;margin-right:auto;max-width:1300px;padding:0 24px}@media (max-width:800px){#va_aagency_bar .sui-layout-body__inner{display:block;padding:0 15px}}@-webkit-keyframes fadein{0%{opacity:0}to{opacity:1}}@keyframes fadein{0%{opacity:0}to{opacity:1}}#va_aagency_bar .sui-layout-sidebar{padding:32px 32px 0 0;width:24%}@media (max-width:975px){#va_aagency_bar .sui-layout-sidebar{padding-right:0}}@media (max-width:800px){#va_aagency_bar .sui-layout-sidebar{background-color:#fcfcfc;display:none;height:100%;left:0;margin:0;overflow:auto;padding:0 15px 30px;position:fixed;top:0;width:100%;z-index:99}}#va_aagency_bar .sui-layout-sidebar--toggled{-webkit-animation:fadein .2s ease-out;animation:fadein .2s ease-out;display:block}@media (max-width:800px){#va_aagency_bar .sui-layout-sidebar-toggle{background-color:#fff;border:1px solid #3a56e4;border-radius:4px;color:#3a56e4;display:block;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;font-weight:700;line-height:1.5;margin-top:20px;padding:10px;width:100%}#va_aagency_bar .sui-layout-sidebar .sui-layout-sidebar-toggle{margin-bottom:20px}}#va_aagency_bar .sui-layout-main{padding:32px 0 32px 32px;width:76%}@media (max-width:800px){#va_aagency_bar .sui-layout-main{padding-left:0;width:100%}}#va_aagency_bar .sui-layout-main-header,#va_aagency_bar .sui-layout-main-header__inner{align-items:center;display:flex;justify-content:space-between;width:100%}#va_aagency_bar .sui-layout-main-header__inner{color:#4a4b4b;font-size:12px}#va_aagency_bar .sui-layout-main-footer{align-items:center;display:flex;justify-content:space-around}#va_aagency_bar .sui-search-error{color:red}#va_aagency_bar .sui-search-error,#va_aagency_bar .sui-search-error.no-error{align-items:center;display:flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-weight:400;height:calc(100vh - 180px);justify-content:center;line-height:1.5;margin:auto}#va_aagency_bar .sui-search-error.no-error{color:#333}#va_aagency_bar .sui-facet{border:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.5;margin:0;padding:0}#va_aagency_bar .sui-facet+.sui-facet,#va_aagency_bar .sui-sorting+.sui-facet{margin-top:32px}#va_aagency_bar .sui-facet__title{color:#8b9bad;font-size:12px;letter-spacing:1px;padding:0;text-transform:uppercase}#va_aagency_bar .sui-facet__list{font-size:13px;line-height:1.5;margin:8px 0;padding:0}#va_aagency_bar .sui-facet__count{color:#888;display:inline-block;font-size:.85em;margin-left:20px;padding-top:2px}#va_aagency_bar .sui-multi-checkbox-facet{color:#4f4f4f;font-size:13px;margin:8px 0}#va_aagency_bar .sui-multi-checkbox-facet__option-label{align-items:center;cursor:pointer;display:flex;justify-content:space-between}#va_aagency_bar .sui-multi-checkbox-facet__option-input-wrapper{flex:1 1}#va_aagency_bar .sui-multi-checkbox-facet__checkbox{cursor:pointer;margin-right:8px}#va_aagency_bar .sui-multi-checkbox-facet__option-count{color:#888;font-size:.85em;margin-left:24px}#va_aagency_bar .sui-facet-view-more{background:unset;border:unset;color:#3a56e4;cursor:pointer;display:block;font-family:inherit;font-size:13px;line-height:inherit;padding:unset;text-align:left}#va_aagency_bar .sui-facet-view-more:focus,#va_aagency_bar .sui-facet-view-more:hover{background-color:#f8f8f8;outline:4px solid #f8f8f8}#va_aagency_bar .sui-facet-search{margin:6px 0 0}#va_aagency_bar .sui-facet-search__text-input{border:1px solid #ccc;border-radius:4px;font-family:inherit;height:100%;margin:0;outline:0;padding:6px;width:100%}#va_aagency_bar .sui-facet-search__text-input:focus{border:1px solid #3a56e4}#va_aagency_bar .sui-boolean-facet{color:#4f4f4f;font-size:13px;margin:8px 0}#va_aagency_bar .sui-boolean-facet__option-label{align-items:center;cursor:pointer;display:flex;justify-content:space-between}#va_aagency_bar .sui-boolean-facet__option-input-wrapper{flex:1 1}#va_aagency_bar .sui-boolean-facet__checkbox{cursor:pointer;margin-right:8px}#va_aagency_bar .sui-boolean-facet__option-count{color:#888;font-size:.85em;margin-left:24px}#va_aagency_bar .sui-single-option-facet{font-size:13px;list-style:none;margin:8px 0;padding:0}#va_aagency_bar .sui-single-option-facet__item{display:flex;justify-content:space-between}#va_aagency_bar .sui-single-option-facet__link{color:#4f4f4f;font-weight:700;list-style:none;padding:0;position:relative;text-decoration:none}#va_aagency_bar .sui-single-option-facet__link:after{background:rgba(37,139,248,.08);content:"";height:calc(100% + 2px);left:-5px;opacity:0;pointer-events:none;position:absolute;top:-1px;width:calc(100% + 10px)}#va_aagency_bar .sui-single-option-facet__link:focus{color:#3a56e4;font-weight:700;outline:0}#va_aagency_bar .sui-single-option-facet__link:hover{color:#3a56e4;font-weight:700}#va_aagency_bar .sui-single-option-facet__link:hover:after{opacity:1}#va_aagency_bar .sui-single-option-facet__selected{font-weight:900;list-style:none}#va_aagency_bar .sui-single-option-facet__selected a{font-weight:100;padding:0 2px}#va_aagency_bar .sui-single-option-facet__remove{color:#666;margin-left:10px}#va_aagency_bar .rc-pagination{font-family:Arial;font-size:12px;padding:0;-webkit-user-select:none;-ms-user-select:none;user-select:none}#va_aagency_bar .rc-pagination>li{list-style:none}#va_aagency_bar .rc-pagination-total-text{float:left;height:30px;line-height:30px;list-style:none;margin:0 8px 0 0;padding:0}#va_aagency_bar .rc-pagination:after{clear:both;content:" ";display:block;height:0;overflow:hidden;visibility:hidden}#va_aagency_bar .rc-pagination-item{background-color:#fff;border:1px solid #d9d9d9;border-radius:6px;cursor:pointer;float:left;height:28px;line-height:28px;list-style:none;margin-right:8px;min-width:28px;text-align:center}#va_aagency_bar .rc-pagination-item a{color:#666;text-decoration:none}#va_aagency_bar .rc-pagination-item:hover{border-color:#2db7f5}#va_aagency_bar .rc-pagination-item:hover a{color:#2db7f5}#va_aagency_bar .rc-pagination-item-disabled{cursor:not-allowed}#va_aagency_bar .rc-pagination-item-disabled:hover{border-color:#d9d9d9}#va_aagency_bar .rc-pagination-item-disabled:hover a{color:#d9d9d9}#va_aagency_bar .rc-pagination-item-active{background-color:#2db7f5;border-color:#2db7f5}#va_aagency_bar .rc-pagination-item-active a,#va_aagency_bar .rc-pagination-item-active:hover a{color:#fff}#va_aagency_bar .rc-pagination-jump-next:after,#va_aagency_bar .rc-pagination-jump-prev:after{color:#ccc;content:"•••";font-size:12px;letter-spacing:2px;margin-top:1px}#va_aagency_bar .rc-pagination-jump-next:hover:after,#va_aagency_bar .rc-pagination-jump-prev:hover:after{color:#2db7f5}#va_aagency_bar .rc-pagination-jump-prev:hover:after{content:"«"}#va_aagency_bar .rc-pagination-jump-next:hover:after{content:"»"}#va_aagency_bar .rc-pagination-jump-next-custom-icon,#va_aagency_bar .rc-pagination-jump-prev-custom-icon{position:relative}#va_aagency_bar .rc-pagination-jump-next-custom-icon:after,#va_aagency_bar .rc-pagination-jump-prev-custom-icon:after{bottom:0;color:#ccc;content:"•••";display:block;font-size:12px;left:0;letter-spacing:2px;margin:1px auto auto;opacity:1;position:absolute;right:0;top:0;transition:all .2s}#va_aagency_bar .rc-pagination-jump-next-custom-icon .custom-icon-jump-next,#va_aagency_bar .rc-pagination-jump-next-custom-icon .custom-icon-jump-prev,#va_aagency_bar .rc-pagination-jump-prev-custom-icon .custom-icon-jump-next,#va_aagency_bar .rc-pagination-jump-prev-custom-icon .custom-icon-jump-prev{opacity:0;transition:all .2s}#va_aagency_bar .rc-pagination-jump-next-custom-icon:hover:after,#va_aagency_bar .rc-pagination-jump-prev-custom-icon:hover:after{color:#ccc;opacity:0}#va_aagency_bar .rc-pagination-jump-next-custom-icon:hover .custom-icon-jump-next,#va_aagency_bar .rc-pagination-jump-next-custom-icon:hover .custom-icon-jump-prev,#va_aagency_bar .rc-pagination-jump-prev-custom-icon:hover .custom-icon-jump-next,#va_aagency_bar .rc-pagination-jump-prev-custom-icon:hover .custom-icon-jump-prev{color:#2db7f5;opacity:1}#va_aagency_bar .rc-pagination-jump-next,#va_aagency_bar .rc-pagination-jump-prev,#va_aagency_bar .rc-pagination-prev{margin-right:8px}#va_aagency_bar .rc-pagination-jump-next,#va_aagency_bar .rc-pagination-jump-prev,#va_aagency_bar .rc-pagination-next,#va_aagency_bar .rc-pagination-prev{border-radius:6px;color:#666;cursor:pointer;float:left;font-size:10px;height:28px;line-height:28px;list-style:none;min-width:28px;text-align:center}#va_aagency_bar .rc-pagination-prev a:after{content:"‹";display:block}#va_aagency_bar .rc-pagination-next a:after{content:"›";display:block}#va_aagency_bar .rc-pagination-next,#va_aagency_bar .rc-pagination-prev{border:1px solid #d9d9d9;font-size:18px}#va_aagency_bar .rc-pagination-next a,#va_aagency_bar .rc-pagination-prev a{color:#666}#va_aagency_bar .rc-pagination-next a:after,#va_aagency_bar .rc-pagination-prev a:after{margin-top:-1px}#va_aagency_bar .rc-pagination-disabled{cursor:not-allowed}#va_aagency_bar .rc-pagination-disabled a{color:#ccc}#va_aagency_bar .rc-pagination-disabled .rc-pagination-item,#va_aagency_bar .rc-pagination-disabled .rc-pagination-next,#va_aagency_bar .rc-pagination-disabled .rc-pagination-prev{cursor:not-allowed}#va_aagency_bar .rc-pagination-disabled .rc-pagination-item:hover,#va_aagency_bar .rc-pagination-disabled .rc-pagination-next:hover,#va_aagency_bar .rc-pagination-disabled .rc-pagination-prev:hover{border-color:#ba1a1a}#va_aagency_bar .rc-pagination-disabled .rc-pagination-item:hover a,#va_aagency_bar .rc-pagination-disabled .rc-pagination-next:hover a,#va_aagency_bar .rc-pagination-disabled .rc-pagination-prev:hover a{color:#ba1a1a}#va_aagency_bar .rc-pagination-disabled .rc-pagination-jump-next,#va_aagency_bar .rc-pagination-disabled .rc-pagination-jump-prev{pointer-events:none}#va_aagency_bar .rc-pagination-options{float:left;margin-left:15px}#va_aagency_bar .rc-pagination-options-size-changer{float:left;width:80px}#va_aagency_bar .rc-pagination-options-quick-jumper{float:left;height:28px;line-height:28px;margin-left:16px}#va_aagency_bar .rc-pagination-options-quick-jumper input{background-color:#fff;border:1px solid #d9d9d9;border-radius:6px;box-sizing:border-box;height:28px;margin:0 8px;outline:0;padding:3px 12px;width:50px}#va_aagency_bar .rc-pagination-options-quick-jumper input:hover{border-color:#2db7f5}#va_aagency_bar .rc-pagination-options-quick-jumper button{background-color:#fff;background-image:none;border:1px solid #d9d9d9;border-radius:6px;color:rgba(0,0,0,.65);cursor:pointer;display:inline-block;font-size:12px;font-weight:500;height:28px;margin:0 8px;padding:0 15px;position:relative;text-align:center;touch-action:manipulation;transition:all .3s cubic-bezier(.645,.045,.355,1);-webkit-user-select:none;-ms-user-select:none;user-select:none;white-space:nowrap}#va_aagency_bar .rc-pagination-options-quick-jumper button:active,#va_aagency_bar .rc-pagination-options-quick-jumper button:focus,#va_aagency_bar .rc-pagination-options-quick-jumper button:hover{background-color:#fff;border-color:#2db7f5;color:#2db7f5}#va_aagency_bar .rc-pagination-simple .rc-pagination-next,#va_aagency_bar .rc-pagination-simple .rc-pagination-prev{border:none;font-size:18px;height:24px;line-height:24px;margin:0}#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager{float:left;list-style:none;margin-right:8px}#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager .rc-pagination-slash{margin:0 10px}#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager input{background-color:#fff;border:1px solid #d9d9d9;border-radius:6px;box-sizing:border-box;margin:0 8px;min-height:20px;outline:0;padding:5px 8px}#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager input:hover{border-color:#2db7f5}#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager button{background-color:#fff;background-image:none;border:1px solid #d9d9d9;border-radius:6px;color:rgba(0,0,0,.65);cursor:pointer;display:inline-block;font-size:12px;font-weight:500;height:26px;margin:0 8px;padding:0 8px;position:relative;text-align:center;touch-action:manipulation;transition:all .3s cubic-bezier(.645,.045,.355,1);-webkit-user-select:none;-ms-user-select:none;user-select:none;white-space:nowrap}#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager button:active,#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager button:focus,#va_aagency_bar .rc-pagination-simple .rc-pagination-simple-pager button:hover{background-color:#fff;border-color:#2db7f5;color:#2db7f5}@media only screen and (max-width:1024px){#va_aagency_bar .rc-pagination-item-after-jump-prev,#va_aagency_bar .rc-pagination-item-before-jump-next{display:none}}#va_aagency_bar .sui-paging>li{background:0 0;border:none;outline:0}#va_aagency_bar .sui-paging .rc-pagination-disabled a{color:#ccc;opacity:.5}#va_aagency_bar .sui-paging .rc-pagination-item a{color:#3a56e4;text-decoration:none}#va_aagency_bar .sui-paging .rc-pagination-item:hover{background:#f8f8f8}#va_aagency_bar .sui-paging .rc-pagination-item:hover a{color:#3a56e4;text-decoration:none}#va_aagency_bar .sui-paging .rc-pagination-item-active a{color:#4f4f4f;font-weight:700}#va_aagency_bar .sui-paging .rc-pagination-item-active:hover{background:0 0;cursor:not-allowed}#va_aagency_bar .sui-paging .rc-pagination-item-active:hover a{color:#4f4f4f;cursor:not-allowed}#va_aagency_bar .sui-paging .rc-pagination-next:hover{background:#ba1a1a}#va_aagency_bar .sui-paging .rc-pagination-next:hover a{color:#3a56e4}#va_aagency_bar .sui-paging .rc-pagination-jump-next:hover{background:#f8f8f8}#va_aagency_bar .sui-paging .rc-pagination-jump-next:hover a{color:#3a56e4}#va_aagency_bar .sui-paging .rc-pagination-jump-next:hover:after{color:#3a56e4;content:"»";font-size:16px;line-height:1.5}#va_aagency_bar .sui-paging .rc-pagination-jump-prev:hover{background:#f8f8f8}#va_aagency_bar .sui-paging .rc-pagination-jump-prev:hover a{color:#3a56e4}#va_aagency_bar .sui-paging .rc-pagination-jump-prev:hover:after{color:#3a56e4;content:"«";font-size:16px;line-height:1.5}#va_aagency_bar .sui-paging-info{color:#4a4b4b;display:inline-block;font-size:12px}#va_aagency_bar .sui-paging-info,#va_aagency_bar .sui-result{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.5}#va_aagency_bar .sui-result{background:#fff;border:1px solid #f0f0f0;border-radius:4px;box-shadow:0 0 1px 0 rgba(0,0,0,.1);display:block;list-style:none;overflow:hidden;overflow-wrap:break-word;padding:24px 0;text-decoration:none}#va_aagency_bar .sui-result+.sui-result{margin-top:32px}#va_aagency_bar .sui-result em{color:#3a56e4;font-style:inherit;font-weight:700;position:relative}#va_aagency_bar .sui-result em:after{background:rgba(37,139,248,.08);content:"";height:calc(100% + 6px);left:-3px;pointer-events:none;position:absolute;top:-3px;width:calc(100% + 6px)}#va_aagency_bar .sui-result__header{align-items:center;display:flex;justify-content:space-between;padding:0 24px}#va_aagency_bar .sui-result__title{color:#333;font-size:1.8em;font-weight:400;text-decoration:none}#va_aagency_bar .sui-result__title-link{color:#3a56e4;text-decoration:none}#va_aagency_bar .sui-result__key{color:#777;flex:0 1 50%;font-family:monospace;font-size:14px;font-weight:400}#va_aagency_bar .sui-result__key:before{content:'"'}#va_aagency_bar .sui-result__key:after{content:'": '}#va_aagency_bar .sui-result__value{font-size:14px}#va_aagency_bar .sui-result__version{display:inline;font-size:12px;vertical-align:bottom}#va_aagency_bar .sui-result__license{border:1px solid #ccc;border-radius:3px;color:#999;display:inline-block;font-size:12px;line-height:1;padding:4px 4px 3px}#va_aagency_bar .sui-result__body{display:flex;line-height:1.5;margin-top:0}#va_aagency_bar .sui-result__body p{margin:0}#va_aagency_bar .sui-result__image{flex-basis:220px;padding-left:24px;padding-top:12px}#va_aagency_bar .sui-result__image img{display:block;height:auto;max-width:100%}#va_aagency_bar .sui-result__details{flex:1 1;list-style:none;margin:0;padding:12px 24px}#va_aagency_bar .sui-results-container{list-style:none;padding:0}#va_aagency_bar .sui-results-per-page{align-items:center;color:#4a4b4b;display:flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;height:100%;line-height:1.5}#va_aagency_bar .sui-results-per-page__label{margin-right:8px}#va_aagency_bar .sui-results-per-page .sui-select__control{align-items:center}#va_aagency_bar .sui-results-per-page .sui-select__control input{position:absolute}#va_aagency_bar .sui-search-box{align-items:stretch;display:flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;justify-content:center;position:relative}#va_aagency_bar .sui-search-box__submit{background:linear-gradient(#2da0fa,#3158ee) #2f7cf4;border:none;border-radius:4px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.05),0 1px 0 rgba(59,69,79,.05);color:#fff;cursor:pointer;flex-shrink:0;font-family:inherit;font-size:14px;margin-left:10px;padding:16px;text-shadow:rgba(0,0,0,.05) 0 1px 2px}#va_aagency_bar .sui-search-box__submit:hover{background:linear-gradient(#3cabff,#4063f0) #3d84f7;box-shadow:inset 0 0 0 1px rgba(0,0,0,.3),0 2px 4px rgba(59,69,79,.3)}#va_aagency_bar .live-filtering .sui-search-box__submit{display:none}#va_aagency_bar .sui-search-box__wrapper{align-items:stretch;border-radius:3px;display:flex;flex-direction:column;height:100%;outline:0;position:relative;width:100%}#va_aagency_bar .sui-search-box__wrapper:before{content:"";width:20px;height:20px;position:absolute;z-index:9;top:10px;left:5px;background:url(https://www.developer.virginia.gov/media/developer/assets/img/bbar-searchicon-gray.png);background-size:cover}#va_aagency_bar .sui-search-box__text-input{border:1px solid #ccc;border-radius:4px;font-family:inherit;font-size:14px;outline:0;padding:16px;position:relative;width:100%}#va_aagency_bar .sui-search-box__text-input:focus{border:1px solid #3a56e4}#va_aagency_bar .autocomplete .sui-search-box__text-input,#va_aagency_bar .sui-search-box__text-input:focus{box-shadow:0 2px 4px rgba(59,69,79,.3)}#va_aagency_bar .sui-search-box__autocomplete-container{background:#fff;border:1px solid #ccc;border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top-left-radius:4px;border-top-right-radius:4px;box-shadow:0 2px 4px rgba(59,69,79,.3);display:none;flex-direction:column;left:0;line-height:1.5;margin:0;padding:24px 0 12px;position:absolute;right:0;top:110%}#va_aagency_bar .sui-search-box__autocomplete-container ul{background:0 0;border-radius:3px;list-style:none;margin:0;padding:0 0 24px}#va_aagency_bar .sui-search-box__autocomplete-container ul:last-child{padding:0}#va_aagency_bar .sui-search-box__autocomplete-container li{border-radius:4px;color:#555;cursor:default;font-size:.9em;margin:0 12px;padding:4px 12px}#va_aagency_bar .sui-search-box__autocomplete-container li em{background:#edf0fd;color:#3a56e4;font-style:normal}#va_aagency_bar .sui-search-box__autocomplete-container li:hover{background:#ba1a1a;color:#fff}#va_aagency_bar .sui-search-box__autocomplete-container li:hover em{background:0 0;color:#fff}#va_aagency_bar .sui-search-box__autocomplete-container li[aria-selected=true]{background:#ba1a1a;color:#fff}#va_aagency_bar .sui-search-box__autocomplete-container li[aria-selected=true] em{background:0 0;color:#fff}#va_aagency_bar .sui-search-box__section-title{color:#888;font-size:.7em;font-weight:400;letter-spacing:1px;padding:0 0 4px 24px;text-transform:uppercase}#va_aagency_bar .sui-sorting{display:inline-block;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.5;width:100%}#va_aagency_bar .sui-sorting__label{color:#8b9bad;font-size:12px;letter-spacing:1px;text-transform:uppercase}#va_aagency_bar .sui-select{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:.875rem;font-weight:400;line-height:1.5;margin-top:8px;width:100%}#va_aagency_bar .sui-select--inline{margin-top:0}#va_aagency_bar .sui-select--is-disabled{opacity:.5}#va_aagency_bar .sui-select__control{align-items:stretch;background-color:#f8f8f8;border:1px solid #a6a6a6;border-radius:4px;display:flex;justify-content:space-between}#va_aagency_bar .sui-select__control--is-focused{border:1px solid #3a56e4}#va_aagency_bar .sui-select__value-container{padding-bottom:0;padding-top:0}#va_aagency_bar .sui-select__value-container--has-value{color:#333;font-weight:700}#va_aagency_bar .sui-select__placeholder{color:#333;position:static;-webkit-transform:none;transform:none;white-space:nowrap}#va_aagency_bar .sui-select__dropdown-indicator{align-items:center;display:flex;height:32px;justify-content:center;width:32px}#va_aagency_bar .sui-select__option-count{color:#888;font-size:.8em}#va_aagency_bar .sui-select__option-label{color:#4f4f4f}#va_aagency_bar .sui-select__option{align-items:center;cursor:pointer;display:flex;font-weight:400;justify-content:space-between;padding:8px 12px}#va_aagency_bar .sui-select__option--is-selected{background:#fff;color:#333;font-weight:700}#va_aagency_bar .sui-select__option--is-selected .sui-search-select__option-label{color:#333;position:relative}#va_aagency_bar .sui-select__option:hover{background:#f8f8f8}#va_aagency_bar .sui-layout-header{background:#383939;border-bottom:0;padding:0}#va_aagency_bar .sui-layout-header__inner{margin:0 auto;max-width:1050px}#va_aagency_bar li.sui-result{background:0 0;border:0;color:#fff;margin:0 0 5px;padding:10px 15px;font-size:initial}#va_aagency_bar .sui-result+.sui-result{margin-top:0}#va_aagency_bar li.sui-result a{color:#a2ceff;font-weight:500}#va_aagency_bar #bbar-services li.sui-result p{font-size:.9em;line-height:1;margin:0!important}#va_aagency_bar li.sui-result span{font-size:.8em;opacity:.8;color:#fff}#va_aagency_bar .sui-layout-body{background:#383939}#va_aagency_bar .sui-layout-sidebar{width:0}#va_aagency_bar .sui-layout-main{display:none;margin:0 auto;max-width:1000px;padding:0;width:100%;border-bottom:1px solid #4e4e4e;padding-bottom:15px;margin-bottom:15px}#va_aagency_bar span.sui-result__key,#va_aagency_bar ul.sui-result__details li{display:none}#va_aagency_bar ul.sui-result__details li:first-child{display:block}#va_aagency_bar .sui-result__title{font-size:1em}#va_aagency_bar .sui-result__details{padding:0 24px}#va_aagency_bar .sui-result__value{font-size:1em;font-weight:400}#va_aagency_bar .sui-paging-info{color:#fff;margin-top:10px;font-size:14px;margin-bottom:15px}#va_aagency_bar .autocomplete .sui-search-box__autocomplete-container{display:flex;position:static;z-index:1}#va_aagency_bar ul.rc-pagination.sui-paging a{color:#cbcbcb;font-size:1.25em;text-decoration:none}#va_aagency_bar .sui-paging ul.rc-pagination.sui-paging .rc-pagination-item-active a{color:#fff;font-weight:700}#va_aagency_bar .sui-layout-sidebar{display:none}#va_aagency_bar .sui-search-box__wrapper input[type=text]{border:1px solid #c7c7c7;border-radius:0;font-size:15px;padding:10px 10px 10px 35px;position:relative;color:#181818}#va_aagency_bar #bbar-services form{margin:1.12em 0}#va_aagency_bar .sui-paging-info p span{font-weight:600}#va_aagency_bar .sui-paging-info p{color:#fff;font-size:17px;margin-top:15px}</style></head>
+  <body class="path-frontpage page-node-type-front-page   d-flex flex-column h-100"><div class="va-agency-bar-container no-translate"><div id="va_aagency_bar" class="va-agency-bar aatheme-black " role="region" aria-label="Branding logo"><div class="cardinal-logo"><img src="https://www.developer.virginia.gov/media/developer/assets/img/bbar_logos-white.svg" alt="Commonwealth of Virginia branding bar cardinal logo"> </div><div class="va-agency-content"><p class="va-agency-bar-header"><a href="https://www.marketplace.virginia.gov">Virginia's Insurance Marketplace</a><span>An official website of the Commonwealth of Virginia <a href="#" onclick="bbarHeresHow()">Here's how you know</a></span><span class="bbarmobile-official"><span>An official website</span><a href="#" onclick="bbarHeresHow()">Here's how you know</a></span></p></div><button class="bbarServiceResource" onclick="bbarservicePull()"><img src="https://www.developer.virginia.gov/media/developer/assets/img/globe-icon2.png" alt="Services Selection Icon">Find a Commonwealth Resource<span class="bbar-close"><img src="https://www.developer.virginia.gov/media/developer/assets/img/close_icon.png" role="button" aria-label="Close Branding Bar" alt="Close Branding Bar Icon"></span></button><div id="va-agency-bar-resource"></div></div><div id="#after-bbar" class="bbar-hidden"></div></div>
+        <div class="visually-hidden-focusable skip-link p-3 container sr-only sr-only-focusable">
+      <a href="#main-content" class="p-2">
+        Skip to main content
+      </a>
+    </div>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL28HCZK"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas="">
+    
+  <script>
+var parentID = 2;
+</script>
+<header>
+    <div class="region region-header" id="site-header">
+    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+        <div class="d-none d-lg-block">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-group">
+                        
+
+<div id="block-mainnavigationcontactblock" class="block block-block-content block-block-contenta1c910f6-8cb6-4c79-abc5-d217c95ea341">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="contact-row"><a href="/marketplace-help-center" title="Get in touch">Contact</a> | <a href="tel://888-687-1501" title="Call us at 888-687-1501">Tel: 888-687-1501</a></p></div>
+      
+  </div>
+
+                    </div>
+                    <div class="header-group">
+                        
+
+<div id="block-mainnavigationloginblock" class="block block-block-content block-block-contentd3f851bd-b749-459b-bd9c-bff841435c27">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="contact-row"><a class="navigation" href="https://enroll.marketplace.virginia.gov/hix/account/user/login" target="_blank" title="Login to the marketplace">Login</a> | <a href="/sites/default/files/2023-09/Language%20Translations_0.pdf">Language</a></p></div>
+      
+  </div>
+
+                    </div>
+                    <div class="header-group">
+                        
+
+<div id="block-gtranslate--2" class="block block-gtranslate block-gtranslate-block">
+  
+    
+      
+<div class="dropdown">
+<div class="gtranslate_wrapper gt_container--wz96ug"><!-- GTranslate: https://gtranslate.com --><select class="gt_selector notranslate" aria-label="Select Language"><option value="">Select Language</option><option value="en|en" data-gt-href="https://www.marketplace.virginia.gov/" selected="">English</option><option value="en|es" data-gt-href="https://www.marketplace.virginia.gov/es/">Español</option></select></div><script>window.gtranslateSettings = {"switcher_horizontal_position":"left","switcher_vertical_position":"bottom","horizontal_position":"inline","vertical_position":"inline","float_switcher_open_direction":"top","switcher_open_direction":"bottom","default_language":"en","native_language_names":1,"detect_browser_language":0,"add_new_line":1,"select_language_label":"Select Language","flag_size":32,"flag_style":"2d","globe_size":60,"alt_flags":[],"wrapper_selector":".gtranslate_wrapper","url_structure":"sub_directory","custom_domains":null,"languages":["en","es"],"custom_css":""}</script><script>(function(){var js = document.createElement('script');js.setAttribute('src', '/modules/gtranslate/js/dropdown.js');js.setAttribute('data-gt-orig-url', '/');js.setAttribute('data-gt-orig-domain', 'www.marketplace.virginia.gov');document.body.appendChild(js);})();</script>
+</div>
+
+  </div>
+
+                    </div>
+                    <div class="header-group">
+                        <div class="input-group form-container">
+                            <form id="gse-search-form" class="form-inline" name="gse-search-form" action="/search/results" method="get">
+                                <button class="cse-btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M384 208A176 176 0 1 0 32 208a176 176 0 1 0 352 0zM343.3 366C307 397.2 259.7 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 51.7-18.8 99-50 135.3L507.3 484.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L343.3 366z"></path></svg></button>
+                                <input type="text" id="edit-keys" name="keys" class="form-control" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>  
+    <div id="block-vaagencybrandingbar" class="block block-block-content block-block-content27f69056-c7d2-4887-a4b2-6b4828804e6e">
+  
+    
+      
+  </div>
+<script src="https://www.developer.virginia.gov/media/developer/resources/branding-bar/brandingbar.php" data-item="va_aabrandingbar" aaname="Virginia's Insurance Marketplace" aatheme="aatheme-black" defer=""></script>
+
+
+<div id="block-contactrow" class="block block-block-content block-block-content99c9757c-ff2d-4b57-a63e-8f2d040099c6">
+  
+    
+      
+  </div>
+  
+
+<div class="views-element-container block block-views block-views-blockalerts-and-notifications-block-1" id="block-views-block-alerts-and-notifications-block-1">
+    
+
+            <section class="notice-bar notice-bar-global">
+          </section>
+    
+                <section class="notice-bar notice-bar-selected">
+                                        </section>
+               
+    </div>
+  
+
+<div class="views-element-container block block-views block-views-blockalerts-and-notifications-block-2" id="block-views-block-alerts-and-notifications-block-2">
+    
+
+            <section class="notice-bar notice-bar-global">
+          </section>
+    
+                <section class="notice-bar notice-bar-selected">
+                                        </section>
+               
+    </div>
+
+  </div>
+
+
+    <nav class="navbar navbar-expand-lg   ">
+    <div class="container d-flex">
+        <div class="region region-nav-branding">
+    
+
+<div id="block-bootstrap5-branding" class="block block-system block-system-branding-block">
+  
+    
+  <div class="navbar-brand d-flex align-items-center">
+
+    <a href="/index.php/" title="Home" rel="home" class="site-logo d-block">
+    <img src="/sites/default/files/images/Virginias_Insurance_Marketplace_Logo.png" alt="Home">
+  </a>
+  
+  <div>
+    
+      </div>
+</div>
+</div>
+
+  </div>
+
+
+      <button class="navbar-toggler collapsed callingYou" type="button" data-bs-toggle="collapse" data-bs-target="#primary-nav" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="nav-toggle-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-end" id="primary-nav">  
+        <div class="d-lg-none">
+            <div class="header-top">
+                <ul class="nav nav-tabs" id="header-top-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-pane" type="button" role="tab" aria-controls="contact-pane" aria-selected="false" tabindex="-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M375.8 275.2c-16.4-7-35.4-2.4-46.7 11.4l-33.2 40.6c-46-26.7-84.4-65.1-111.1-111.1L225.3 183c13.8-11.3 18.5-30.3 11.4-46.7l-48-112C181.2 6.7 162.3-3.1 143.6 .9l-112 24C13.2 28.8 0 45.1 0 64v0C0 300.7 183.5 494.5 416 510.9c4.5 .3 9.1 .6 13.7 .8c0 0 0 0 0 0c0 0 0 0 .1 0c6.1 .2 12.1 .4 18.3 .4l0 0c18.9 0 35.2-13.2 39.1-31.6l24-112c4-18.7-5.8-37.6-23.4-45.1l-112-48zM447.7 480C218.1 479.8 32 293.7 32 64v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0c0-3.8 2.6-7 6.3-7.8l112-24c3.7-.8 7.5 1.2 9 4.7l48 112c1.4 3.3 .5 7.1-2.3 9.3l-40.6 33.2c-12.1 9.9-15.3 27.2-7.4 40.8c29.5 50.9 71.9 93.3 122.7 122.7c13.6 7.9 30.9 4.7 40.8-7.4l33.2-40.6c2.3-2.8 6.1-3.7 9.3-2.3l112 48c3.5 1.5 5.5 5.3 4.7 9l-24 112c-.8 3.7-4.1 6.3-7.8 6.3c-.1 0-.2 0-.3 0z"></path></svg>
+                                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-pane" type="button" role="tab" aria-controls="login-pane" aria-selected="true">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M320 128a96 96 0 1 0 -192 0 96 96 0 1 0 192 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM32 480H416c-1.2-79.7-66.2-144-146.3-144H178.3c-80 0-145 64.3-146.3 144zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"></path></svg>
+                                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="translate-tab" data-bs-toggle="tab" data-bs-target="#translate-pane" type="button" role="tab" aria-controls="translate-pane" aria-selected="false" tabindex="-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M256 480c16.7 0 40.4-14.4 61.9-57.3c9.9-19.8 18.2-43.7 24.1-70.7H170c5.9 27 14.2 50.9 24.1 70.7C215.6 465.6 239.3 480 256 480zM164.3 320H347.7c2.8-20.2 4.3-41.7 4.3-64s-1.5-43.8-4.3-64H164.3c-2.8 20.2-4.3 41.7-4.3 64s1.5 43.8 4.3 64zM170 160H342c-5.9-27-14.2-50.9-24.1-70.7C296.4 46.4 272.7 32 256 32s-40.4 14.4-61.9 57.3C184.2 109.1 175.9 133 170 160zm210 32c2.6 20.5 4 41.9 4 64s-1.4 43.5-4 64h90.8c6-20.3 9.3-41.8 9.3-64s-3.2-43.7-9.3-64H380zm78.5-32c-25.9-54.5-73.1-96.9-130.9-116.3c21 28.3 37.6 68.8 47.2 116.3h83.8zm-321.1 0c9.6-47.6 26.2-88 47.2-116.3C126.7 63.1 79.4 105.5 53.6 160h83.7zm-96 32c-6 20.3-9.3 41.8-9.3 64s3.2 43.7 9.3 64H132c-2.6-20.5-4-41.9-4-64s1.4-43.5 4-64H41.3zM327.5 468.3c57.8-19.5 105-61.8 130.9-116.3H374.7c-9.6 47.6-26.2 88-47.2 116.3zm-143 0c-21-28.3-37.5-68.8-47.2-116.3H53.6c25.9 54.5 73.1 96.9 130.9 116.3zM256 512A256 256 0 1 1 256 0a256 256 0 1 1 0 512z"></path></svg>
+                                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="search-tab" data-bs-toggle="tab" data-bs-target="#search-pane" type="button" role="tab" aria-controls="search-pane" aria-selected="false" tabindex="-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M384 208A176 176 0 1 0 32 208a176 176 0 1 0 352 0zM343.3 366C307 397.2 259.7 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 51.7-18.8 99-50 135.3L507.3 484.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L343.3 366z"></path></svg>
+                                        </button>
+                    </li>
+                </ul>
+                <div class="container tab-content" id="header-top-tab-content">
+                    <div class="header-group tab-pane" id="contact-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                         
+
+<div id="block-mainnavigationcontactblock" class="block block-block-content block-block-contenta1c910f6-8cb6-4c79-abc5-d217c95ea341">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="contact-row"><a href="/marketplace-help-center" title="Get in touch">Contact</a> | <a href="tel://888-687-1501" title="Call us at 888-687-1501">Tel: 888-687-1501</a></p></div>
+      
+  </div>
+
+                    </div>
+                    <div class="header-group tab-pane active show" id="login-pane" role="tabpanel" aria-labelledby="login-tab" tabindex="0">
+                        
+
+<div id="block-mainnavigationloginblock" class="block block-block-content block-block-contentd3f851bd-b749-459b-bd9c-bff841435c27">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="contact-row"><a class="navigation" href="https://enroll.marketplace.virginia.gov/hix/account/user/login" target="_blank" title="Login to the marketplace">Login</a> | <a href="/sites/default/files/2023-09/Language%20Translations_0.pdf">Language</a></p></div>
+      
+  </div>
+
+                    </div>
+                    <div class="header-group tab-pane" id="translate-pane" role="tabpanel" aria-labelledby="#translate-tab">
+                                        
+
+<div id="block-gtranslate--2" class="block block-gtranslate block-gtranslate-block">
+  
+    
+      
+<div class="dropdown">
+<div class="gtranslate_wrapper gt_container--wz96ug"><!-- GTranslate: https://gtranslate.com --><select class="gt_selector notranslate" aria-label="Select Language"><option value="">Select Language</option><option value="en|en" data-gt-href="https://www.marketplace.virginia.gov/" selected="">English</option><option value="en|es" data-gt-href="https://www.marketplace.virginia.gov/es/">Español</option></select></div><script>window.gtranslateSettings = {"switcher_horizontal_position":"left","switcher_vertical_position":"bottom","horizontal_position":"inline","vertical_position":"inline","float_switcher_open_direction":"top","switcher_open_direction":"bottom","default_language":"en","native_language_names":1,"detect_browser_language":0,"add_new_line":1,"select_language_label":"Select Language","flag_size":32,"flag_style":"2d","globe_size":60,"alt_flags":[],"wrapper_selector":".gtranslate_wrapper","url_structure":"sub_directory","custom_domains":null,"languages":["en","es"],"custom_css":""}</script><script>(function(){var js = document.createElement('script');js.setAttribute('src', '/modules/gtranslate/js/dropdown.js');js.setAttribute('data-gt-orig-url', '/');js.setAttribute('data-gt-orig-domain', 'www.marketplace.virginia.gov');document.body.appendChild(js);})();</script>
+</div>
+
+  </div>
+
+                    </div>
+                    <div class="header-group tab-pane" id="search-pane" role="tabpanel" aria-labelledby="#search-tab">
+                        <div class="input-group form-container">
+                            <form id="gse-search-form" class="form-inline" name="gse-search-form" action="/search/results" method="get">
+                                <button class="cse-btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M384 208A176 176 0 1 0 32 208a176 176 0 1 0 352 0zM343.3 366C307 397.2 259.7 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 51.7-18.8 99-50 135.3L507.3 484.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L343.3 366z"></path></svg></button>
+                                <input type="text" id="edit-keys" name="keys" class="form-control" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+          <div class="region region-nav-main">
+    <nav role="navigation" aria-labelledby="block-bootstrap5-main-navigation-menu" id="block-bootstrap5-main-navigation" class="block block-menu navigation menu--main">
+            
+  <h1 class="visually-hidden" id="block-bootstrap5-main-navigation-menu">Main navigation</h1>
+  
+
+        
+
+
+                    <ul data-block="nav_main" class="navbar-nav nav-level-0">
+                    <li class="nav-item dropdown">
+          <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Get Started">Get Started</span>
+                          <ul data-block="nav_main" class="dropdown-menu nav-level-1">
+                    <li class="nav-item">
+          <a href="/health-plan-options" class="dropdown-item" data-drupal-link-system-path="node/572">Health Plan Options</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/how-enroll" class="dropdown-item" data-drupal-link-system-path="node/4">How to Enroll</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/losing-medicaid-coverage" title="Information about Medicaid unwinding" class="dropdown-item" data-drupal-link-system-path="node/15">Losing Medicaid Coverage?</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/special-enrollment" class="dropdown-item" data-drupal-link-system-path="node/309">Special Enrollment Period</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/existing-customers" title="Info for existing customers" class="dropdown-item" data-drupal-link-system-path="node/16">Existing Customers</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                    <li class="nav-item dropdown">
+          <a href="/financial-savings" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Financial Savings" data-drupal-link-system-path="node/5">Financial Savings</a>
+                          <ul data-block="nav_main" class="dropdown-menu nav-level-1">
+                    <li class="nav-item">
+          <a href="https://www.marketplace.virginia.gov/financial-savings" class="dropdown-item">Find Financial Savings</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/APTC" class="dropdown-item" data-drupal-link-system-path="node/571">Reconciling Your Advance Premium Tax Credits</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                    <li class="nav-item dropdown">
+          <a href="/" class="nav-link dropdown-toggle is-active" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Get Answers" data-drupal-link-system-path="<front>">Get Answers</a>
+                          <ul data-block="nav_main" class="dropdown-menu nav-level-1">
+                    <li class="nav-item">
+          <a href="/faqs" title="Frequently asked questions" class="dropdown-item" data-drupal-link-system-path="node/6">Frequently Asked Questions</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/marketplace-help-center" title="Info to contact the Marketplace" class="dropdown-item" data-drupal-link-system-path="node/22">Marketplace Help Center</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                    <li class="nav-item dropdown">
+          <a href="/" class="nav-link dropdown-toggle is-active" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Partners" data-drupal-link-system-path="<front>">Partners</a>
+                          <ul data-block="nav_main" class="dropdown-menu nav-level-1">
+                    <li class="nav-item">
+          <a href="/agents" title="Information for insurance agents" class="dropdown-item" data-drupal-link-system-path="node/21">Agents</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/carriers" title="Information for insurance carriers" class="dropdown-item" data-drupal-link-system-path="node/17">Carriers</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/cacscdos" title="Information for Virginia CDOs and CACs" class="dropdown-item" data-drupal-link-system-path="node/19">Certified Application Counselors</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/community-partners" title="Information for Community Partners" class="dropdown-item" data-drupal-link-system-path="node/18">Community Partners</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/media-toolkit" title="media toolkit" class="dropdown-item" data-drupal-link-system-path="node/209">Media</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/navigators" title="Information for Virginia Navigators" class="dropdown-item" data-drupal-link-system-path="node/20">Navigators</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                    <li class="nav-item">
+          <a href="/small-business-employers" title="Explore health insurance coverage options for small businesses." class="nav-link" data-drupal-link-system-path="node/37">Employers</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://enroll.marketplace.virginia.gov/hix/" class="nav-link btn-primary">Get Covered</a>
+      </li>
+
+        </ul>
+  
+
+
+
+  </nav>
+
+  </div>
+
+        
+      </div>
+    </div>
+  </nav>
+     
+  </header>
+
+<main role="main">
+  <a id="main-content" tabindex="-1"></a>
+    
+  
+  
+
+  <div class="container-fluid">
+          
+        <div class="row g-0">
+            <div class="order-1 order-lg-2 col-12">
+          <div class="region region-content">
+    <div data-drupal-messages-fallback="" class="hidden"></div>
+
+
+<div id="block-bootstrap5-content" class="block block-system block-system-main-block">
+  
+    
+      
+<article data-history-node-id="2" role="article" class="node node--type-front-page node--view-mode-full">
+
+  
+    
+
+  
+  <div class="node__content">
+    
+      <div class="field field--name-field-widgets field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  
+  <div class="paragraph paragraph--type--hero-slider paragraph--view-mode--default">
+          
+
+      <div class="field field--name-field-hero-slide field--type-entity-reference-revisions field--label-hidden slide-container-950 field__items slick-initialized slick-slider slick-dotted"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1125px;"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 375px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" role="tabpanel" id="slick-slide00"><div><div class="field__item" style="width: 100%; display: inline-block;">                    
+
+      <section class="hero-widget">
+      <div class="container theme-whitefg-goldbtn">
+          <div class="row cta-left">
+                                    <div class="col col-lg-6 col-md-12 hero-text-box-overlay">
+                  <h2><strong>Enroll now if you’ve experienced a qualifying life event!</strong></h2><p>Did you recently experience a life change such as losing your job, getting married, or having a child? You may be eligible for a special enrollment period.</p><p><a class="btn custom-btn-primary ext" href="https://enroll.marketplace.virginia.gov/hix/" data-extlink="" target="_blank" rel="noopener" tabindex="0">Get Covered<span class="fa-ext extlink"><span class="fa-solid fa-arrow-up-right-from-square" aria-label="(link is external)"></span></span></a></p>
+                </div>
+                    </div>
+      </div>
+
+      <div class="solid-light hero-bg">
+        <img src="/sites/default/files/2024-10/AdobeStock_437443190.jpeg">
+      </div>
+    </section>
+    </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 375px; position: relative; left: -375px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1" role="tabpanel" id="slick-slide01"><div><div class="field__item" style="width: 100%; display: inline-block;">                    
+
+      <section class="hero-widget">
+      <div class="container theme-bluefg-bluebtn">
+          <div class="row cta-left">
+                                    <div class="col col-lg-6 col-md-12 hero-text-box-overlay">
+                  <h2>Nearly 9 Out of 10 Consumers Qualify for Financial Assistance</h2><p>Some Virginians pay as little as $10 a month for great coverage through Advance Premium Tax Credits (APTCs) and more!</p><p><a class="btn custom-btn-white" href="/financial-savings" tabindex="-1">Learn More</a></p>
+                </div>
+                    </div>
+      </div>
+
+      <div class="solid-light hero-bg">
+        <img src="/sites/default/files/2024-10/AdobeStock_415962919.jpeg">
+      </div>
+    </section>
+    </div></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 375px; position: relative; left: -750px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1" role="tabpanel" id="slick-slide02"><div><div class="field__item" style="width: 100%; display: inline-block;">                    
+
+      <section class="hero-widget">
+      <div class="container theme-bluefg-bluebtn">
+          <div class="row cta-left">
+                                    <div class="col col-lg-6 col-md-12 hero-text-box-overlay">
+                  <h2>Find Free Enrollment Assistance</h2><p>Get help finding and enrolling in a plan that fits your needs with our free enrollment assistance. Our Consumer Assistance Center and team of navigators and certified agents are here to help over the phone, online, or in-person!</p><p><a class="btn custom-btn-secondary" href="/marketplace-help-center" tabindex="-1">Get Help</a></p>
+                </div>
+                    </div>
+      </div>
+
+      <div class="solid-light hero-bg">
+        <img src="/sites/default/files/2024-10/AdobeStock_895295978.jpeg">
+      </div>
+    </section>
+    </div></div></div></div></div><ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 3" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button></li></ul></div>
+  
+  <script type="text/javascript">
+    (function ($) {
+    $(document).ready(function(){
+      $('.slide-container-950').slick({
+        autoplay: true,  
+        dots: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true
+
+      });
+    });
+}(jQuery))
+  </script>
+
+      </div>
+</div>
+              <div class="field__item"> 
+ 
+ 
+
+
+<section id="2025-open-enrollment-results" class="callout transparent padded generic">
+    <div class="container   ">
+        <div class="row margin-unset">
+            <div class="col-12 col-md-12">
+                <h2 class="card-title title  text-center">
+            <div class="field field--name-field-generic-title field--type-string field--label-hidden field__item">2025 Open Enrollment Results</div>
+      </h2>
+                <p class="card-text">
+            </p><div class="clearfix text-formatted field field--name-field-generic-content field--type-text-long field--label-hidden field__item"><img src="/sites/default/files/inline-images/VIM-044%20VIM%20OEP%20Data%20Graphic%202025.png" data-entity-uuid="95cb771c-1b63-4f08-a6e7-db1158d4f90d" data-entity-type="file" width="44.54%" class="align-center" height="604" loading="lazy"><p class="text-align-center"><a style="background-color:transparent;box-sizing:border-box;color:var(--primaryBlue);" href="/sites/default/files/2025-02/Virginia%27s%20Insurance%20Marketplace%20-%20PY2025%20OE%20Metrics%20-%202025.01.23.pdf"><strong><u>Plan Year 2025 Open Enrollment Metrics</u></strong></a></p><p>&nbsp;</p></div>
+      <p></p>
+            </div>
+        </div>
+    </div>
+</section></div>
+              <div class="field__item"> 
+ 
+ 
+
+
+
+
+<section id="special-enrollment-period" class="callout one-col transparent padded">
+    <div class="container   ">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 text-center">
+                                <h2 class="card-title title green-to-blue-text">
+            <div class="field field--name-field-callout-title field--type-string field--label-hidden field__item">Special Enrollment Period</div>
+      </h2>
+            
+                <p class="card-text">
+            </p><div class="clearfix text-formatted field field--name-field-content field--type-text-with-summary field--label-hidden field__item"><p>Did you recently experience a life change such as losing health coverage, getting married, or having a child? You may be eligible for a special enrollment period.</p></div>
+      <p></p>
+                                <a href="https://enroll.marketplace.virginia.gov/hix/" role="btn" class="btn ext" data-extlink="" target="_blank" rel="noopener">Enroll Now&nbsp;<span class="fa-ext extlink"><span class="fa-solid fa-arrow-up-right-from-square" aria-label="(link is external)"></span></span></a>
+                            </div>
+        </div>
+    </div>
+</section></div>
+              <div class="field__item">
+
+
+
+<section class="callout transparent padded">
+    <div class="container video-container ">
+        <div class="row align-items-center justify-content-between reverse">
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <h2 class="title green-to-blue-text">
+            <div class="field field--name-field-callout-title field--type-string field--label-hidden field__item">A Marketplace by Virginia for Virginians</div>
+      </h2>
+                <p class="text">
+            </p><div class="clearfix text-formatted field field--name-field-callout-text field--type-text-long field--label-hidden field__item"><p>Do you need health insurance? The Marketplace is here to help! Coverage is available to you whether you’re unemployed, you’re self-employed, or your job doesn’t provide an affordable insurance option. The Marketplace was created by Virginia for Virginians and is the only place to get financial assistance to help lower the cost of coverage and care.&nbsp;</p><p>Here's what real Virginia's Insurance Marketplace consumers have to say about their coverage!</p></div>
+      <p></p>
+                
+                                <a href="/new-customers" class="btn ">Learn More</a>
+                
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="image">
+                    <div class="image-wrap">                        
+                        
+            <div class="field field--name-field-video-link field--type-entity-reference field--label-hidden field__item"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden ratio ratio-16x9 field__item"><iframe src="/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DoaddVvdn9jA&amp;max_width=0&amp;max_height=0&amp;hash=dNa9n5UQ6d8HW9VtMPjtMhP5r-JsoTLjAqgMgIuG_d4" frameborder="0" allowtransparency="" width="200" height="113" class="media-oembed-content" title="Customers Find Affordable Plans on the Marketplace"></iframe>
+</div>
+      
+  </article>
+</div>
+      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+              <div class="field__item">
+
+<article data-history-node-id="8" role="article" class="node node--type-include node--promoted node--view-mode-default">
+
+  
+          
+
+  
+  <div class="node__content">
+      
+      <div class="field field--name-field-widgets field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item"> 
+ 
+ 
+
+
+
+
+<section id="recently-lose-medicaid-coverage?-find-a-low-cost-alternative-" class="callout one-col cta-bar padded">
+    <div class="container   ">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 text-center">
+                                <h2 class="card-title title ">
+            <div class="field field--name-field-callout-title field--type-string field--label-hidden field__item">Recently Lose Medicaid Coverage? Find a Low-Cost Alternative </div>
+      </h2>
+            
+                <p class="card-text">
+            </p><div class="clearfix text-formatted field field--name-field-content field--type-text-with-summary field--label-hidden field__item"><p>Get help finding a low-cost health insurance plan that fits your needs.&nbsp;</p></div>
+      <p></p>
+                                <a href="/losing-medicaid-coverage" role="btn" class="btn">Learn More&nbsp;</a>
+                            </div>
+        </div>
+    </div>
+</section></div>
+          </div>
+  
+  </div>
+
+</article>
+
+
+</div>
+              <div class="field__item">
+
+<article data-history-node-id="385" role="article" class="node node--type-include node--promoted node--view-mode-default">
+
+  
+          
+
+  
+  <div class="node__content">
+      
+      <div class="field field--name-field-widgets field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+<section id="carrier-container" class="padded">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="h2 text-center">Marketplace Carriers</div>
+                <div class="col-sm-12 text-center testimonial"></div>
+            </div>
+        </div>
+        <div class="row items">
+                                                              
+      <div class="field field--name-field-carrier-logos field--type-entity-reference field--label-hidden field__items row carrier-row">
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/aetna_logo.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2025-02/ahk_r_h_rgb_c.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2025-02/abs_r_h_rgb_c.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/cigna-3.svg">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/UnitedHealthcare.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/OPTIMUM_CHOICE_INC._0.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/Sentara-logo.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/kaiser-permanente.svg">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/carefirst-logo-vector.svg">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/Oscar.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/EMI%20Health.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/350.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/humana%20logo.svg">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/guardian.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/deltadental.jpg">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2024-10/dentaquest.png">
+        </div>
+                          <div class="field__item col-md-3 col-sm-4 col-xs-12 carrier-container">
+            <img class="carrier-img" src="/sites/default/files/2025-03/AcowyABz_0.jpg">
+        </div>
+          </div>
+  
+                                            </div>
+    </div>
+</section></div>
+          </div>
+  
+  </div>
+
+</article>
+
+
+</div>
+              <div class="field__item">
+
+<article data-history-node-id="24" role="article" class="node node--type-include node--promoted node--view-mode-default">
+
+  
+          
+
+  
+  <div class="node__content">
+      
+      <div class="field field--name-field-widgets field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+<section id="contact-cards" class="padded">
+    <div class="container">
+        <div class="row items">
+                                                                                                                              
+      <div class="col-12 col-md-4 item theme-transparent-shadow">
+          <div class="card">
+              <div class="image">
+                                        <span><img src="/themes/contrib/bootstrap5/images/icons/custom/customer_support.svg" alt="customer support icon"></span>
+                                    
+              </div>
+              <div class="card-body">
+                  <h3 class="card-title">Find a Virginia Certified Assister</h3>
+                  <p class="card-text"></p><p>Assisters in your community can help with every step of the application and enrollment process. They provide free, unbiased enrollment assistance, with options to meet virtually or in person.</p><p></p>
+                  <a href="https://enroll.marketplace.virginia.gov/hix/entity/locateassister/searchentities" class="btn ext" data-extlink="" target="_blank" rel="noopener">Find Help<span class="fa-ext extlink"><span class="fa-solid fa-arrow-up-right-from-square" aria-label="(link is external)"></span></span></a>
+              </div>
+          </div>
+      </div>
+                                                                      
+      <div class="col-12 col-md-4 item theme-transparent-shadow">
+          <div class="card">
+              <div class="image">
+                                        <span><img src="/themes/contrib/bootstrap5/images/icons/custom/mobile_phone.svg" alt="mobile phone icon"></span>
+                                    
+              </div>
+              <div class="card-body">
+                  <h3 class="card-title">Call Customer Service</h3>
+                  <p class="card-text"></p><p>Contact the Marketplace’s customer service representatives if you need assistance enrolling in a health plan, need to update your personal information, or have any questions.</p><p></p>
+                  <a href="/marketplace-help-center" class="btn">Contact Us</a>
+              </div>
+          </div>
+      </div>
+                                                                      
+      <div class="col-12 col-md-4 item theme-transparent-shadow">
+          <div class="card">
+              <div class="image">
+                                        <span><img src="/themes/contrib/bootstrap5/images/icons/custom/laptop.svg" alt="laptop icon"></span>
+                                    
+              </div>
+              <div class="card-body">
+                  <h3 class="card-title">Find a Virginia Certified Agent</h3>
+                  <p class="card-text"></p><p>Whether you’re shopping as an individual, family, or small business owner, a Virginia Licensed Insurance Agent can provide you with free personalized plan recommendations and enrollment support.&nbsp;</p><p></p>
+                  <a href="https://enroll.marketplace.virginia.gov/hix/broker/search/individual" class="btn ext" data-extlink="" target="_blank" rel="noopener">Find an Agent<span class="fa-ext extlink"><span class="fa-solid fa-arrow-up-right-from-square" aria-label="(link is external)"></span></span></a>
+              </div>
+          </div>
+      </div>
+    
+                                            </div>
+    </div>
+</section></div>
+          </div>
+  
+  </div>
+
+</article>
+
+
+</div>
+              <div class="field__item">
+
+<article data-history-node-id="10" role="article" class="node node--type-include node--promoted node--view-mode-default">
+
+  
+          
+
+  
+  <div class="node__content">
+      
+      <div class="field field--name-field-widgets field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+
+	
+ 
+
+
+
+
+<section id="get-the-latest-marketplace-news" class="callout two-col bg-light padded">
+    <div class="container   ">
+        <div class="row items">
+            <div class="col-12 item ">
+                <div class="card">
+                    <div class="image image-gradient">
+
+                        <img src="/sites/default/files/2023-08/Woman%20on%20Laptop.jpg" alt="woman on laptop">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title ">
+            <div class="field field--name-field-callout-title field--type-string field--label-hidden field__item">Get the Latest Marketplace News</div>
+      </h3>
+                        <p class="card-text">
+            </p><div class="clearfix text-formatted field field--name-field-callout-text field--type-text-long field--label-hidden field__item"><p>Sign up to receive the latest news and updates from Virginia’s Insurance Marketplace. Your contact information will remain private and confidential.&nbsp;</p></div>
+      <p></p>
+                                                <a href="https://public.govdelivery.com/accounts/VASCC/subscriber/new" class="btn ext" data-extlink="" target="_blank" rel="noopener">Click To Subscribe<span class="fa-ext extlink"><span class="fa-solid fa-arrow-up-right-from-square" aria-label="(link is external)"></span></span></a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section></div>
+          </div>
+  
+  </div>
+
+</article>
+
+
+</div>
+              <div class="field__item">    <div class="gradient-bar"></div>
+</div>
+          </div>
+  
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+      </div>
+          </div>
+  </div>
+
+</main>
+<div class="gradient-bar"></div>
+<footer class="mt-auto     bg-primary">
+  <div class="container">
+        <div class="region region-footer" id="site-footer">
+        <div class="container">
+            <div class="row">
+                <div id="block-footerblock" class="block block-block-content block-block-contentf1bd914a-4bea-454d-90b9-fa846e4ffc9c col-md-6 col-sm-12 footer-left">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="block block-system block-system-branding-block" id="block-footer-branding"><div class="navbar-brand d-flex align-items-center"><a class="site-logo d-block" href="/" title="Home" rel="home"><img src="/sites/default/files/images/Virginias_Insurance_Marketplace_Logo_White.png" alt="Home"></a><div>&nbsp;</div></div></div><div class="footer-col-1">Marketplace.Virginia.gov is the official health insurance marketplace for the Commonwealth of Virginia. Copyright 2025. All trademarks or service marks appearing in this site are the property of their respective owners.</div></div>
+      
+      </div>
+<div id="block-footermainnavigation" class="block block-system block-system-menu-blockfoot-main-navigation col-md-3 col-sm-12">
+  
+    
+      
+              <ul data-block="footer" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="https://enroll.marketplace.virginia.gov/hix/" class="nav-link">Get Covered</a>
+              </li>
+                <li class="nav-item">
+        <a href="/how-enroll" title="info for new customers" class="nav-link" data-drupal-link-system-path="node/4">New Customers</a>
+              </li>
+                <li class="nav-item">
+        <a href="/existing-customers" title="info for existing customers" class="nav-link" data-drupal-link-system-path="node/16">Existing Customers</a>
+              </li>
+                <li class="nav-item">
+        <a href="/financial-savings" class="nav-link" data-drupal-link-system-path="node/5">Financial Savings</a>
+              </li>
+                <li class="nav-item">
+        <a href="/faqs" title="FAQs" class="nav-link" data-drupal-link-system-path="node/6">Frequently Asked Questions</a>
+              </li>
+                <li class="nav-item">
+        <a href="/marketplace-help-center" title="help center" class="nav-link" data-drupal-link-system-path="node/22">Help Center</a>
+              </li>
+                <li class="nav-item">
+        <a href="/small-business-employers" class="nav-link" data-drupal-link-system-path="node/37">Employers</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div id="block-footersecondary" class="block block-system block-system-menu-blockfooter-secondary col-md-3 col-sm-12">
+  
+    
+      
+              <ul data-block="footer" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/about-us" class="nav-link" data-drupal-link-system-path="node/13">Virginia Health Benefit Exchange</a>
+              </li>
+                <li class="nav-item">
+        <a href="/sites/default/files/2023-09/Language%20Translations_0.pdf" title="Language Translations" class="nav-link">Language Translations</a>
+              </li>
+                <li class="nav-item">
+        <a href="/privacy-policy" class="nav-link" data-drupal-link-system-path="node/35">Privacy Policy</a>
+              </li>
+                <li class="nav-item">
+        <a href="/accessibility" class="nav-link" data-drupal-link-system-path="node/36">Accessibility &amp; Nondiscrimination</a>
+              </li>
+                <li class="nav-item">
+        <a href="/sites/default/files/2023-10/VAPaperApplication_1.pdf" title="Paper application" class="nav-link">Enrollment Paper Application</a>
+              </li>
+        </ul>
+  
+
+
+            <ul class="social-icons">
+        <li>
+            <a href="https://www.facebook.com/VAInsuranceMarketplace/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/vainsurancemarketplace/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@VirginiasInsuranceMarketplace" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></a>
+        </li>
+    </ul>
+    </div>
+
+
+<div id="block-officialsiteofvirginiasinsurancemarketplace" class="block block-block-content block-block-content64c5d995-92b7-4807-9646-26ea9da93813">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Official site of Virginia's Insurance Marketplace.<br>Brought to you by the Virginia Health Benefit Exchange,&nbsp;<br>a division of the Virginia State Corporation Commission.</p></div>
+      
+  </div>
+
+            </div>
+        </div>
+    </div>
+
+  </div>
+</footer>
+
+  </div><script src="/modules/gtranslate/js/dropdown.js" data-gt-orig-url="/" data-gt-orig-domain="www.marketplace.virginia.gov"></script><script src="/modules/gtranslate/js/dropdown.js" data-gt-orig-url="/" data-gt-orig-domain="www.marketplace.virginia.gov"></script>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/2","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtm":{"tagId":null,"settings":[],"tagIds":["GTM-NL28HCZK"]},"gtag":{"tagId":"G-FQFD5D4NJH","otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"bootstrap5\/base,bootstrap5\/bootstrap5-js-latest,bootstrap5\/fontawesome,bootstrap5\/fontawesome.light,bootstrap5\/fontawesome.regular,bootstrap5\/fontawesome.solid,bootstrap5\/fontawesome.webfonts,bootstrap5\/global-styling,bootstrap5\/messages,bootstrap5\/node,bootstrap5\/slick,core\/normalize,extlink\/drupal.extlink,google_tag\/gtag,google_tag\/gtag.ajax,google_tag\/gtm,media\/oembed.formatter,paragraphs\/drupal.paragraphs.unpublished,system\/base","theme":"bootstrap5","theme_token":null},"ajaxTrustedUrl":[],"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":".header-top a, .nav-link, #image-text-cards","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fa-solid fa-arrow-up-right-from-square","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"a95ce48be69a15356e96644b46fd799cf38dc5895ab8d54e1ad91781119caa0b"}}</script>
+<script src="/sites/default/files/js/js_B60vjijnshovFJsPq_Koo73fuEklitMekwXmYvdVwQw.js"></script>
+<script src="/modules/google_tag/js/gtm.js?st4bhf"></script>
+<script src="/modules/google_tag/js/gtag.js?st4bhf"></script>
+<script src="/sites/default/files/js/js_4Jfqaqd5lc0HaHlEQAmvslazsl5AesXfd38kExAKkq4.js"></script>
+
+    
+
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <button type="button" id="sidebarCollapse">
+            <span>Quick Links</span>
+        </button>
+
+        <ul class="nav flex-column">
+                                <li class="nav-item">
+              <a class="nav-link" href="https://www.marketplace.virginia.gov/new-customers">How to Enroll</a>
+            </li>
+                      <li class="nav-item">
+              <a class="nav-link" href="https://enroll.marketplace.virginia.gov/hix/">Get Covered</a>
+            </li>
+                      <li class="nav-item">
+              <a class="nav-link" href="https://www.marketplace.virginia.gov/faqs">Frequently Asked Questions</a>
+            </li>
+                      <li class="nav-item">
+              <a class="nav-link" href="https://www.marketplace.virginia.gov/marketplace-help-center">Marketplace Help Center</a>
+            </li>
+                      <li class="nav-item">
+              <a class="nav-link" href="/privacy-policy">Privacy Policy</a>
+            </li>
+                  </ul>
+    </nav>
+</div>
+
+  
+
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","251192281210673");fbq("track","PageView");</script> 
+
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=251192281210673&amp;ev=PageView&amp;noscript=1"></noscript> 
+ <script id="" text="" charset="" type="text/javascript" src="https://js.adsrvr.org/up_loader.1.1.0.js"></script> 
+<script type="text/javascript" id="" charset="">ttd_dom_ready(function(){if("function"===typeof TTDUniversalPixelApi){var a=new TTDUniversalPixelApi;a.init("199xt8q",["c9n4vz7"],"https://insight.adsrvr.org/track/up")}});</script> <iframe id="universal_pixel_c9n4vz7" height="0" width="0" style="display:none;" src="https://insight.adsrvr.org/track/up?adv=199xt8q&amp;ref=https%3A%2F%2Fwww.marketplace.virginia.gov%2F&amp;upid=c9n4vz7&amp;upv=1.1.0&amp;paapi=1" title="TTD Universal Pixel"></iframe></body></html>

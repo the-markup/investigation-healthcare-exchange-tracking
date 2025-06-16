@@ -1,0 +1,2448 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "https://connectforhealthco.com/",
+  "uri_dest": "https://connectforhealthco.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "connectforhealthco.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "24.4.0"
+    }
+  },
+  "script": {
+    "host": "nepenthes.local",
+    "version": {
+      "npm": "3.6.1",
+      "commit": "dev"
+    },
+    "node_version": "v20.15.1"
+  },
+  "start_time": "2025-04-28T15:22:25.692Z",
+  "end_time": "2025-04-28T15:22:34.126Z",
+  "browsing_history": [
+    "https://connectforhealthco.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "connectforhealthco.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "ajax.cloudflare.com",
+        "c4-media.s3.amazonaws.com",
+        "js.adsrvr.org",
+        "data.adxcel-ec2.com",
+        "static.cloudflareinsights.com",
+        "fonts.googleapis.com",
+        "connect.facebook.net",
+        "tags.srv.stackadapt.com",
+        "fonts.gstatic.com",
+        "www.facebook.com",
+        "www.google.com",
+        "googleads.g.doubleclick.net",
+        "td.doubleclick.net",
+        "qvdt3feo.com",
+        "analytics.tiktok.com",
+        "app.enzuzo.com",
+        "insight.adsrvr.org",
+        "entravision-341-adswizz.attribution.adswizz.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "dpm.demdex.net",
+        "match.adsrvr.org",
+        "cm.g.doubleclick.net",
+        "pixel.tapad.com",
+        "ib.adnxs.com",
+        "pixel.rubiconproject.com",
+        "secure.adnxs.com",
+        "dsum-sec.casalemedia.com",
+        "simage2.pubmatic.com",
+        "x.bidswitch.net",
+        "google.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://analytics.tiktok.com/i18n/pixel/static/main.MWYwYWI1NGQ2MQ.js": [
+          "scroll",
+          "click"
+        ],
+        "https://tags.srv.stackadapt.com/events.js": [
+          "mousemove",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NVDPKVB": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-11008580020": [
+          "click"
+        ],
+        "https://connectforhealthco.com/wp-content/themes/Connect-Health-Colorado/js/theme.js?ver=1570514768": [
+          "scroll"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "click"
+        ],
+        "https://connectforhealthco.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "keydown"
+        ],
+        "https://connectforhealthco.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_fbp",
+        "value": "fb.1.1745853750190.424057362120397927",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2025-07-27T15:22:30.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "wp-wpml_current_language",
+        "value": "en",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "remodal_cookie",
+        "value": "remodal_popup",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2025-05-01T15:22:30.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "remodal_tmp",
+        "value": "remodal_manage",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "c4halert_cookie",
+        "value": "c4halert_popup",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2025-04-28T15:27:30.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "c4halert_tmp",
+        "value": "c4halert_manage",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1553824274.1745853750",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2025-07-27T15:22:30.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2025-04-28T15:37:30.437Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.668205456.1745853750",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-06-02T15:22:30.482Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ttp",
+        "value": "2wMaAFZ0GZLyremqAbS7tVzIFbq",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:30.552Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id",
+        "value": "s%3A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%2FXwb%2BWpDi%2BvV2cv2bE%2Bjg",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.617Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id",
+        "value": "s%3A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%2FXwb%2BWpDi%2BvV2cv2bE%2Bjg",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.617Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v2",
+        "value": "s%3Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%2BGj8u%2Flh09vXviJCpRhgCKRTqlJaywGRA",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.617Z",
+        "size": 92,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v2",
+        "value": "s%3Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%2BGj8u%2Flh09vXviJCpRhgCKRTqlJaywGRA",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.617Z",
+        "size": 92,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v3",
+        "value": "s%3AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyC2ur7ABjABOgT48FXIQgT0IBOw.3WBNwznZMAhjvmdmq9l4MgQqK9S8FkENZQNuAybPASI",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.617Z",
+        "size": 141,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v3",
+        "value": "s%3AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyC2ur7ABjABOgT48FXIQgT0IBOw.3WBNwznZMAhjvmdmq9l4MgQqK9S8FkENZQNuAybPASI",
+        "domain": "qvdt3feo.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.617Z",
+        "size": 141,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id",
+        "value": "s%253A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%252FXwb%252BWpDi%252BvV2cv2bE%252Bjg",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.000Z",
+        "size": 114,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sa-user-id-v2",
+        "value": "s%253Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%252BGj8u%252Flh09vXviJCpRhgCKRTqlJaywGRA",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.000Z",
+        "size": 98,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sa-user-id-v3",
+        "value": "s%253AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyC2ur7ABjABOgT48FXIQgT0IBOw.3WBNwznZMAhjvmdmq9l4MgQqK9S8FkENZQNuAybPASI",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:30.000Z",
+        "size": 143,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TDID",
+        "value": "a84c7bc3-310e-4094-93b5-4c3189e654bc",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.956Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:30.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ttp",
+        "value": "01JSYFW7C6WZRVGAXD5AC7B3J8_.tt.1",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:30.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ttcsid",
+        "value": "1745853750668::xcYvzGT2zIAW-YXcoXCk.1.1745853750669",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:30.000Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "32374123414656326863441458594162816705",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2025-10-25T15:22:30.887Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "32374123414656326863441458594162816705",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2025-10-25T15:22:30.887Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1745853751230",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:31.546Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "a3e116f1-f3da-4dc0-b604-d3b4968caca6",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:31.546Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ttcsid_C8J7IKS8D8GECQQUIMM0",
+        "value": "1745853750668::iAITa2viUJhdB6w4WZS9.1.1745853750994",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:30.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ttcsid_CE9020JC77UFTJ8G40I0",
+        "value": "1745853750669::bNc6H_HEDSBz0rLMz00I.1.1745853750994",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-05-23T15:22:30.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uuid2",
+        "value": "6117998675027803209",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2025-07-27T15:22:31.499Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit_p",
+        "value": "1|iPa6IVicSPl3pYJHPv8E4mM0M4+C83ZlQKtuQAx31ULp+DYcZrvuo5Vby5/NHQjbmMzZID/K6/Zw0S94mtzOH0pB9H8pjytykCdHvyxZSdYgjAHAzyTkn6JqR0pOoikWJ5lHN5nxq7TKX5ll4l9VCzcXwwbBAXu+i8N7BAmaQgdJt49mPrPRUFyo1mMSXCQ85kHVXO4iITS/uI9Aj+Yjkr7KKI+4mJy3oGirqm5gUhh8KMm0j6uXBGY3KwFBcKEE94+z9/eToJrLtHkR71fkUv/JTzblBZm7jOq1oSpaE+yma+WVcS1g3g==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.386Z",
+        "size": 321,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://connectforhealthco.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos",
+        "value": "MA188W4C-5-DMRD",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.386Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos_p",
+        "value": "MA188W4C-5-DMRD",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.386Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://connectforhealthco.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "1|iPa6IVicSPl3pYJHPv8E4mM0M4+C83ZlQKtuQAx31ULp+DYcZrvuo5Vby5/NHQjbmMzZID/K6/Zw0S94mtzOH0pB9H8pjytykCdHvyxZSdYgjAHAzyTkn6JqR0pOoikWJ5lHN5nxq7TKX5ll4l9VCzcXwwbBAXu+i8N7BAmaQgdJt49mPrPRUFyo1mMSXCQ85kHVXO4iITS/uI9Aj+Yjkr7KKI+4mJy3oGirqm5gUhh8KMm0j6uXBGY3KwFBcKEE94+z9/eToJrLtHkR71fkUv/JTzblBZm7jOq1oSpaE+yma+WVcS1g3g==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.386Z",
+        "size": 319,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "2!2847",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": "2025-06-27T15:22:31.546Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMID",
+        "value": "aA.dN8AoIlAAAjUaAqBLaAAA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.886Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPS",
+        "value": "2031",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2025-07-27T15:22:31.886Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPRO",
+        "value": "2031",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2025-07-27T15:22:31.886Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid",
+        "value": "8d5c7f0c-b1d4-4e43-ba80-a77396b95c39",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.936Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "c",
+        "value": "1745853751",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.936Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid_lu",
+        "value": "1745853751",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.936Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESEgoDYWFtEgsI8Jnfhpfq9z0QBRIVCgZnb29nbGUSCwiy94GD8e6APhAFEhcKCGFwcG5leHVzEgsIytXS7NCcgz4QBRIWCgdydWJpY29uEgsIuPjS7NCcgz4QBRIUCgV0YXBhZBILCMKR7-3QnIM-EAUSFQoGY2FzYWxlEgsI6obS8NCcgz4QBRIXCghwdWJtYXRpYxILCLqv0vDQnIM-EAUSGAoJYmlkc3dpdGNoEgsI6NvS8NCcgz4QBRgFIAEoAzILCObZ1J3nnIM-EAVCDyINCAESCQoFdGllcjMQAVoHOWI4NGtmemAB",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2026-04-28T15:22:31.956Z",
+        "size": 321,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_D0ZPYJ7VJS",
+        "value": "GS1.1.1745853750.1.0.1745853753.57.0.0",
+        "domain": "connectforhealthco.com",
+        "path": "/",
+        "expires": "2026-06-02T15:22:33.320Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://connectforhealthco.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=249748675703334&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750402&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=0cec54&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://connectforhealthco.com",
+        "raw": "https://www.facebook.com/tr/?id=249748675703334&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750402&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=0cec54&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://connectforhealthco.com",
+        "raw": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=278166232544171&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750195&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=002ec2&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=FGET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://connectforhealthco.com",
+        "raw": "https://www.facebook.com/tr/?id=278166232544171&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750195&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=002ec2&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 356,
+            "_eu": "AEEAAAI",
+            "_p": 1745853750047,
+            "_s": 2,
+            "are": 1,
+            "cid": 668205456.1745853,
+            "dl": "https://connectforhealthco.com/",
+            "dma": 0,
+            "dt": "Connect for Health Colorado",
+            "en": "form_start",
+            "ep.first_field_id": "",
+            "ep.first_field_name": "s",
+            "ep.first_field_type": "search",
+            "ep.form_destination": "https://connectforhealthco.com/",
+            "ep.form_id": "",
+            "ep.form_name": "",
+            "epn.first_field_position": 1,
+            "epn.form_length": 2,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9115044890za200zb832224389",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853750,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 5650,
+            "tid": "G-D0ZPYJ7VJS",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-D0ZPYJ7VJS&gtm=45je54n0v9115044890za200zb832224389&_p=1745853750047&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=668205456.1745853750&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_eu=AEEAAAI&_s=2&sid=1745853750&sct=1&seg=0&dl=https%3A%2F%2Fconnectforhealthco.com%2F&dt=Connect%20for%20Health%20Colorado&en=form_start&ep.form_id=&ep.form_name=&ep.form_destination=https%3A%2F%2Fconnectforhealthco.com%2F&epn.form_length=2&ep.first_field_id=&ep.first_field_name=s&ep.first_field_type=search&epn.first_field_position=1&_et=356&tfd=5650"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1553824274.1745853,
+            "bg": "ffffff",
+            "cid": "CAQSGwDZpuyzrsTiDYPFFJiLHy6FQkBSXCpG1Pf7BQ",
+            "cv": 11,
+            "data": "event=form_start",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745852400000,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ipr": "y",
+            "is_vtc": 1,
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "random": 2410578975,
+            "rfmt": 3,
+            "rmt_tld": 0,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Connect for Health Colorado",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://connectforhealthco.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/11008580020/?random=1745853753305&cv=11&fst=1745852400000&bg=ffffff&guid=ON&async=1&gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fconnectforhealthco.com%2F&hn=www.googleadservices.com&frm=0&tiba=Connect%20for%20Health%20Colorado&npa=0&auid=1553824274.1745853750&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dform_start&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzrsTiDYPFFJiLHy6FQkBSXCpG1Pf7BQ&random=2410578975&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1553824274.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=form_start",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853753305,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "random": 1745853753305,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Connect for Health Colorado",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://connectforhealthco.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/11008580020?random=1745853753305&cv=11&fst=1745853753305&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fconnectforhealthco.com%2F&hn=www.googleadservices.com&frm=0&tiba=Connect%20for%20Health%20Colorado&npa=0&auid=1553824274.1745853750&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dform_start"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1553824274.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=form_start",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853753305,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "random": 1745853753305,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Connect for Health Colorado",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://connectforhealthco.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11008580020/?random=1745853753305&cv=11&fst=1745853753305&bg=ffffff&guid=ON&async=1&gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fconnectforhealthco.com%2F&hn=www.googleadservices.com&frm=0&tiba=Connect%20for%20Health%20Colorado&npa=0&auid=1553824274.1745853750&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dform_start&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "auid": 1553824274.1745853,
+            "dma": 0,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://google.com/pagead/form-data/11008580020?gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&npa=0&frm=0&auid=1553824274.1745853750&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0"
+      },
+      {
+        "data": {
+          "filter": "||casalemedia.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "C": 1,
+            "cm_dsp_id": 39,
+            "expiration": 1748445751,
+            "external_user_id": "a84c7bc3-310e-4094-93b5-4c3189e654bc",
+            "gdpr": 0,
+            "gdpr_consent": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dsum-sec.casalemedia.com/rum?cm_dsp_id=39&external_user_id=a84c7bc3-310e-4094-93b5-4c3189e654bc&expiration=1748445751&gdpr=0&gdpr_consent=&C=1"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dsp_id": 93,
+            "expires": 30,
+            "redir": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=bidswitch",
+            "user_group": 1,
+            "user_id": "a84c7bc3-310e-4094-93b5-4c3189e654bc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.bidswitch.net/syncd?dsp_id=93&user_group=1&user_id=a84c7bc3-310e-4094-93b5-4c3189e654bc&expires=30&redir=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Dbidswitch"
+      },
+      {
+        "data": {
+          "filter": "||pubmatic.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "piggybackCookie": "a84c7bc3-310e-4094-93b5-4c3189e654bc",
+            "r": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=pubmatic",
+            "vcode": "bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw&gdpr=0&gdpr_consent=&piggybackCookie=a84c7bc3-310e-4094-93b5-4c3189e654bc&r=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Dpubmatic"
+      },
+      {
+        "data": {
+          "filter": "||casalemedia.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cm_dsp_id": 39,
+            "expiration": 1748445751,
+            "external_user_id": "a84c7bc3-310e-4094-93b5-4c3189e654bc",
+            "gdpr": 0,
+            "gdpr_consent": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dsum-sec.casalemedia.com/rum?cm_dsp_id=39&external_user_id=a84c7bc3-310e-4094-93b5-4c3189e654bc&expiration=1748445751&gdpr=0&gdpr_consent="
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "9b84kfz",
+            "paapi": 1,
+            "ref": "https://connectforhealthco.com/",
+            "upid": "mek2dpz",
+            "upv": "1.1.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/up?adv=9b84kfz&ref=https%3A%2F%2Fconnectforhealthco.com%2F&upid=mek2dpz&upv=1.1.0&paapi=1"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ttd_pid": "tapad"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": 6117998675027803000,
+            "partner_id": "APPNEXUS",
+            "pt": "a3e116f1-f3da-4dc0-b604-d3b4968caca6,https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Dtapad,"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=APPNEXUS&partner_device_id=6117998675027803209&pt=a3e116f1-f3da-4dc0-b604-d3b4968caca6%2Chttps%253A%252F%252Fmatch.adsrvr.org%252Ftrack%252Fcmf%252Fgeneric%253Fttd_pid%253Dtapad%2C"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "https://pixel.tapad.com/idsync/ex/receive?partner_id=APPNEXUS&partner_device_id=$UID&pt=a3e116f1-f3da-4dc0-b604-d3b4968caca6%2Chttps%253A%252F%252Fmatch.adsrvr.org%252Ftrack%252Fcmf%252Fgeneric%253Fttd_pid%253Dtapad%2C": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.adnxs.com/getuid?https%3A%2F%2Fpixel.tapad.com%2Fidsync%2Fex%2Freceive%3Fpartner_id%3DAPPNEXUS%26partner_device_id%3D%24UID%26pt%3Da3e116f1-f3da-4dc0-b604-d3b4968caca6%252Chttps%25253A%25252F%25252Fmatch.adsrvr.org%25252Ftrack%25252Fcmf%25252Fgeneric%25253Fttd_pid%25253Dtapad%252C"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "a84c7bc3-310e-4094-93b5-4c3189e654bc",
+            "partner_id": 1830,
+            "partner_url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=1830&partner_device_id=a84c7bc3-310e-4094-93b5-4c3189e654bc&partner_url=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Dtapad"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gdpr": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/rubicon?gdpr=0"
+      },
+      {
+        "data": {
+          "filter": "||rubiconproject.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "expires": 30,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "next": "https://match.adsrvr.org/track/cmf/rubicon",
+            "nid": 2307,
+            "put": "a84c7bc3-310e-4094-93b5-4c3189e654bc",
+            "v": 8981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.rubiconproject.com/tap.php?v=8981&nid=2307&put=a84c7bc3-310e-4094-93b5-4c3189e654bc&gdpr=0&gdpr_consent=&expires=30&next=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Frubicon"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "anid": 6117998675027803000,
+            "ttd": 1,
+            "ttd_tdid": "a84c7bc3-310e-4094-93b5-4c3189e654bc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=6117998675027803209&ttd_tdid=a84c7bc3-310e-4094-93b5-4c3189e654bc"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=a84c7bc3-310e-4094-93b5-4c3189e654bc": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253a%252f%252fmatch.adsrvr.org%252ftrack%252fcmf%252fappnexus%253fttd%253d1%2526anid%253d%2524UID%26ttd_tdid%3Da84c7bc3-310e-4094-93b5-4c3189e654bc"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=$UID": "",
+            "ttd_tdid": "a84c7bc3-310e-4094-93b5-4c3189e654bc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=a84c7bc3-310e-4094-93b5-4c3189e654bc"
+      },
+      {
+        "data": {
+          "filter": "||tapad.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_device_id": "f3312daf4c1abf379b0f779c0c73e9b7",
+            "partner_id": 2994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=2994&partner_device_id=f3312daf4c1abf379b0f779c0c73e9b7"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "g_uuid": "",
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "google_error": 3,
+            "ttd_tdid": "a84c7bc3-310e-4094-93b5-4c3189e654bc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/google?g_uuid=&gdpr=0&gdpr_consent=&ttd_tdid=a84c7bc3-310e-4094-93b5-4c3189e654bc&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel/act"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "google_cm": "",
+            "google_hm": "YTg0YzdiYzMtMzEwZS00MDk0LTkzYjUtNGMzMTg5ZTY1NGJj",
+            "google_nid": "TheTradeDesk",
+            "google_sc": "",
+            "ttd_tdid": "a84c7bc3-310e-4094-93b5-4c3189e654bc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=TheTradeDesk&google_cm&google_sc&google_hm=YTg0YzdiYzMtMzEwZS00MDk0LTkzYjUtNGMzMTg5ZTY1NGJj&gdpr=0&gdpr_consent=&ttd_tdid=a84c7bc3-310e-4094-93b5-4c3189e654bc"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "host": "https://connectforhealthco.com",
+            "is_js": true,
+            "l_src": "",
+            "l_src_d": "",
+            "landing_url": "https://connectforhealthco.com/",
+            "sa-user-id": "s%3A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%2FXwb%2BWpDi%2BvV2cv2bE%2Bjg",
+            "sa-user-id-v2": "s%3Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%2BGj8u%2Flh09vXviJCpRhgCKRTqlJaywGRA",
+            "sa-user-id-v3": "s%3AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyC2ur7ABjABOgT48FXIQgT0IBOw.3WBNwznZMAhjvmdmq9l4MgQqK9S8FkENZQNuAybPASI",
+            "sa_conv_data_css_value": "''",
+            "sa_conv_data_image_value": "ffd8ffe000104a46494600010101006000600000ffdb004300080606070605080707070909080a0c140d0c0b0b0c1912130f141d1a1f1e1d1a1c1c20242e2720222c231c1c2837292c30313434341f27393d38323c2e333432ffdb0043010909090c0b0c180d0d1832211c213232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232ffc00011080001000103012200021101031101ffc4001f0000010501010101010100000000000000000102030405060708090a0bffc400b5100002010303020403050504040000017d01020300041105122131410613516107227114328191a1082342b1c11552d1f02433627282090a161718191a25262728292a3435363738393a434445464748494a535455565758595a636465666768696a737475767778797a838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae1e2e3e4e5e6e7e8e9eaf1f2f3f4f5f6f7f8f9faffc4001f0100030101010101010101010000000000000102030405060708090a0bffc400b51100020102040403040705040400010277000102031104052131061241510761711322328108144291a1b1c109233352f0156272d10a162434e125f11718191a262728292a35363738393a434445464748494a535455565758595a636465666768696a737475767778797a82838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae2e3e4e5e6e7e8e9eaf2f3f4f5f6f7f8f9faffda000c03010002110311003f00f7fa28a2803fffd96bb7f3daa839568b75320276bc0fe6bb34777611",
+            "shop": false,
+            "t": "Connect for Health Colorado",
+            "tip": "JBsq13XBZuZF6ngLVGr0gzRWkHiDP6a9GNKCOwcoI2s",
+            "u_src": "",
+            "u_src_d": "",
+            "uid": "KruWcKMBE5FxRTO5E1WqBQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=KruWcKMBE5FxRTO5E1WqBQ&is_js=true&landing_url=https%3A%2F%2Fconnectforhealthco.com%2F&t=Connect%20for%20Health%20Colorado&tip=JBsq13XBZuZF6ngLVGr0gzRWkHiDP6a9GNKCOwcoI2s&host=https%3A%2F%2Fconnectforhealthco.com&sa_conv_data_css_value=%27%27&sa_conv_data_image_value=ffd8ffe000104a46494600010101006000600000ffdb004300080606070605080707070909080a0c140d0c0b0b0c1912130f141d1a1f1e1d1a1c1c20242e2720222c231c1c2837292c30313434341f27393d38323c2e333432ffdb0043010909090c0b0c180d0d1832211c213232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232ffc00011080001000103012200021101031101ffc4001f0000010501010101010100000000000000000102030405060708090a0bffc400b5100002010303020403050504040000017d01020300041105122131410613516107227114328191a1082342b1c11552d1f02433627282090a161718191a25262728292a3435363738393a434445464748494a535455565758595a636465666768696a737475767778797a838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae1e2e3e4e5e6e7e8e9eaf1f2f3f4f5f6f7f8f9faffc4001f0100030101010101010101010000000000000102030405060708090a0bffc400b51100020102040403040705040400010277000102031104052131061241510761711322328108144291a1b1c109233352f0156272d10a162434e125f11718191a262728292a35363738393a434445464748494a535455565758595a636465666768696a737475767778797a82838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae2e3e4e5e6e7e8e9eaf2f3f4f5f6f7f8f9faffda000c03010002110311003f00f7fa28a2803fffd96bb7f3daa839568b75320276bc0fe6bb34777611&l_src=&l_src_d=&u_src=&u_src_d=&shop=false&sa-user-id-v3=s%253AAQAKIFlHkbCTaKPLpx3TZieIuohFp9OVJK2WYM_tbqGdpuMMEAMYAyC2ur7ABjABOgT48FXIQgT0IBOw.3WBNwznZMAhjvmdmq9l4MgQqK9S8FkENZQNuAybPASI&sa-user-id-v2=s%253Aa7fz2qg5Vot1MgJ2vA_muzR3dhE.i7PQFWOAVU%252BGj8u%252Flh09vXviJCpRhgCKRTqlJaywGRA&sa-user-id=s%253A0-6bb7f3da-a839-568b-7532-0276bc0fe6bb.QrNSkqyf8S7GgJeEMDlDqL%252FXwb%252BWpDi%252BvV2cv2bE%252Bjg"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ttd_pid": "aam"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=aam"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dpuuid": "a84c7bc3-310e-4094-93b5-4c3189e654bc",
+            "et:ibs|data:dpid": 903,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "redir": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=aam"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=903&dpuuid=a84c7bc3-310e-4094-93b5-4c3189e654bc&gdpr=0&gdpr_consent=&redir=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Daam"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=903&dpuuid=a84c7bc3-310e-4094-93b5-4c3189e654bc&gdpr=0&gdpr_consent=&redir=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Daam"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/api/v2/pixel"
+      },
+      {
+        "data": {
+          "filter": "||analytics.tiktok.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/identify_935b0d03.js"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/sa.jpeg"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/sa.css"
+      },
+      {
+        "data": {
+          "filter": "||analytics.tiktok.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWYwYWI1NGQ2MQ.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 668205456.1745853,
+            "dma": 0,
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9115044890z8832224389za200zb832224389",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tid": "G-D0ZPYJ7VJS",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-D0ZPYJ7VJS&cid=668205456.1745853750&gtm=45je54n0v9115044890z8832224389za200zb832224389&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1745853750047,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 668205456.1745853,
+            "dl": "https://connectforhealthco.com/",
+            "dma": 0,
+            "dt": "Connect for Health Colorado",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45je54n0v9115044890z8832224389za200zb832224389",
+            "npa": 0,
+            "pae": 1,
+            "pscdl": "",
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1745853750,
+            "sr": "375x812",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 2081,
+            "tid": "G-D0ZPYJ7VJS",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-D0ZPYJ7VJS&gtm=45je54n0v9115044890z8832224389za200zb832224389&_p=1745853750047&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001&cid=668205456.1745853750&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&pae=1&frm=0&pscdl=&_s=1&sid=1745853750&sct=1&seg=0&dl=https%3A%2F%2Fconnectforhealthco.com%2F&dt=Connect%20for%20Health%20Colorado&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2081"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1553824274.1745853,
+            "bg": "ffffff",
+            "cid": "CAQSGwDZpuyz4T1z7L_2l3PWxNlIe6OIwDleOFtbqA",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745852400000,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "ipr": "y",
+            "is_vtc": 1,
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "random": 1099604566,
+            "rfmt": 3,
+            "rmt_tld": 0,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Connect for Health Colorado",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://connectforhealthco.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/11008580020/?random=1745853750302&cv=11&fst=1745852400000&bg=ffffff&guid=ON&async=1&gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fconnectforhealthco.com%2F&hn=www.googleadservices.com&frm=0&tiba=Connect%20for%20Health%20Colorado&npa=0&auid=1553824274.1745853750&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyz4T1z7L_2l3PWxNlIe6OIwDleOFtbqA&random=1099604566&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://connectforhealthco.com",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853750190.424057362120397927",
+            "hrl": "0cec54",
+            "id": 249748675703334,
+            "if": false,
+            "it": 1745853750152,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853750402,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=249748675703334&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750402&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=0cec54&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://connectforhealthco.com",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853750190.424057362120397927",
+            "hrl": "0cec54",
+            "id": 249748675703334,
+            "if": false,
+            "it": 1745853750152,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853750402,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=249748675703334&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750402&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=0cec54&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||adswizz.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "aw_0_req.gdpr": true,
+            "gtmcb": 416773304,
+            "pixelId": "a37e25ce-dbc0-46cd-8755-3df4c2be8041",
+            "redirectURL": "aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-",
+            "subtype": "PageVisit1",
+            "type": "sitevisit"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://entravision-341-adswizz.attribution.adswizz.com/fire?pixelId=a37e25ce-dbc0-46cd-8755-3df4c2be8041&type=sitevisit&subtype=PageVisit1&aw_0_req.gdpr=true&redirectURL=aHR0cHM6Ly9waXhlbC50YXBhZC5jb20vaWRzeW5jL2V4L3JlY2VpdmU_cGFydG5lcl9pZD0yOTk0JjwjaWYgcmVxdWVzdC5saXN0ZW5lcklkP21hdGNoZXMoJ1swLTlhLWZdezh9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezR9LVswLTlhLWZdezEyfScpPnBhcnRuZXJfdHlwZWRfZGlkPSU3QiUyMkhBUkRXQVJFX0FORFJPSURfQURfSUQlMjIlM0ElMjIke3JlcXVlc3QubGlzdGVuZXJJZH0lMjIlN0Q8I2Vsc2VpZiByZXF1ZXN0Lmxpc3RlbmVySWQ_bWF0Y2hlcygnWzAtOUEtRl17OH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17NH0tWzAtOUEtRl17MTJ9Jyk-cGFydG5lcl90eXBlZF9kaWQ9JTdCJTIySEFSRFdBUkVfSURGQSUyMiUzQSUyMiR7cmVxdWVzdC5saXN0ZW5lcklkfSUyMiU3RDwjZWxzZT5wYXJ0bmVyX2RldmljZV9pZD0ke3JlcXVlc3QubGlzdGVuZXJJZCF9PC8jaWY-&gtmcb=416773304"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "l35vzgk",
+            "ct": "0:18jp8cj",
+            "fmt": 3,
+            "gtmcb": 4659631
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/pxl/?adv=l35vzgk&ct=0:18jp8cj&fmt=3&gtmcb=4659631"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "connectforhealthco.com",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119,173,200,202,250,176,234,129,154,137,247,123,155,183,169,125,144,130,197,120,159,136",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/249748675703334?v=2.9.199&r=stable&domain=connectforhealthco.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119%2C173%2C200%2C202%2C250%2C176%2C234%2C129%2C154%2C137%2C247%2C123%2C155%2C183%2C169%2C125%2C144%2C130%2C197%2C120%2C159%2C136"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "lib": "ttq",
+            "sdkid": "CE9020JC77UFTJ8G40I0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CE9020JC77UFTJ8G40I0&lib=ttq"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "lib": "ttq",
+            "sdkid": "C8J7IKS8D8GECQQUIMM0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C8J7IKS8D8GECQQUIMM0&lib=ttq"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0v832224389za200",
+            "id": "G-D0ZPYJ7VJS",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-D0ZPYJ7VJS&l=dataLayer&cx=c&gtm=45He54n0v832224389za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116025~103130360~103130362~103200001"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "origin": "https://connectforhealthco.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/static/service_worker/54l0/sw_iframe.html?origin=https%3A%2F%2Fconnectforhealthco.com"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1553824274.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1745853750302,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "random": 1745853750302,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Connect for Health Colorado",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://connectforhealthco.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://td.doubleclick.net/td/rul/11008580020?random=1745853750302&cv=11&fst=1745853750302&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fconnectforhealthco.com%2F&hn=www.googleadservices.com&frm=0&tiba=Connect%20for%20Health%20Colorado&npa=0&auid=1553824274.1745853750&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1553824274.1745853,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fledge": 1,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1745853750302,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "random": 1745853750302,
+            "rfmt": 3,
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tiba": "Connect for Health Colorado",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://connectforhealthco.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11008580020/?random=1745853750302&cv=11&fst=1745853750302&bg=ffffff&guid=ON&async=1&gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&u_w=375&u_h=812&url=https%3A%2F%2Fconnectforhealthco.com%2F&hn=www.googleadservices.com&frm=0&tiba=Connect%20for%20Health%20Colorado&npa=0&auid=1553824274.1745853750&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apve": 1,
+            "auid": 1553824274.1745853,
+            "dl": "https://connectforhealthco.com/",
+            "dma": 0,
+            "dt": "Connect for Health Colorado",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l3l1l1",
+            "gtm": "45be54n0h1v9214706059za200",
+            "navt": "n",
+            "npa": 0,
+            "ptag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004",
+            "rnd": 1566545153.1745853,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004",
+            "tfd": 1907,
+            "tft": 1745853750309,
+            "tid": "AW-11008580020"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ccm/collect?tid=AW-11008580020&en=page_view&dl=https%3A%2F%2Fconnectforhealthco.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1566545153.1745853750&dt=Connect%20for%20Health%20Colorado&auid=1553824274.1745853750&navt=n&npa=0&gtm=45be54n0h1v9214706059za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103200004&ptag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004&tft=1745853750309&tfd=1907&apve=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "45He54n0za200",
+            "id": "AW-11008580020",
+            "l": "dataLayer",
+            "tag_exp": "102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-11008580020&l=dataLayer&cx=c&gtm=45He54n0za200&tag_exp=102887800~103051953~103077950~103106314~103106316~103116026~103130360~103130362~103165221~103200004"
+      },
+      {
+        "data": {
+          "filter": "&ev=PageView&",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://connectforhealthco.com",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853750190.424057362120397927",
+            "hrl": "002ec2",
+            "id": 278166232544171,
+            "if": false,
+            "it": 1745853750152,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "FGET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853750195,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=278166232544171&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750195&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=002ec2&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=FGET"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "dl": "https://connectforhealthco.com",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1745853750190.424057362120397927",
+            "hrl": "002ec2",
+            "id": 278166232544171,
+            "if": false,
+            "it": 1745853750152,
+            "ler": "empty",
+            "o": 12316,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1745853750195,
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=278166232544171&ev=PageView&dl=https%3A%2F%2Fconnectforhealthco.com&rl=&if=false&ts=1745853750195&sw=375&sh=812&v=2.9.199&r=stable&ec=0&o=12316&fbp=fb.1.1745853750190.424057362120397927&pm=1&hrl=002ec2&ler=empty&it=1745853750152&coo=false&cs_cc=1&cdl=&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "connectforhealthco.com",
+            "ex_m": "73,128,113,117,64,5,106,72,18,100,92,53,57,182,203,210,206,207,209,31,107,55,80,208,177,180,204,205,190,139,43,195,192,193,36,152,17,52,199,198,141,20,42,1,45,68,69,70,74,96,19,16,99,95,94,114,54,116,41,115,32,97,28,178,181,149,13,14,15,7,8,27,24,25,60,65,67,78,56,105,108,29,79,11,9,83,50,23,110,109,111,102,12,22,3,40,77,21,161,89,135,49,48,101,76,0,98,59,87,35,30,85,86,91,39,6,93,84,46,34,37,90,4,88,248,175,126,164,157,2,38,66,44,112,47,82,71,118,63,62,33,103,61,58,51,81,75,26,104,10,119",
+            "hme": "53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817",
+            "r": "stable",
+            "v": "2.9.199"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/278166232544171?v=2.9.199&r=stable&domain=connectforhealthco.com&hme=53363064397d256bdf8f213dd9a9e18c291fc2ed691e4233e4a9e488f248f817&ex_m=73%2C128%2C113%2C117%2C64%2C5%2C106%2C72%2C18%2C100%2C92%2C53%2C57%2C182%2C203%2C210%2C206%2C207%2C209%2C31%2C107%2C55%2C80%2C208%2C177%2C180%2C204%2C205%2C190%2C139%2C43%2C195%2C192%2C193%2C36%2C152%2C17%2C52%2C199%2C198%2C141%2C20%2C42%2C1%2C45%2C68%2C69%2C70%2C74%2C96%2C19%2C16%2C99%2C95%2C94%2C114%2C54%2C116%2C41%2C115%2C32%2C97%2C28%2C178%2C181%2C149%2C13%2C14%2C15%2C7%2C8%2C27%2C24%2C25%2C60%2C65%2C67%2C78%2C56%2C105%2C108%2C29%2C79%2C11%2C9%2C83%2C50%2C23%2C110%2C109%2C111%2C102%2C12%2C22%2C3%2C40%2C77%2C21%2C161%2C89%2C135%2C49%2C48%2C101%2C76%2C0%2C98%2C59%2C87%2C35%2C30%2C85%2C86%2C91%2C39%2C6%2C93%2C84%2C46%2C34%2C37%2C90%2C4%2C88%2C248%2C175%2C126%2C164%2C157%2C2%2C38%2C66%2C44%2C112%2C47%2C82%2C71%2C118%2C63%2C62%2C33%2C103%2C61%2C58%2C51%2C81%2C75%2C26%2C104%2C10%2C119"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NVDPKVB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NVDPKVB"
+      },
+      {
+        "data": {
+          "filter": "||stackadapt.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.srv.stackadapt.com/events.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5JFDP2C"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5JFDP2C"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "data": {
+          "filter": "||adxcel-ec2.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "content",
+            "ad_log": "referer",
+            "pixid": "77e119d8-c314-4766-bf81-de8ed5844449"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://data.adxcel-ec2.com/pixel/?ad_log=referer&action=content&pixid=77e119d8-c314-4766-bf81-de8ed5844449"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.adsrvr.org/up_loader.1.1.0.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-11008580020"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://connectforhealthco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-11008580020"
+      }
+    ]
+  }
+}
